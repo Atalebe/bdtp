@@ -1,0 +1,19 @@
+{
+  "schema": "bdtp.bootstrap-validation.v1",
+  "status": "LOCAL_BOOTSTRAP_CHECKS_PASSED",
+  "date": "2026-10-18",
+  "scope": "Repository infrastructure only",
+  "unit_tests_passed": 8,
+  "required_files_checked": 12,
+  "source_archive_manifest_entries_verified": 385,
+  "source_archive_extracted": false,
+  "source_archive_executed": false,
+  "original_manuscript_hashes_preserved": true,
+  "intentional_failure_exit_code": 1,
+  "caller_survived_intentional_failure": true,
+  "intentional_failure_wrote_completion": false,
+  "intentional_failure_wrote_logbook": false,
+  "new_scientific_runs": 0,
+  "numerical_method_regression_suite_run": false,
+  "remote_sync": "To be verified after commit; this is a pre-commit local record."
+}

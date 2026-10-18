@@ -1,0 +1,35 @@
+# Local environments and execution records
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.local_runs/
+.work/
+runs/
+outputs/
+*.log
+.env
+.env.*
+!.env.example
+# Source bundles and confidential/unapproved material are not automatic imports
+*.zip
+*.tar
+*.tar.gz
+*.pdf
+manuscript/
+reviewer/
+reviews/
+correspondence/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+# OS and document-build residues
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+*.aux
+*.out
+*.toc
+*.synctex.gz

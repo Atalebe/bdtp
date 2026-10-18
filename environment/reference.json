@@ -1,0 +1,11 @@
+{
+  "scope": "Historical numerical reference; not needed for bootstrap-only checks",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "blas_threads": 1,
+  "automatic_dependency_installation": false,
+  "numerical_import_status": "PENDING_SEPARATE_IMPORT",
+  "reproduction_note": "Recorded versions alone do not guarantee byte identity across builds and platforms."
+}

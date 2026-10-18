@@ -1,0 +1,32 @@
+{
+  "schema": "bdtp.repository-baseline.v1",
+  "repository": "Atalebe/bdtp",
+  "visibility_at_bootstrap": "private",
+  "scope": "Infrastructure only; source records are not new scientific verification",
+  "manuscript_version": "v0.03",
+  "manuscript_changes_authorized": false,
+  "title_change_status": "DEFERRED_PENDING_REVIEW",
+  "numerical_import_authorized": false,
+  "new_scientific_runs_authorized": false,
+  "licence_status": "UNDECIDED",
+  "archival_doi": null,
+  "archive_root": "Finite_Dictionary_Predictive_Adequacy_v0_03",
+  "manifest_entries": 385,
+  "inputs": [
+    {
+      "filename": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "sha256": "c2b9318e73db4d3a584836abcc0397ceed7809c10b47da678741c8be86cd214b",
+      "bytes": 51883503
+    },
+    {
+      "filename": "Finite_Dictionary_Tests_of_Predictive_Adequacy_v0_03.pdf",
+      "sha256": "7a90c326cbc2676079c60a0172bf7b32eb47f31f56a984da9391f510050ecc1d",
+      "bytes": 460988
+    },
+    {
+      "filename": "Finite_Dictionary_Tests_of_Predictive_Adequacy_v0_03.tex",
+      "sha256": "457cf1fe20b6fe5a2585bddf6c2e93c95077a42d3da4a855478bd2523f790c08",
+      "bytes": 85642
+    }
+  ]
+}
