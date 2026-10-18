@@ -1,0 +1,18 @@
+\section*{Entry 0001: Repository infrastructure bootstrap}
+\textbf{Date:} 18 October 2026.\\
+\textbf{Scope:} Private repository Atalebe/bdtp; infrastructure only.\\
+\textbf{Tested:} Repository contract, source identities, archive manifest,
+terminal-preserving combined launcher and failure behavior.\\
+\textbf{Methods:} Eight standard-library unit tests; 12 required-file checks;
+SHA256 verification of the unchanged source ZIP, manuscript PDF and LaTeX;
+385 archive member hashes checked without extraction or execution;
+intentional failure followed by a successful clean verification.\\
+\textbf{Results:} All bootstrap gates passed. The intentional failure returned
+nonzero, preserved the caller and diagnostics, and produced no completion or
+logbook entry. Original manuscript and archive identities remain unchanged.\\
+\textbf{Failures/repairs:} Only the deliberate failure-control run failed;
+no repair to scientific or infrastructure code was needed.\\
+\textbf{Next steps:} Commit and verify remote synchronization; separately review
+a selective numerical-code import. Manuscript changes, numerical imports,
+new simulations, public release, licence choice and DOI registration are pending.
+This entry does not replace the historical experiment logbooks.
