@@ -6,12 +6,17 @@
   "title": "Finite-Dictionary Tests of Predictive Adequacy for State\u2013History Models",
   "numerical_scope": "Original main-paper campaigns, stored references, table/figure regeneration and deterministic checks",
   "new_monte_carlo_campaigns_authorized": false,
-  "public_release_authorized": false,
-  "licence": null,
+  "public_release_authorized": true,
+  "licence": {
+    "original_software": "MIT",
+    "original_research_content": "CC-BY-4.0"
+  },
   "doi": null,
   "manuscript": "Maintained separately; funding and competing interests confirmed by author; standalone AI-use disclosure deferred in working copy, historical records preserved.",
   "historical_replay_authorized": true,
   "remote_visibility_observed": "public",
   "remote_visibility_check_date": "2026-10-21",
-  "push_status": "HOLD_PUBLIC_VISIBILITY_REQUIRES_CONFIRMATION"
+  "push_status": "PUBLIC_DESTINATION_AUTHORIZED_PREVIOUS_PUSH_VERIFIED",
+  "approved_release": "v1.0.0",
+  "release_status": "LOCAL_QUALIFICATION_PASSED_PUBLICATION_PENDING"
 }

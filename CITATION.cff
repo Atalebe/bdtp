@@ -1,0 +1,29 @@
+{
+  "cff-version": "1.2.0",
+  "message": "Please cite this version when reusing the software or its synthetic reference materials.",
+  "type": "software",
+  "title": "Finite-Dictionary Tests of Predictive Adequacy for State–History Models: reference implementation",
+  "version": "1.0.0",
+  "date-released": "2026-10-21",
+  "authors": [
+    {
+      "family-names": "Atalebe",
+      "given-names": "Stephen",
+      "orcid": "https://orcid.org/0000-0003-2317-4268",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "repository-code": "https://github.com/Atalebe/bdtp",
+  "url": "https://github.com/Atalebe/bdtp/releases/tag/v1.0.0",
+  "license": "MIT",
+  "abstract": "Reference implementation, frozen synthetic experiment drivers, numerical reference outputs, and table/figure regeneration for Finite-Dictionary Tests of Predictive Adequacy for State–History Models. Includes grouped bounded-loss certificates, finite-dictionary comparisons, dependence controls, finite-grid inference and fitting/allocation experiments. Guarantees require the declared independent evaluation groups and predictor classes; this release does not establish autonomous dynamical closure or non-Markovian cosmological physics. The manuscript and external reviewer reconstructions are maintained separately. Original software and executable configurations are MIT licensed. Original documentation, figures, tables and synthetic reference datasets are CC BY 4.0, with file scope in LICENSING.md and provenance/LICENCE_SCOPE.json. These licences apply to different materials, not as alternative licences for every file. The work received no funding and the author declares no competing interests.",
+  "keywords": [
+    "predictive adequacy",
+    "finite dictionaries",
+    "bounded loss",
+    "empirical Bernstein",
+    "state-history models",
+    "non-Markovian cosmological dynamics",
+    "synthetic benchmarks"
+  ]
+}

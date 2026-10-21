@@ -1,7 +1,8 @@
 # Repository operating instructions
 
-Scope: prepare and maintain this code workspace. The new local campaign import is held from push pending confirmation of the now-public remote. Do not infer scientific
-execution authority from a repository-maintenance request.
+Scope: maintain this public code workspace. The author approved public synchronization,
+the MIT/CC-BY-4.0 file split and the v1.0.0 software release. Do not infer authority
+for new scientific campaigns or unrelated future releases from this approval.
 
 1. Preserve source identities, original experiment IDs and historical results.
    Do not rename mathematical variables, candidate families or frozen files merely

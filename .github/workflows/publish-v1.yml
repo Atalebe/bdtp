@@ -1,0 +1,44 @@
+name: Publish approved v1.0.0
+on:
+  push:
+    tags:
+      - v1.0.0
+permissions:
+  contents: read
+concurrency:
+  group: bdtp-v1.0.0-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'Atalebe/bdtp'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Fetch the exact approved public tag
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REF" = 'refs/tags/v1.0.0'
+          git init .
+          git remote add origin https://github.com/Atalebe/bdtp.git
+          git fetch --depth=1 origin "$GITHUB_REF:$GITHUB_REF"
+          git checkout --detach "$GITHUB_REF^{commit}"
+          test "$(git rev-parse HEAD)" = "$(git rev-parse "$GITHUB_SHA^{commit}")"
+      - name: Verify release files and qualification record
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/check_release_metadata.py --require-validation
+      - name: Publish the approved release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: Atalebe/bdtp
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release create v1.0.0 --verify-tag \
+            --title 'v1.0.0 — Finite-dictionary predictive adequacy' \
+            --notes-file docs/releases/v1.0.0.md --latest
+          gh release view v1.0.0 --json tagName,isDraft,isPrerelease,publishedAt,url

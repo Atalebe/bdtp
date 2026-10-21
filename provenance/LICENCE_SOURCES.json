@@ -1,0 +1,16 @@
+{
+  "MIT": {
+    "url": "https://opensource.org/license/mit",
+    "file": "LICENSE",
+    "sha256": "b895be2ffb69ed2208a61471135f22768a4a84eb32b0d50e62c2d681ebcfab22",
+    "copyright_line": "2026 Stephen Atalebe"
+  },
+  "CC-BY-4.0": {
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+    "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+    "bytes": 17023,
+    "file": "LICENSES/CC-BY-4.0.txt",
+    "canonical_uri": "https://creativecommons.org/licenses/by/4.0/",
+    "mirror_bytes_unchanged": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "bdtp.release-validation.v1",
+  "date": "2026-10-21",
+  "status": "LOCAL_RELEASE_GATES_PASS",
+  "version": "1.0.0",
+  "base_commit": "8e2423f16ea98e11778efe50d660bf19cfb1cb88",
+  "tests_passed": 352,
+  "suite_counts": [
+    49,
+    51,
+    38,
+    65,
+    51,
+    56,
+    22,
+    20
+  ],
+  "new_release_tests": 12,
+  "imported_source_reference_files_unchanged": 124,
+  "reverified_replay_files": 22,
+  "replayed_again": false,
+  "new_scientific_runs": 0,
+  "release_metadata_schema_validated": true,
+  "schema_validation_scope": "CITATION.cff against official CFF 1.2.0 JSON Schema; JSON and YAML parses agree. Zenodo fields follow official documented types; server ingestion remains to be verified.",
+  "cff_schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+  "record_summary_checks": 208,
+  "typeset_rows_checked": 35,
+  "manuscript_changed": false,
+  "release_file_sha256": {
+    "LICENSE": "b895be2ffb69ed2208a61471135f22768a4a84eb32b0d50e62c2d681ebcfab22",
+    "LICENSES/CC-BY-4.0.txt": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+    "LICENSING.md": "6c8e689ba55a1534b529a1b3d38e9db43fa867b73259360bac0eba343df50166",
+    "CITATION.cff": "12c8cd65d38a79a52bd49dd9df3a864da0c34b0d8c144d44e6469940b83173e6",
+    ".zenodo.json": "bfc7c8e4321febb88c69d74afc8e9ad20cb492b3e9eb89f91e279d40c6bb4447",
+    "provenance/LICENCE_SCOPE.json": "c66534e9d7dc02f4984f144dadf00c88340201e3c6d6bfc14b6c651c31a80990",
+    "provenance/LICENCE_SOURCES.json": "044cf125f6e18a48ad1daf268921f669d4a28131d6fdc85462a835734180a962",
+    "provenance/RELEASE_v1_0_0_AUTHORIZATION.json": "cdb5f0c53958b7181d15bb05be7f13a16a900d8f83e6b712d5434379eddcf46f",
+    "scripts/check_release_metadata.py": "7b8b021c13f0320bd36f260fee8cfa5ce68786433f762f29253479f94f31536f",
+    "tests/test_release_metadata.py": "1eb60b6642a8bc0889478164a0eca1edc25c3fe6b4e0f543d83f8e07d668271d",
+    ".github/workflows/publish-v1.yml": "11c426b5e8def1242ce287b0cfa8953546a15ca28fb4303038e664db0cddc2dd",
+    "docs/releases/v1.0.0.md": "60acdcf61c9a2cdf8d5b6e80406e230997416528991775a55fdac25c57f8e10f",
+    "docs/RELEASE_CHECKLIST.md": "2e05b75bca2f1140011e9520f5d285cf94f929b9944f4875b70fd345387a0da8",
+    "README.md": "df488b1203ef6f20d7df45d11095888f5f436d018c0fe3059b26b9709d6a61a2",
+    "AGENTS.md": "77ed2cf1f4305bbf016a6143be949f15214e7c32b28bcefa04ea9adb28e768ed",
+    "provenance/current_scope.json": "dabdfe50e319fd75bec186c7e129976c88886b0c46cf2251781e7d09f6e8e4f4"
+  },
+  "repairs": [
+    "Initial direct Creative Commons legal-text fetch returned HTTP 403 before repository writes; used the unchanged official SPDX licence-text mirror. No numerical source or scientific test changed."
+  ],
+  "publication_status": "Commit, tag, GitHub release and Zenodo record pending; success here is local qualification only."
+}

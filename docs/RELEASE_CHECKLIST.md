@@ -1,20 +1,29 @@
-# Release decisions
+# Release preparation and publication
 
-The repository was private at bootstrap; GitHub reported it public on 21 October 2026. The new local campaign import is not approved for public push until the author confirms that destination. A GitHub repository is not an archival DOI, and an
-infrastructure commit is not a release of the scientific implementation.
+The author approved the public repository, the v1.0.0 release and this file split
+on 21 October 2026: original code/scripts and executable configurations under MIT;
+original documentation, figures, tables and synthetic reference datasets under
+CC BY 4.0. The manuscript remains separate. See `LICENSING.md`.
 
-Pending author decisions and technical checks:
+Before creating the tag, run the combined paper checks, validate the citation
+metadata, verify the imported source identities and the completed replay outputs,
+then write the successful local milestone and commit. A tag must identify that
+verified commit; never move an existing published tag or overwrite reference data.
 
-- Complete and verify a selective code import with source and result provenance.
-- Resolve the final paper title only after the requested review; keep prior titles
-  and hashes as historical records. No manuscript edit is authorized here.
-- Select a licence for original code explicitly; review separate rights for data,
-  manuscript and third-party content. No licence is implied by this checklist.
-- For anonymous review, prepare a separate identity-scrubbed snapshot without Git
-  history or identifying metadata. Do not expose the canonical private repository.
-- Obtain the required scientific review and finish the planned validation work.
-- Approve a release snapshot, visibility and archive destination; verify deposited
-  bytes and only then add the actual DOI and publication citation metadata.
+`.github/workflows/publish-v1.yml` runs only for the exact `v1.0.0` tag. It fetches
+that tag, checks the release metadata and recorded local qualification, and uses
+the repository-scoped GitHub Actions token to publish the approved release. It
+does not execute new simulations, use personal credentials, or publish other tags.
 
-No automatic release, DOI registration, external sharing, collaborator invitation,
-network fetch, or scheduled scientific execution is enabled by this bootstrap.
+After publication, inspect the GitHub release, target commit, Zenodo processing
+result, creator metadata and licence scope. Only add a DOI after the archive record
+is publicly retrievable and its repository/version/files match. A pushed tag alone
+is not a published GitHub release; a published release alone is not proof that
+Zenodo has finished. Preserve any error and do not create repeated releases just
+to retry an unresolved archival problem.
+
+The numerical guarantees retain their stated assumptions. This software release
+is not independent human specialist review, a journal submission, or a cosmological
+finding. External reconstruction-code rights, manuscript release and venue-specific
+disclosures remain separate. Any later anonymous-review snapshot requires its own
+identity check; this canonical repository is now public.

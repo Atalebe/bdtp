@@ -1,0 +1,15 @@
+{
+  "schema": "bdtp.release-authorization.v1",
+  "date": "2026-10-21",
+  "repository": "Atalebe/bdtp",
+  "base_commit": "8e2423f16ea98e11778efe50d660bf19cfb1cb88",
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "public_release_authorized": true,
+  "code_licence": "MIT",
+  "noncode_licence": "CC-BY-4.0",
+  "zenodo_enabled": "Reported by author",
+  "author": "Stephen Atalebe",
+  "new_scientific_runs_authorized": false,
+  "manuscript_change_authorized": false
+}

@@ -17,12 +17,18 @@ inference, fitting/allocation, pair-envelope, finite-binomial and planning
 calculations used by the main paper. Six table datasets and four figure datasets
 can be regenerated from stored outputs without running simulations.
 
-This is not a tagged or licensed software release. Public visibility, redistribution
-rights, an archival DOI and any external reconstruction-code inclusion remain
-separate decisions. The remote was observed to be **public on 21 October 2026**;
-the new local import is held from pushing until the author confirms that destination.
-See `provenance/current_scope.json` and the import validation records for actual scope.
-The manuscript itself is maintained separately.
+## Licensing and release
+
+The approved v1.0.0 distribution licenses original software and executable
+configurations under **MIT** and original documentation, figures, tables and
+synthetic reference data under **CC BY 4.0**. See `LICENSING.md` for scope.
+Citation metadata are in `CITATION.cff`; Zenodo metadata are in `.zenodo.json`.
+The manuscript is maintained separately and is not part of this software release.
+
+The repository is public with the author's approval. Historical source records
+retain their original status; `provenance/current_scope.json` records current
+permissions. A public release is identified by its GitHub release and tag. A DOI
+is not claimed until the Zenodo record has been observed and verified.
 
 ## Quick checks
 

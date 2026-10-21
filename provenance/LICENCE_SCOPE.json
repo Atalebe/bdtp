@@ -1,0 +1,45 @@
+{
+  "schema": "bdtp.licence-scope.v1",
+  "effective_version": "1.0.0",
+  "copyright_holder": "Stephen Atalebe",
+  "copyright_year": 2026,
+  "software": "MIT",
+  "research_content": "CC-BY-4.0",
+  "rules_in_order": [
+    {
+      "rule": "Licence texts",
+      "paths": [
+        "LICENSE",
+        "LICENSES/CC-BY-4.0.txt"
+      ],
+      "terms": "Unmodified standard licence terms."
+    },
+    {
+      "rule": "Original source and tests",
+      "suffixes": [
+        ".py",
+        ".sh"
+      ],
+      "licence": "MIT"
+    },
+    {
+      "rule": "Executable configurations and dependency/workflow definitions",
+      "patterns": [
+        "**/contracts/**",
+        ".github/workflows/**",
+        "requirements*.txt",
+        ".gitignore",
+        ".gitattributes"
+      ],
+      "licence": "MIT"
+    },
+    {
+      "rule": "Other original documentation, metadata, figures, tables and synthetic data",
+      "patterns": [
+        "**"
+      ],
+      "licence": "CC-BY-4.0"
+    }
+  ],
+  "external_materials": "Dependencies and cited papers retain their licences; external reviewer packages and manuscript excluded."
+}
