@@ -1,0 +1,12 @@
+{
+ "id":"FDT-RANGE-REVIEW-001", "version":"0.1", "date":"2026-10-18",
+ "scope":"Local post-review methods sensitivity and manuscript revision, not new confirmation",
+ "basis":"Reviewer data already exposed; parent plans and thresholds unchanged",
+ "main":"Replay complete original FIT001 RNG calls and retraining, 1900 allocations / 1000 fits / 400 pool pairs, evaluate generic and full-domain pair-range bounds on each same dataset",
+ "range":"All finite input support and both binary outcomes; known pre-evaluation envelope. Outward rounding for elementary interval operations. Same interval bounds group averages, no 1/m narrowing",
+ "unchanged":["library 9/70/131 including trained mixture entries","all fitting rules","alpha=.05 per method","epsilon=.01","all original training/test budgets","fitting truth firewall"],
+ "power_control":"Original group engine at G=1024, theta=0 and .5; original lower-G cells labeled structurally unresolved; extract existing controls and add independent check",
+ "power_reference":"Finite two-point risk-gap reference, exact binomial probability sums at fixed alpha/epsilon; not a model-moment bound presented as a power curve",
+ "acceptance":"All original decision counts and levels match; range implementation agrees with direct differences; no prospective minimum-power requirement or preferred result; preserve failures",
+ "not_permitted":["silently overwriting old evidence","post-test range estimation","oracle substitution for fitted member","calling model-moment planning bounds impossibility bounds","formal logbook/commit before review complete","real data or institutional actions"]
+}

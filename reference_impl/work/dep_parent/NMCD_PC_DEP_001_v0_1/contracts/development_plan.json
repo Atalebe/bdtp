@@ -1,0 +1,533 @@
+{
+  "acceptance": {
+    "all_deterministic_tests": true,
+    "correct_method_false_certification_alarm": "For each true null component and each joint decision, compare count to Binomial(R,0.05), one-sided tail; reject development validity if any tail < 0.01/(6*number_of_cases). Gross-error alarm, not proof of nominal sharpness.",
+    "correct_outcome_neutrality": "No required positive memory/adequacy result at a specific G. Unresolved is a valid result; thresholds never tuned to get certification.",
+    "duplicate_information_invariance": "c=1 paired m cases must reproduce exact group means, variance, fitted predictions and decisions; row control may change.",
+    "full_source_and_plan_identities": true,
+    "independent_row_control": "m=1 makes group and pooled-row numerical certificates identical.",
+    "invalid_control_sensitivity": "At theta=.5,c=1,G=256,m=256, one-sided 95% Clopper-Pearson lower bound for pooled-row false certification of dimension1 exceeds .05.",
+    "reproduction": "Second clean run identical deterministic numerical outputs; runtime/environment paths are separate operational artifacts.",
+    "variance_ratio_gross_check": [
+      0.75,
+      1.25
+    ]
+  },
+  "alpha": 0.05,
+  "authorisation": {
+    "basis": "User approved proceeding to known within-realisation synthetic dependence experiment.",
+    "confirmatory_cosmology": false,
+    "live_repository_changes": false,
+    "local_synthetic_construction_and_calibration": true,
+    "programme_enactment": false
+  },
+  "cases": [
+    {
+      "case_id": "DEP001-C000",
+      "copy_probability": "0",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C001",
+      "copy_probability": "0",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C002",
+      "copy_probability": "0",
+      "groups_per_split": 4096,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C003",
+      "copy_probability": "0.5",
+      "groups_per_split": 16,
+      "rows_per_group": 256,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C004",
+      "copy_probability": "0.5",
+      "groups_per_split": 64,
+      "rows_per_group": 64,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C005",
+      "copy_probability": "0.5",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C006",
+      "copy_probability": "0.5",
+      "groups_per_split": 1024,
+      "rows_per_group": 4,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C007",
+      "copy_probability": "0.5",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C008",
+      "copy_probability": "0.5",
+      "groups_per_split": 4096,
+      "rows_per_group": 1,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C009",
+      "copy_probability": "0.5",
+      "groups_per_split": 4096,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C010",
+      "copy_probability": "1",
+      "groups_per_split": 16,
+      "rows_per_group": 256,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C011",
+      "copy_probability": "1",
+      "groups_per_split": 64,
+      "rows_per_group": 64,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C012",
+      "copy_probability": "1",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C013",
+      "copy_probability": "1",
+      "groups_per_split": 1024,
+      "rows_per_group": 4,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C014",
+      "copy_probability": "1",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C015",
+      "copy_probability": "1",
+      "groups_per_split": 4096,
+      "rows_per_group": 1,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C016",
+      "copy_probability": "1",
+      "groups_per_split": 4096,
+      "rows_per_group": 16,
+      "theta": "0.25"
+    },
+    {
+      "case_id": "DEP001-C017",
+      "copy_probability": "0.5",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.48"
+    },
+    {
+      "case_id": "DEP001-C018",
+      "copy_probability": "0.5",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.48"
+    },
+    {
+      "case_id": "DEP001-C019",
+      "copy_probability": "0.5",
+      "groups_per_split": 4096,
+      "rows_per_group": 16,
+      "theta": "0.48"
+    },
+    {
+      "case_id": "DEP001-C020",
+      "copy_probability": "1",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.48"
+    },
+    {
+      "case_id": "DEP001-C021",
+      "copy_probability": "1",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.48"
+    },
+    {
+      "case_id": "DEP001-C022",
+      "copy_probability": "1",
+      "groups_per_split": 4096,
+      "rows_per_group": 16,
+      "theta": "0.48"
+    },
+    {
+      "case_id": "DEP001-C023",
+      "copy_probability": "0",
+      "groups_per_split": 64,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C024",
+      "copy_probability": "0",
+      "groups_per_split": 64,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C025",
+      "copy_probability": "0",
+      "groups_per_split": 64,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C026",
+      "copy_probability": "0",
+      "groups_per_split": 256,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C027",
+      "copy_probability": "0",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C028",
+      "copy_probability": "0",
+      "groups_per_split": 256,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C029",
+      "copy_probability": "0",
+      "groups_per_split": 1024,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C030",
+      "copy_probability": "0",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C031",
+      "copy_probability": "0",
+      "groups_per_split": 1024,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C032",
+      "copy_probability": "0.5",
+      "groups_per_split": 16,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C033",
+      "copy_probability": "0.5",
+      "groups_per_split": 64,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C034",
+      "copy_probability": "0.5",
+      "groups_per_split": 64,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C035",
+      "copy_probability": "0.5",
+      "groups_per_split": 64,
+      "rows_per_group": 64,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C036",
+      "copy_probability": "0.5",
+      "groups_per_split": 64,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C037",
+      "copy_probability": "0.5",
+      "groups_per_split": 256,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C038",
+      "copy_probability": "0.5",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C039",
+      "copy_probability": "0.5",
+      "groups_per_split": 256,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C040",
+      "copy_probability": "0.5",
+      "groups_per_split": 1024,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C041",
+      "copy_probability": "0.5",
+      "groups_per_split": 1024,
+      "rows_per_group": 4,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C042",
+      "copy_probability": "0.5",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C043",
+      "copy_probability": "0.5",
+      "groups_per_split": 1024,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C044",
+      "copy_probability": "0.5",
+      "groups_per_split": 4096,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C045",
+      "copy_probability": "1",
+      "groups_per_split": 16,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C046",
+      "copy_probability": "1",
+      "groups_per_split": 64,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C047",
+      "copy_probability": "1",
+      "groups_per_split": 64,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C048",
+      "copy_probability": "1",
+      "groups_per_split": 64,
+      "rows_per_group": 64,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C049",
+      "copy_probability": "1",
+      "groups_per_split": 64,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C050",
+      "copy_probability": "1",
+      "groups_per_split": 256,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C051",
+      "copy_probability": "1",
+      "groups_per_split": 256,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C052",
+      "copy_probability": "1",
+      "groups_per_split": 256,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C053",
+      "copy_probability": "1",
+      "groups_per_split": 1024,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C054",
+      "copy_probability": "1",
+      "groups_per_split": 1024,
+      "rows_per_group": 4,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C055",
+      "copy_probability": "1",
+      "groups_per_split": 1024,
+      "rows_per_group": 16,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C056",
+      "copy_probability": "1",
+      "groups_per_split": 1024,
+      "rows_per_group": 256,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C057",
+      "copy_probability": "1",
+      "groups_per_split": 4096,
+      "rows_per_group": 1,
+      "theta": "0.5"
+    },
+    {
+      "case_id": "DEP001-C058",
+      "copy_probability": "0.5",
+      "groups_per_split": 64,
+      "rows_per_group": 256,
+      "theta": "0.75"
+    },
+    {
+      "case_id": "DEP001-C059",
+      "copy_probability": "0.5",
+      "groups_per_split": 256,
+      "rows_per_group": 256,
+      "theta": "0.75"
+    },
+    {
+      "case_id": "DEP001-C060",
+      "copy_probability": "1",
+      "groups_per_split": 64,
+      "rows_per_group": 256,
+      "theta": "0.75"
+    },
+    {
+      "case_id": "DEP001-C061",
+      "copy_probability": "1",
+      "groups_per_split": 256,
+      "rows_per_group": 256,
+      "theta": "0.75"
+    }
+  ],
+  "created_utc": "2026-10-15T02:59:49.011909+00:00",
+  "dictionary": "v03 canonicalise_reference; 177 distinct functions over complete four-state input support; parent 289-entry model sets preserved",
+  "dimensions_descending": [
+    2,
+    1
+  ],
+  "epsilon": "1/16",
+  "experiment_id": "NMCD-PC-DEP-001",
+  "group_law": "Independently for each realisation draw one full latent episode E0. Each of m rows equals E0 with probability c, otherwise is a fresh iid base episode. Copy decisions are independent conditional on E0. Training and test realisations are disjoint iid draws from the same law.",
+  "horizons": [
+    1,
+    2
+  ],
+  "latent_information": "E0 and copy flags are not predictors; U and X of each row are available through forecast origin. No other rows or future targets enter prediction.",
+  "local_numerical_requirements": {
+    "mpmath": "1.3.0",
+    "numpy": "2.3.5",
+    "python_record_not_portability_guarantee": true,
+    "scipy": "1.17.0"
+  },
+  "master_seed": 202610150031,
+  "methods": {
+    "deliberately_invalid_control": "pooled_row_max_eb; mathematically valid only when c=0 or m=1, otherwise always labelled INVALID_ROW_IID_CONTROL",
+    "primary": "group_max_eb",
+    "secondary": "group_max_hoeffding"
+  },
+  "novelty": "N2 reference extension: established bounded-mean certificate applied to a fully specified cluster law; no new statistical principle or cosmological detection.",
+  "observation_law": "Each base episode has independent uniform U,X in {-1,+1}; at two future horizons independent Bernoulli outcomes given U with p_tau=1/2+theta*r_tau*U/2, r=(1,1/2).",
+  "operational_policy": {
+    "combined_gates": true,
+    "formal_programme_logbook_commit_push": false,
+    "local_numbered_logbook_only_after_success": true,
+    "no_exit_outer_launcher": true,
+    "retain_diagnostics_on_failure": true
+  },
+  "parent_protocol": "NMCD-PC-0.3",
+  "question": "Does whole-realisation aggregation preserve finite-dictionary adequacy error control when row-level dependence is known, and what goes wrong when dependent rows are counted as iid?",
+  "replicates_per_case": 2000,
+  "resource_caps": {
+    "batch_replicates": 25,
+    "maximum_input_groups_per_split": 4096,
+    "maximum_replicates": 2000,
+    "maximum_rows_per_group": 256,
+    "no_network": true,
+    "wall_seconds": 1200
+  },
+  "separate_exact_control": {
+    "G": [
+      16,
+      64,
+      256,
+      1024
+    ],
+    "exact_binomial_weights": true,
+    "m": [
+      1,
+      16,
+      256,
+      4096
+    ],
+    "not_formal_interval_arithmetic": true,
+    "probability_correct": "3/4",
+    "theta": "1/2",
+    "threshold_digits": 80,
+    "title": "Two-predictor boundary oracle, c=1 duplicates"
+  },
+  "status": "FROZEN_LOCAL_DEVELOPMENT_DESIGN_BEFORE_MONTE_CARLO",
+  "stream_allocation": "PCG64 from SHA256 experiment/role/theta/c/G/m/replicate; for c=1 omit m to pair exact-duplication cases. All paired comparisons explicitly labelled. No cross-role stream reuse.",
+  "training": "Whole-group ERM; evaluate all dictionary losses with equal group weights. Equivalent to pooled ERM only because every group has identical m. Full dictionary baseline unchanged.",
+  "unperformed": "No cosmological adapter, no between-group dependence theorem, no fresh human review, no funding/host outcome inference.",
+  "variance_diagnostic": "For one frozen contrast D=loss(q0)-loss(qstar), Cov(D_gi,D_gj)=c^2 Var(D), Var(mean)=Var(D)/G*[c^2+(1-c^2)/m]. No effective-N insertion in certificate.",
+  "version": "0.1",
+  "weights": "Equal 1/m per row within a group; equal 1/G across groups; fixed common m in each case so object-weighted and group-weighted means coincide for this experiment only."
+}

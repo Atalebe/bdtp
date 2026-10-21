@@ -1,0 +1,17 @@
+\begin{table}[tb]
+\centering\small
+\setlength{\tabcolsep}{3.5pt}
+\caption{Truncated strong-history reference: summary-class or smaller certificates out of 100 paired trials. Every arrow is generic $\to$ pair envelope. The ``Variance'' column is the training variance penalty, not an alternative evaluation bound.}\label{tab:allocation}
+\begin{tabular}{@{}rrr rrrr@{}}
+\toprule
+Total $N$ & Train $T$ & Evaluate $G$ & ERM & Variance & Posterior & Class\\
+\midrule
+16,384 & 64 & 16,320 & $71\to 72$ & $63\to 64$ & $99\to 100$ & $0\to 93$\\
+16,384 & 512 & 15,872 & $98\to 99$ & $97\to 98$ & $99\to 100$ & $0\to 86$\\
+16,384 & 4,096 & 12,288 & $69\to 100$ & $69\to 100$ & $69\to 100$ & $0\to 29$\\
+32,768 & 64 & 32,704 & $72\to 72$ & $64\to 64$ & $100\to 100$ & $100\to 100$\\
+32,768 & 512 & 32,256 & $99\to 99$ & $98\to 98$ & $100\to 100$ & $100\to 100$\\
+32,768 & 4,096 & 28,672 & $100\to 100$ & $100\to 100$ & $100\to 100$ & $92\to 100$\\
+\bottomrule
+\end{tabular}
+\end{table}

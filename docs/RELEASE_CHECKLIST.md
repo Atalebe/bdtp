@@ -1,6 +1,6 @@
 # Release decisions
 
-Current repository is private. A GitHub repository is not an archival DOI, and an
+The repository was private at bootstrap; GitHub reported it public on 21 October 2026. The new local campaign import is not approved for public push until the author confirms that destination. A GitHub repository is not an archival DOI, and an
 infrastructure commit is not a release of the scientific implementation.
 
 Pending author decisions and technical checks:

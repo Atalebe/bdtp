@@ -1,0 +1,87 @@
+[
+  {
+    "case": "summary_only",
+    "truth": [
+      0.3,
+      0.0,
+      1.8
+    ],
+    "gap_summary_h1": 0.0,
+    "gap_summary_h2": 0.0,
+    "gap_affine_h1": 0.12839288597859722,
+    "bayes_risk_h1": 0.12160711402140278,
+    "bayes_risk_h2": 0.12160711402140281,
+    "posterior_risk_h1": 0.12160711402140278,
+    "posterior_risk_h2": 0.12684691198814885,
+    "selected_gap_h1": 2.7755575615628914e-17,
+    "selected_gap_h2": 0.0
+  },
+  {
+    "case": "history_moderate",
+    "truth": [
+      0.3,
+      8.0,
+      1.8
+    ],
+    "gap_summary_h1": 0.004158111739180639,
+    "gap_summary_h2": 0.0010079485960205053,
+    "gap_affine_h1": 0.13161622684439594,
+    "bayes_risk_h1": 0.11838377315560471,
+    "bayes_risk_h2": 0.12302911986695624,
+    "posterior_risk_h1": 0.1183841488350398,
+    "posterior_risk_h2": 0.12302921063161723,
+    "selected_gap_h1": 0.005172796087647619,
+    "selected_gap_h2": 0.0014634966602115884
+  },
+  {
+    "case": "history_strong",
+    "truth": [
+      0.3,
+      16.0,
+      1.8
+    ],
+    "gap_summary_h1": 0.012521379946280456,
+    "gap_summary_h2": 0.004158111739180653,
+    "gap_affine_h1": 0.1612197234881182,
+    "bayes_risk_h1": 0.08878027651188246,
+    "bayes_risk_h2": 0.1183837731556047,
+    "posterior_risk_h1": 0.08878027651188247,
+    "posterior_risk_h2": 0.1183837731556047,
+    "selected_gap_h1": 0.012521379946280456,
+    "selected_gap_h2": 0.008243412739349809
+  },
+  {
+    "case": "constant_gamma",
+    "truth": [
+      0.3,
+      8.0,
+      1.8
+    ],
+    "gap_summary_h1": 0.0,
+    "gap_summary_h2": 0.0,
+    "gap_affine_h1": 0.17556022237240415,
+    "bayes_risk_h1": 0.07443977762759581,
+    "bayes_risk_h2": 0.12275514555572398,
+    "posterior_risk_h1": 0.07443977762759581,
+    "posterior_risk_h2": 0.12275514555572398,
+    "selected_gap_h1": 0.0,
+    "selected_gap_h2": 0.0
+  },
+  {
+    "case": "truncated_strong",
+    "truth": [
+      0.3,
+      16.0,
+      1.8
+    ],
+    "gap_summary_h1": 0.007527657631110796,
+    "gap_summary_h2": 0.002428809787095615,
+    "gap_affine_h1": 0.1534889644448839,
+    "bayes_risk_h1": 0.09651103555511659,
+    "bayes_risk_h2": 0.12128031137920026,
+    "posterior_risk_h1": 0.09651103555517496,
+    "posterior_risk_h2": 0.12128031137921869,
+    "selected_gap_h1": 0.010431088556442938,
+    "selected_gap_h2": 0.0033465931990874775
+  }
+]

@@ -1,0 +1,1246 @@
+{
+  "checks": [
+    {
+      "case_id": "DEP001-C000",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C000",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C000",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9601892988160746
+    },
+    {
+      "case_id": "DEP001-C001",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C001",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C001",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.938257669915687
+    },
+    {
+      "case_id": "DEP001-C002",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C002",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C002",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0209011732428714
+    },
+    {
+      "case_id": "DEP001-C003",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C003",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C003",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0048952276612888
+    },
+    {
+      "case_id": "DEP001-C004",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C004",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C004",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0184442111603065
+    },
+    {
+      "case_id": "DEP001-C005",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C005",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C005",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0435094211579474
+    },
+    {
+      "case_id": "DEP001-C006",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C006",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C006",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9818032325686653
+    },
+    {
+      "case_id": "DEP001-C007",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C007",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C007",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9795596653041433
+    },
+    {
+      "case_id": "DEP001-C008",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C008",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C008",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0029123809300484
+    },
+    {
+      "case_id": "DEP001-C009",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C009",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C009",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9566167945677881
+    },
+    {
+      "case_id": "DEP001-C010",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C010",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C010",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9924561614140405
+    },
+    {
+      "case_id": "DEP001-C011",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C011",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C011",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0674735867933967
+    },
+    {
+      "case_id": "DEP001-C012",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C012",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C012",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9683909913289978
+    },
+    {
+      "case_id": "DEP001-C013",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C013",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C013",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9895662404118725
+    },
+    {
+      "case_id": "DEP001-C014",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C014",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C014",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9895662404118725
+    },
+    {
+      "case_id": "DEP001-C015",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C015",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C015",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0210994953205772
+    },
+    {
+      "case_id": "DEP001-C016",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C016",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C016",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0210994953205772
+    },
+    {
+      "case_id": "DEP001-C017",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C017",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C017",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0346006693625724
+    },
+    {
+      "case_id": "DEP001-C018",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C018",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C018",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9644903260166718
+    },
+    {
+      "case_id": "DEP001-C019",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C019",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C019",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.03890993844767
+    },
+    {
+      "case_id": "DEP001-C020",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C020",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C020",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0180426376048601
+    },
+    {
+      "case_id": "DEP001-C021",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C021",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C021",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9669349913696942
+    },
+    {
+      "case_id": "DEP001-C022",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C022",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C022",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9995070198658322
+    },
+    {
+      "case_id": "DEP001-C023",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C023",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C023",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9771151409037852
+    },
+    {
+      "case_id": "DEP001-C024",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C024",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C024",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.004363993194514
+    },
+    {
+      "case_id": "DEP001-C025",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C025",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C025",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9414461905431882
+    },
+    {
+      "case_id": "DEP001-C026",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C026",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C026",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0626528055694515
+    },
+    {
+      "case_id": "DEP001-C027",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C027",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C027",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0231160163415043
+    },
+    {
+      "case_id": "DEP001-C028",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C028",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C028",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9735837733116233
+    },
+    {
+      "case_id": "DEP001-C029",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C029",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C029",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9563009369267967
+    },
+    {
+      "case_id": "DEP001-C030",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C030",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C030",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9621125483803099
+    },
+    {
+      "case_id": "DEP001-C031",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C031",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C031",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9903817038676809
+    },
+    {
+      "case_id": "DEP001-C032",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C032",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C032",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0004182955327003
+    },
+    {
+      "case_id": "DEP001-C033",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C033",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C033",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9549414498916127
+    },
+    {
+      "case_id": "DEP001-C034",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C034",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C034",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.031411920598457
+    },
+    {
+      "case_id": "DEP001-C035",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C035",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C035",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9668613721506275
+    },
+    {
+      "case_id": "DEP001-C036",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C036",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C036",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9847778095933425
+    },
+    {
+      "case_id": "DEP001-C037",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C037",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C037",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9684300483575122
+    },
+    {
+      "case_id": "DEP001-C038",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C038",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C038",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9870775491226973
+    },
+    {
+      "case_id": "DEP001-C039",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C039",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C039",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9822876423531908
+    },
+    {
+      "case_id": "DEP001-C040",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C040",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C040",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9952858929464733
+    },
+    {
+      "case_id": "DEP001-C041",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C041",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C041",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9997194116031229
+    },
+    {
+      "case_id": "DEP001-C042",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C042",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C042",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.981316206880167
+    },
+    {
+      "case_id": "DEP001-C043",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C043",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C043",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0722977005175005
+    },
+    {
+      "case_id": "DEP001-C044",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C044",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C044",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0146542669121017
+    },
+    {
+      "case_id": "DEP001-C045",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C045",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C045",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0341754210438554
+    },
+    {
+      "case_id": "DEP001-C046",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C046",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C046",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9830173211605802
+    },
+    {
+      "case_id": "DEP001-C047",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C047",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C047",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9830173211605802
+    },
+    {
+      "case_id": "DEP001-C048",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C048",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C048",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9830173211605802
+    },
+    {
+      "case_id": "DEP001-C049",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C049",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C049",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9830173211605802
+    },
+    {
+      "case_id": "DEP001-C050",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C050",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C050",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9998874437218611
+    },
+    {
+      "case_id": "DEP001-C051",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C051",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C051",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9998874437218611
+    },
+    {
+      "case_id": "DEP001-C052",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C052",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C052",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9998874437218611
+    },
+    {
+      "case_id": "DEP001-C053",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C053",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C053",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9846919279952476
+    },
+    {
+      "case_id": "DEP001-C054",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C054",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C054",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9846919279952476
+    },
+    {
+      "case_id": "DEP001-C055",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C055",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C055",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9846919279952476
+    },
+    {
+      "case_id": "DEP001-C056",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C056",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C056",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9846919279952476
+    },
+    {
+      "case_id": "DEP001-C057",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C057",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C057",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0099399751959315
+    },
+    {
+      "case_id": "DEP001-C058",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C058",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C058",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 1.0518397200854117
+    },
+    {
+      "case_id": "DEP001-C059",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C059",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C059",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9753675104576687
+    },
+    {
+      "case_id": "DEP001-C060",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C060",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C060",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9988192667762452
+    },
+    {
+      "case_id": "DEP001-C061",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_eb",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C061",
+      "check": "nominal_false_certification_gross_alarm",
+      "method": "group_max_hoeffding",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C061",
+      "check": "variance_identity_gross_check",
+      "pass": true,
+      "ratio": 0.9960751000500251
+    },
+    {
+      "case_id": "DEP001-C052",
+      "check": "declared_invalid_control_sensitivity",
+      "count": 716,
+      "lower_95_one_sided": 0.34027958337920694,
+      "pass": true
+    },
+    {
+      "cases": [
+        "DEP001-C013",
+        "DEP001-C014"
+      ],
+      "check": "exact_duplicate_group_information_invariance",
+      "pass": true
+    },
+    {
+      "cases": [
+        "DEP001-C015",
+        "DEP001-C016"
+      ],
+      "check": "exact_duplicate_group_information_invariance",
+      "pass": true
+    },
+    {
+      "cases": [
+        "DEP001-C046",
+        "DEP001-C047",
+        "DEP001-C048",
+        "DEP001-C049"
+      ],
+      "check": "exact_duplicate_group_information_invariance",
+      "pass": true
+    },
+    {
+      "cases": [
+        "DEP001-C050",
+        "DEP001-C051",
+        "DEP001-C052"
+      ],
+      "check": "exact_duplicate_group_information_invariance",
+      "pass": true
+    },
+    {
+      "cases": [
+        "DEP001-C053",
+        "DEP001-C054",
+        "DEP001-C055",
+        "DEP001-C056"
+      ],
+      "check": "exact_duplicate_group_information_invariance",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C008",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C015",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C023",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C026",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C029",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C033",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C037",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C040",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C044",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C046",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C050",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C053",
+      "check": "one_row_same_certificate",
+      "pass": true
+    },
+    {
+      "case_id": "DEP001-C057",
+      "check": "one_row_same_certificate",
+      "pass": true
+    }
+  ],
+  "dataset_pairs": 124000,
+  "experiment": "NMCD-PC-DEP-001",
+  "number_cases": 62,
+  "paired_across_m_when_copy1": true,
+  "plan_sha256": "c8d2bb22b9422a6a440792de48eb7d295f45c6ca7c10d5715d452805494ce9b0",
+  "primary": "group_max_eb",
+  "replicates_per_case": 2000,
+  "scope": "Synthetic iid worlds with specified within-world dependence only; no general dependent-world or cosmological certificate.",
+  "status": "LOCAL_DEVELOPMENT_CHECKS_PASS"
+}

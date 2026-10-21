@@ -1,6 +1,6 @@
 # Repository operating instructions
 
-Scope: prepare and maintain this private code workspace. Do not infer scientific
+Scope: prepare and maintain this code workspace. The new local campaign import is held from push pending confirmation of the now-public remote. Do not infer scientific
 execution authority from a repository-maintenance request.
 
 1. Preserve source identities, original experiment IDs and historical results.

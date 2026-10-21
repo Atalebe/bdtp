@@ -39,3 +39,11 @@ verified results; `provenance/` their import maps and hashes. The first byte-pre
 Before a milestone commit, preserve failed diagnostics, repair actual integrity
 problems without changing scientific thresholds, pass every applicable gate and
 write the next successful local logbook entry. Verify the resulting remote commit.
+
+## Campaign import 002
+
+Original campaign entrypoints, retained outputs and manuscript-asset regeneration
+are now present locally. See `PAPER_REPRODUCTION.md`, `reference/table_figure_map.json`
+and the import-002 record. This does not import external reconstruction code or
+assign redistribution rights. Remote publication is on HOLD after the repository
+was observed public; no visibility change was performed by this import.

@@ -1,0 +1,3752 @@
+{
+  "case_replicates": 1900,
+  "cells": [
+    {
+      "G": 16320,
+      "N": 16384,
+      "T": 64,
+      "case": "history_moderate",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 92,
+            "certificates": 85,
+            "ci95_pointwise": [
+              0.7646924998510451,
+              0.9135456143583515
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 85,
+              "3": 7,
+              "None": 8
+            },
+            "mean_bounds": [
+              0.006727570377677736,
+              0.003951890558483151
+            ],
+            "n": 100,
+            "rate": 0.85
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.007314522776415669,
+              0.003703454742561596
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005874241641625187,
+              0.002368218656752865
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 90,
+            "certificates": 80,
+            "ci95_pointwise": [
+              0.7081573109113719,
+              0.8733444478980441
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 80,
+              "3": 7,
+              "None": 13
+            },
+            "mean_bounds": [
+              0.006989320693972927,
+              0.005029368321864053
+            ],
+            "n": 100,
+            "rate": 0.8
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 92,
+            "certificates": 89,
+            "ci95_pointwise": [
+              0.8116988678035574,
+              0.9437929797145125
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 89,
+              "3": 3,
+              "None": 8
+            },
+            "mean_bounds": [
+              0.005932456715256411,
+              0.0030783486229724296
+            ],
+            "n": 100,
+            "rate": 0.89
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.0055412278847042995,
+              0.0017095317309792535
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005052478475308476,
+              0.001442297072911173
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 90,
+            "certificates": 86,
+            "ci95_pointwise": [
+              0.7762720186294323,
+              0.9212945950730342
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 86,
+              "3": 2,
+              "None": 12
+            },
+            "mean_bounds": [
+              0.006197556263141271,
+              0.0041823121388778715
+            ],
+            "n": 100,
+            "rate": 0.86
+          }
+        }
+      }
+    },
+    {
+      "G": 32704,
+      "N": 32768,
+      "T": 64,
+      "case": "history_moderate",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 92,
+            "certificates": 90,
+            "ci95_pointwise": [
+              0.8237774022599773,
+              0.9509953107785141
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 90,
+              "3": 2,
+              "None": 8
+            },
+            "mean_bounds": [
+              0.006020777192618515,
+              0.0032976786968825977
+            ],
+            "n": 100,
+            "rate": 0.9
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005930866846804781,
+              0.002445086564038763
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005181400097064397,
+              0.0017581825045305977
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 90,
+            "certificates": 87,
+            "ci95_pointwise": [
+              0.7879593229125502,
+              0.9289269538145705
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 87,
+              "3": 1,
+              "None": 12
+            },
+            "mean_bounds": [
+              0.006275745349923574,
+              0.004346801702320514
+            ],
+            "n": 100,
+            "rate": 0.87
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 92,
+            "certificates": 92,
+            "ci95_pointwise": [
+              0.848442364135579,
+              0.9648284374818372
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 92,
+              "None": 8
+            },
+            "mean_bounds": [
+              0.005624057822866907,
+              0.0028617550431384348
+            ],
+            "n": 100,
+            "rate": 0.92
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005045914002159213,
+              0.001449700387311235
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.004771355225358111,
+              0.0012960614856642064
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 90,
+            "certificates": 88,
+            "ci95_pointwise": [
+              0.7997643163800312,
+              0.9364310974388407
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 88,
+              "None": 12
+            },
+            "mean_bounds": [
+              0.0058806894819824936,
+              0.003924064748988463
+            ],
+            "n": 100,
+            "rate": 0.88
+          }
+        }
+      }
+    },
+    {
+      "G": 15872,
+      "N": 16384,
+      "T": 512,
+      "case": "history_moderate",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005928197355242823,
+              0.0024768637981929
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.007389415628980133,
+              0.003770673963708762
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005852840148200438,
+              0.002386086105947134
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.00589357022590625,
+              0.002554006243939464
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005084652781346641,
+              0.0015294803280844096
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005565426486312417,
+              0.001719357941163289
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005005144741283693,
+              0.001432736131233401
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.00504754410541447,
+              0.0016085451021552368
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    {
+      "G": 32256,
+      "N": 32768,
+      "T": 512,
+      "case": "history_moderate",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005205852719708225,
+              0.0018427152357812686
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005949148401672159,
+              0.0024624300032980422
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005132981523384683,
+              0.001752839439455501
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005173737735212732,
+              0.001922187883957317
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.004790788514707241,
+              0.0013765573361039516
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005051658657964875,
+              0.0014530794541645826
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.004715874910357864,
+              0.0012837457346444104
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.004757452490806421,
+              0.0014569758615962103
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    {
+      "G": 12288,
+      "N": 16384,
+      "T": 4096,
+      "case": "history_moderate",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.006247385997980574,
+              0.0027398176457884955
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008187579689667601,
+              0.004503683617624887
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.006247385997980574,
+              0.0027362404431149666
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.006247385997980574,
+              0.0027406985372918137
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005152425974933673,
+              0.0015086755624564505
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005831550416184483,
+              0.0018560966881526963
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005152425974933673,
+              0.0015048074286539523
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005152425974933673,
+              0.0015095379209928597
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    {
+      "G": 28672,
+      "N": 32768,
+      "T": 4096,
+      "case": "history_moderate",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005233104391145319,
+              0.001832942043007996
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.006138339903760529,
+              0.002622007468878331
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005233104391145319,
+              0.001829825680168727
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005233104391145319,
+              0.001834456963122594
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.004763857632986297,
+              0.0013053342589090513
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.005128660029208295,
+              0.001486483700530474
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.004763857632986297,
+              0.0013020932170986392
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.004763857632986297,
+              0.0013068412366929176
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    {
+      "G": 16320,
+      "N": 16384,
+      "T": 64,
+      "case": "history_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 94,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.015727671908386875,
+              0.00673817840485233
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.016225933246484203,
+              0.007294516886311121
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014540437212294411,
+              0.005796037124903829
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 93,
+              "None": 7
+            },
+            "mean_bounds": [
+              0.01607866717011805,
+              0.006713997836062333
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 95,
+              "None": 5
+            },
+            "mean_bounds": [
+              0.015152255260600489,
+              0.005944694952568508
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014937141881420273,
+              0.005520608419877392
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013941456835319494,
+              0.004971612040889414
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 94,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.015507799412230785,
+              0.005918689414255266
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        }
+      }
+    },
+    {
+      "G": 32704,
+      "N": 32768,
+      "T": 64,
+      "case": "history_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 95,
+              "None": 5
+            },
+            "mean_bounds": [
+              0.014914168000050522,
+              0.006011028432471315
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014690317791915142,
+              0.005898077028015727
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013751828876387033,
+              0.005091550103621242
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 94,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.015268722631080507,
+              0.00600076018158442
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 95,
+              "None": 5
+            },
+            "mean_bounds": [
+              0.014627031537108258,
+              0.0056150758456092655
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014047201966630512,
+              0.005012883204116695
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013452910515259788,
+              0.00468015708951006
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 94,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.014983856092435067,
+              0.005603896554764161
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        }
+      }
+    },
+    {
+      "G": 15872,
+      "N": 16384,
+      "T": 512,
+      "case": "history_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014590452618251194,
+              0.005898165913443888
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.016316958419829122,
+              0.0073697928654332555
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014590452618251194,
+              0.00583300896791563
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014590452618251194,
+              0.005855085079190576
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013974565059265006,
+              0.005054028363401745
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014991751026313756,
+              0.00554580372276505
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013974565059265006,
+              0.004985313560998781
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013974565059265006,
+              0.005008575624565296
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        }
+      }
+    },
+    {
+      "G": 32256,
+      "N": 32768,
+      "T": 512,
+      "case": "history_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013763678156649996,
+              0.005167204686521738
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014712993955969205,
+              0.005918188030659259
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013763678156649996,
+              0.005101859422794026
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013763678156649996,
+              0.005123887897501047
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013460632072363223,
+              0.004751848708945582
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014060928646947891,
+              0.0050206982869517094
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013460632072363223,
+              0.004684752809767293
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013460632072363223,
+              0.004707364829624506
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        }
+      }
+    },
+    {
+      "G": 12288,
+      "N": 16384,
+      "T": 4096,
+      "case": "history_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.015065345330499696,
+              0.006231709829170131
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.017221442661525484,
+              0.008172111407845779
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.015065345330499696,
+              0.006231709829170131
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.015065345330499696,
+              0.006231709829170131
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014269809280310897,
+              0.00513674980612323
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.015509684987359098,
+              0.005816082134362665
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014269809280310897,
+              0.00513674980612323
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014269809280310897,
+              0.00513674980612323
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        }
+      }
+    },
+    {
+      "G": 28672,
+      "N": 32768,
+      "T": 4096,
+      "case": "history_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.01386285387756115,
+              0.005189455086305112
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.014909300578999802,
+              0.006094847610133461
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.01386285387756115,
+              0.005189455086305112
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.01386285387756115,
+              0.005189455086305112
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013521925711516385,
+              0.004720208328146092
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.01417572426347252,
+              0.005085167735581222
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013521925711516385,
+              0.004720208328146092
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 0,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.013521925711516385,
+              0.004720208328146092
+            ],
+            "n": 100,
+            "rate": 0.0
+          }
+        }
+      }
+    },
+    {
+      "G": 16320,
+      "N": 16384,
+      "T": 64,
+      "case": "truncated_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 72,
+            "certificates": 71,
+            "ci95_pointwise": [
+              0.6107340410925517,
+              0.7964258107492681
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 71,
+              "3": 26,
+              "None": 3
+            },
+            "mean_bounds": [
+              0.010355857890508462,
+              0.00526241591548098
+            ],
+            "n": 100,
+            "rate": 0.71
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.010941459725971232,
+              0.005366610920210845
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 99,
+            "ci95_pointwise": [
+              0.9455406146079194,
+              0.9997468539670226
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 99,
+              "3": 1
+            },
+            "mean_bounds": [
+              0.009355800166969663,
+              0.003935274291132658
+            ],
+            "n": 100,
+            "rate": 0.99
+          },
+          "variance_penalized": {
+            "adequate_selected": 65,
+            "certificates": 63,
+            "ci95_pointwise": [
+              0.527648359448317,
+              0.7244334203854486
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 63,
+              "3": 31,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.010412883129480615,
+              0.00539204354962611
+            ],
+            "n": 100,
+            "rate": 0.63
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 72,
+            "certificates": 72,
+            "ci95_pointwise": [
+              0.6213329952827327,
+              0.8052063725088184
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 72,
+              "3": 25,
+              "None": 3
+            },
+            "mean_bounds": [
+              0.009773672106796293,
+              0.004478668056541999
+            ],
+            "n": 100,
+            "rate": 0.72
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 93,
+            "ci95_pointwise": [
+              0.8610802715441427,
+              0.9713947110925613
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 93,
+              "3": 7
+            },
+            "mean_bounds": [
+              0.00965264068731005,
+              0.003588629936505778
+            ],
+            "n": 100,
+            "rate": 0.93
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008756821821252656,
+              0.003108957312540872
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 65,
+            "certificates": 64,
+            "ci95_pointwise": [
+              0.5378781066725769,
+              0.7335915772667655
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 64,
+              "3": 30,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.009835141142509995,
+              0.00461175403503921
+            ],
+            "n": 100,
+            "rate": 0.64
+          }
+        }
+      }
+    },
+    {
+      "G": 32704,
+      "N": 32768,
+      "T": 64,
+      "case": "truncated_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 72,
+            "certificates": 72,
+            "ci95_pointwise": [
+              0.6213329952827327,
+              0.8052063725088184
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 72,
+              "3": 25,
+              "None": 3
+            },
+            "mean_bounds": [
+              0.009615853394408099,
+              0.004589982651520121
+            ],
+            "n": 100,
+            "rate": 0.72
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.009485688267384454,
+              0.004050385612299547
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008617525546545666,
+              0.0032910908669937723
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 65,
+            "certificates": 64,
+            "ci95_pointwise": [
+              0.5378781066725769,
+              0.7335915772667655
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 64,
+              "3": 30,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.009664339898243864,
+              0.004709397429750959
+            ],
+            "n": 100,
+            "rate": 0.64
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 72,
+            "certificates": 72,
+            "ci95_pointwise": [
+              0.6213329952827327,
+              0.8052063725088184
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 72,
+              "3": 25,
+              "None": 3
+            },
+            "mean_bounds": [
+              0.009325338956543396,
+              0.004198887498796843
+            ],
+            "n": 100,
+            "rate": 0.72
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008842559352037626,
+              0.003163162270463397
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008318631549823425,
+              0.0028787535320629926
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 65,
+            "certificates": 64,
+            "ci95_pointwise": [
+              0.5378781066725769,
+              0.7335915772667655
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 64,
+              "3": 30,
+              "None": 6
+            },
+            "mean_bounds": [
+              0.009376042942324853,
+              0.004320028034469697
+            ],
+            "n": 100,
+            "rate": 0.64
+          }
+        }
+      }
+    },
+    {
+      "G": 15872,
+      "N": 16384,
+      "T": 512,
+      "case": "truncated_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 99,
+            "certificates": 98,
+            "ci95_pointwise": [
+              0.9296160675289299,
+              0.9975686631760574
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 98,
+              "3": 2
+            },
+            "mean_bounds": [
+              0.009431849474624516,
+              0.0041086468809511025
+            ],
+            "n": 100,
+            "rate": 0.98
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.011024693506139615,
+              0.005445188889596472
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 99,
+            "ci95_pointwise": [
+              0.9455406146079194,
+              0.9997468539670226
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 99,
+              "3": 1
+            },
+            "mean_bounds": [
+              0.009399523992936405,
+              0.003976445569987902
+            ],
+            "n": 100,
+            "rate": 0.99
+          },
+          "variance_penalized": {
+            "adequate_selected": 98,
+            "certificates": 97,
+            "ci95_pointwise": [
+              0.91482394702572,
+              0.9937700284616936
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 97,
+              "3": 3
+            },
+            "mean_bounds": [
+              0.00946277941396396,
+              0.004171884676081056
+            ],
+            "n": 100,
+            "rate": 0.97
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 99,
+            "certificates": 99,
+            "ci95_pointwise": [
+              0.9455406146079194,
+              0.9997468539670226
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 99,
+              "3": 1
+            },
+            "mean_bounds": [
+              0.008816621578035063,
+              0.0032646895663164567
+            ],
+            "n": 100,
+            "rate": 0.99
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 86,
+            "ci95_pointwise": [
+              0.7762720186294323,
+              0.9212945950730342
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 86,
+              "3": 14
+            },
+            "mean_bounds": [
+              0.009699486112624245,
+              0.00361700846496903
+            ],
+            "n": 100,
+            "rate": 0.86
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.00878363643395022,
+              0.0031268022729313443
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 98,
+            "certificates": 98,
+            "ci95_pointwise": [
+              0.9296160675289299,
+              0.9975686631760574
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 98,
+              "3": 2
+            },
+            "mean_bounds": [
+              0.008848211179771238,
+              0.00333004825559771
+            ],
+            "n": 100,
+            "rate": 0.98
+          }
+        }
+      }
+    },
+    {
+      "G": 32256,
+      "N": 32768,
+      "T": 512,
+      "case": "truncated_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 99,
+            "certificates": 99,
+            "ci95_pointwise": [
+              0.9455406146079194,
+              0.9997468539670226
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 99,
+              "3": 1
+            },
+            "mean_bounds": [
+              0.008658522046316142,
+              0.0034338860236972735
+            ],
+            "n": 100,
+            "rate": 0.99
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.009505726284275215,
+              0.00407123427858664
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008627290834889865,
+              0.003302441037483927
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 98,
+            "certificates": 98,
+            "ci95_pointwise": [
+              0.9296160675289299,
+              0.9975686631760574
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 98,
+              "3": 2
+            },
+            "mean_bounds": [
+              0.00868775707943369,
+              0.003498803943175752
+            ],
+            "n": 100,
+            "rate": 0.98
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 99,
+            "certificates": 99,
+            "ci95_pointwise": [
+              0.9455406146079194,
+              0.9997468539670226
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 99,
+              "3": 1
+            },
+            "mean_bounds": [
+              0.008355800547423837,
+              0.003018618730546864
+            ],
+            "n": 100,
+            "rate": 0.99
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.0088536609752539,
+              0.0031716822240443303
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008324244750603095,
+              0.002884375969507346
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 98,
+            "certificates": 98,
+            "ci95_pointwise": [
+              0.9296160675289299,
+              0.9975686631760574
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 98,
+              "3": 2
+            },
+            "mean_bounds": [
+              0.008385360165935852,
+              0.0030845802312088892
+            ],
+            "n": 100,
+            "rate": 0.98
+          }
+        }
+      }
+    },
+    {
+      "G": 12288,
+      "N": 16384,
+      "T": 4096,
+      "case": "truncated_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 69,
+            "ci95_pointwise": [
+              0.5896854458398009,
+              0.778711207869329
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 69,
+              "3": 31
+            },
+            "mean_bounds": [
+              0.009846999873724907,
+              0.004336169456776541
+            ],
+            "n": 100,
+            "rate": 0.69
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 0,
+            "ci95_pointwise": [
+              0.0,
+              0.03621669264517641
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "3": 100
+            },
+            "mean_bounds": [
+              0.011887854464221975,
+              0.006199339329931727
+            ],
+            "n": 100,
+            "rate": 0.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 69,
+            "ci95_pointwise": [
+              0.5896854458398009,
+              0.778711207869329
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 69,
+              "3": 31
+            },
+            "mean_bounds": [
+              0.009846999873724907,
+              0.004336169456776541
+            ],
+            "n": 100,
+            "rate": 0.69
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 69,
+            "ci95_pointwise": [
+              0.5896854458398009,
+              0.778711207869329
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 69,
+              "3": 31
+            },
+            "mean_bounds": [
+              0.009846999873724907,
+              0.004336169456776541
+            ],
+            "n": 100,
+            "rate": 0.69
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.009051463823536108,
+              0.003238693362727169
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 29,
+            "ci95_pointwise": [
+              0.2035741892507318,
+              0.3892659589074483
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 29,
+              "3": 71
+            },
+            "mean_bounds": [
+              0.010176096790055586,
+              0.0038378962177593357
+            ],
+            "n": 100,
+            "rate": 0.29
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.009051463823536108,
+              0.003238693362727169
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.009051463823536108,
+              0.003238693362727169
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    {
+      "G": 28672,
+      "N": 32768,
+      "T": 4096,
+      "case": "truncated_strong",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008732070395246526,
+              0.0033977018475446095
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 92,
+            "ci95_pointwise": [
+              0.848442364135579,
+              0.9648284374818372
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 92,
+              "3": 8
+            },
+            "mean_bounds": [
+              0.009703334265377903,
+              0.0042526796472234455
+            ],
+            "n": 100,
+            "rate": 0.92
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008732070395246526,
+              0.0033977018475446095
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008732070395246526,
+              0.0033977018475446095
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008391142229201749,
+              0.0029273768233883347
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "evaluation_class": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008969757949850632,
+              0.003240679663990837
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008391142229201749,
+              0.0029273768233883347
+            ],
+            "n": 100,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 100,
+            "certificates": 100,
+            "ci95_pointwise": [
+              0.9637833073548235,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 100
+            },
+            "mean_bounds": [
+              0.008391142229201749,
+              0.0029273768233883347
+            ],
+            "n": 100,
+            "rate": 1.0
+          }
+        }
+      }
+    },
+    {
+      "G": 16320,
+      "N": 16384,
+      "T": 64,
+      "case": "summary_only",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 49,
+            "certificates": 49,
+            "ci95_pointwise": [
+              0.8935304542885001,
+              0.9994937720169592
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 49,
+              "None": 1
+            },
+            "mean_bounds": [
+              0.001438381384850087,
+              0.0027798177206759807
+            ],
+            "n": 50,
+            "rate": 0.98
+          },
+          "evaluation_class": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              0.0022698132186671207,
+              0.0022698132186671207
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              0.0010548912792367904,
+              0.0010548912792367816
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 33,
+            "certificates": 32,
+            "ci95_pointwise": [
+              0.4919313522856012,
+              0.7708429331794127
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 32,
+              "None": 18
+            },
+            "mean_bounds": [
+              0.001054891279236785,
+              0.012243121695402035
+            ],
+            "n": 50,
+            "rate": 0.64
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 49,
+            "certificates": 49,
+            "ci95_pointwise": [
+              0.8935304542885001,
+              0.9994937720169592
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 49,
+              "None": 1
+            },
+            "mean_bounds": [
+              0.0003868756704169775,
+              0.0017505707332344037
+            ],
+            "n": 50,
+            "rate": 0.98
+          },
+          "evaluation_class": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              9.125490586511056e-21,
+              0.0
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              8.4575737599499e-18,
+              0.0
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 33,
+            "certificates": 32,
+            "ci95_pointwise": [
+              0.4919313522856012,
+              0.7708429331794127
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 32,
+              "None": 18
+            },
+            "mean_bounds": [
+              3.1565343219892807e-18,
+              0.011310665857309403
+            ],
+            "n": 50,
+            "rate": 0.64
+          }
+        }
+      }
+    },
+    {
+      "G": 16320,
+      "N": 16384,
+      "T": 64,
+      "case": "constant_gamma",
+      "summary": {
+        "generic": {
+          "erm": {
+            "adequate_selected": 49,
+            "certificates": 49,
+            "ci95_pointwise": [
+              0.8935304542885001,
+              0.9994937720169592
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 49,
+              "None": 1
+            },
+            "mean_bounds": [
+              0.0015483624619037149,
+              0.0010548912792367816
+            ],
+            "n": 50,
+            "rate": 0.98
+          },
+          "evaluation_class": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              0.0022698132186671207,
+              0.0022698132186671207
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              0.001054891279236782,
+              0.0010548912792367816
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              0.001054891279236782,
+              0.0010548912792367818
+            ],
+            "n": 50,
+            "rate": 1.0
+          }
+        },
+        "range": {
+          "erm": {
+            "adequate_selected": 49,
+            "certificates": 49,
+            "ci95_pointwise": [
+              0.8935304542885001,
+              0.9994937720169592
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 49,
+              "None": 1
+            },
+            "mean_bounds": [
+              0.0005009169194648541,
+              0.0
+            ],
+            "n": 50,
+            "rate": 0.98
+          },
+          "evaluation_class": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              0.0,
+              0.0
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "posterior_risk": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              7.664666142073698e-19,
+              0.0
+            ],
+            "n": 50,
+            "rate": 1.0
+          },
+          "variance_penalized": {
+            "adequate_selected": 50,
+            "certificates": 50,
+            "ci95_pointwise": [
+              0.9288782635358024,
+              1.0
+            ],
+            "false_class_certificates": 0,
+            "levels": {
+              "2": 50
+            },
+            "mean_bounds": [
+              7.506901990662564e-19,
+              1.6661586447711078e-19
+            ],
+            "n": 50,
+            "rate": 1.0
+          }
+        }
+      }
+    }
+  ],
+  "fresh_data": false,
+  "historical_comparison": [
+    {
+      "cell": "history_moderate_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_moderate_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_moderate_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_moderate_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_moderate_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_moderate_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_moderate_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_moderate_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_moderate_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_moderate_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_moderate_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_moderate_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_moderate_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_moderate_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_moderate_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_moderate_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_moderate_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_moderate_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_moderate_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_moderate_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_moderate_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_moderate_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_moderate_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_moderate_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "history_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "history_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "history_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "history_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "truncated_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "truncated_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "truncated_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "truncated_strong_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "truncated_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "truncated_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "truncated_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "truncated_strong_N32768_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "truncated_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "truncated_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "truncated_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "truncated_strong_N16384_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "truncated_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "truncated_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "truncated_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "truncated_strong_N32768_T512",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "truncated_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "truncated_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "truncated_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "truncated_strong_N16384_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "truncated_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "truncated_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "truncated_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "truncated_strong_N32768_T4096",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "summary_only_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "summary_only_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "summary_only_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "summary_only_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    },
+    {
+      "cell": "constant_gamma_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "erm"
+    },
+    {
+      "cell": "constant_gamma_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "variance_penalized"
+    },
+    {
+      "cell": "constant_gamma_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "posterior_risk"
+    },
+    {
+      "cell": "constant_gamma_N16384_T64",
+      "count_match": true,
+      "levels_match": true,
+      "mean_bound_max_abs": 0.0,
+      "method": "evaluation_class"
+    }
+  ],
+  "independent_pool_pairs": 400,
+  "range_is_post_review_sensitivity": true,
+  "training_fits": 1000
+}

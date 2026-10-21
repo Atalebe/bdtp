@@ -1,0 +1,266 @@
+{
+  "cpu_seconds_not_wall_time": true,
+  "includes_likelihood_assumptions": true,
+  "not_universal_benchmark": true,
+  "peak_process_rss_mib": 253.75390625,
+  "records": [
+    {
+      "G": 16320,
+      "common_build_note": "Horizon-1 posterior and 131-entry table are supplied equally, charged as common work; isolated timings do not multiply shared construction by method count.",
+      "config": {
+        "N": 16384,
+        "T": 64,
+        "case": "truncated_strong"
+      },
+      "evaluation_cpu_seconds": {
+        "erm": [
+          0.11513403299999991,
+          0.10891612100000003,
+          0.10933445100000005,
+          0.11419644200000034,
+          0.11089336300000063
+        ],
+        "evaluation_class": [
+          0.15717177199999988,
+          0.17696189800000006,
+          0.17202554700000006,
+          0.16396089800000002,
+          0.16153588000000063
+        ],
+        "posterior_risk": [
+          0.10474380799999983,
+          0.09934159499999984,
+          0.10297701399999992,
+          0.10728470200000029,
+          0.11167758599999988
+        ],
+        "variance_penalized": [
+          0.1106990109999999,
+          0.1153151600000002,
+          0.11487197299999963,
+          0.10442365900000006,
+          0.10109157800000013
+        ]
+      },
+      "fit_cpu_seconds": {
+        "erm": [
+          0.0007761309999998467,
+          0.0006728979999999218,
+          0.0007141089999995742,
+          0.000638616999999897,
+          0.0005798100000005135
+        ],
+        "posterior_risk": [
+          0.019853986000000212,
+          0.019927094000000256,
+          0.020490429000000088,
+          0.018408512000000155,
+          0.018186422000000313
+        ],
+        "variance_penalized": [
+          0.0007634029999996628,
+          0.0008186139999999398,
+          0.0007823409999998532,
+          0.0007636929999996767,
+          0.0006863479999994482
+        ]
+      },
+      "payload": {
+        "candidate_object_loss_values_test": 17103360,
+        "candidate_object_loss_values_training": 67072,
+        "coefficient_metadata_excluded": true,
+        "dtype": "binary64 probabilities",
+        "full_covariance_bytes": 137288,
+        "full_covariance_products": 560135040,
+        "joint_fitting_posterior_bytes": 480,
+        "not_equal_flops": "Counts distinguish operations; Gaussian likelihood terms, lookups and products are not equated.",
+        "per_history_min_numeric_payload": "six increments plus clock/mask/current context; no new compression claim",
+        "raw_numeric_test_bytes": 1566720,
+        "raw_numeric_training_bytes": 6144,
+        "selected_cross_moments_bytes_upper": 3144,
+        "selected_cross_products_upper": 12827520,
+        "shared_candidate_table_bytes": 217984,
+        "shared_original_posterior_bytes": 480,
+        "shared_predictive_table_shape": [
+          2,
+          104,
+          131
+        ],
+        "world_id_python_overhead_excluded": true,
+        "world_loss_matrix_bytes_per_horizon": 17103360
+      }
+    },
+    {
+      "G": 15872,
+      "common_build_note": "Horizon-1 posterior and 131-entry table are supplied equally, charged as common work; isolated timings do not multiply shared construction by method count.",
+      "config": {
+        "N": 16384,
+        "T": 512,
+        "case": "truncated_strong"
+      },
+      "evaluation_cpu_seconds": {
+        "erm": [
+          0.09617022800000008,
+          0.11268674399999945,
+          0.10599453800000003,
+          0.10472608699999952,
+          0.10114922300000018
+        ],
+        "evaluation_class": [
+          0.17133310299999938,
+          0.16260593199999995,
+          0.16763314299999976,
+          0.15668111000000007,
+          0.1585573870000001
+        ],
+        "posterior_risk": [
+          0.10313171700000012,
+          0.11077052100000007,
+          0.09547848199999986,
+          0.1059132570000001,
+          0.08167512100000085
+        ],
+        "variance_penalized": [
+          0.1092030580000003,
+          0.10577332999999989,
+          0.11193660999999988,
+          0.0961090630000001,
+          0.07782306699999975
+        ]
+      },
+      "fit_cpu_seconds": {
+        "erm": [
+          0.004091557000000634,
+          0.004727830999999405,
+          0.004730846000000177,
+          0.004480664999999995,
+          0.004718186999999929
+        ],
+        "posterior_risk": [
+          0.12554089199999918,
+          0.1220089789999994,
+          0.1317671210000002,
+          0.12771916699999952,
+          0.12353334900000057
+        ],
+        "variance_penalized": [
+          0.003028150999999646,
+          0.003563354000000629,
+          0.0033210349999999167,
+          0.003014931000000054,
+          0.0030731270000003974
+        ]
+      },
+      "payload": {
+        "candidate_object_loss_values_test": 16633856,
+        "candidate_object_loss_values_training": 536576,
+        "coefficient_metadata_excluded": true,
+        "dtype": "binary64 probabilities",
+        "full_covariance_bytes": 137288,
+        "full_covariance_products": 544758784,
+        "joint_fitting_posterior_bytes": 480,
+        "not_equal_flops": "Counts distinguish operations; Gaussian likelihood terms, lookups and products are not equated.",
+        "per_history_min_numeric_payload": "six increments plus clock/mask/current context; no new compression claim",
+        "raw_numeric_test_bytes": 1523712,
+        "raw_numeric_training_bytes": 49152,
+        "selected_cross_moments_bytes_upper": 3144,
+        "selected_cross_products_upper": 12475392,
+        "shared_candidate_table_bytes": 217984,
+        "shared_original_posterior_bytes": 480,
+        "shared_predictive_table_shape": [
+          2,
+          104,
+          131
+        ],
+        "world_id_python_overhead_excluded": true,
+        "world_loss_matrix_bytes_per_horizon": 16633856
+      }
+    },
+    {
+      "G": 28672,
+      "common_build_note": "Horizon-1 posterior and 131-entry table are supplied equally, charged as common work; isolated timings do not multiply shared construction by method count.",
+      "config": {
+        "N": 32768,
+        "T": 4096,
+        "case": "truncated_strong"
+      },
+      "evaluation_cpu_seconds": {
+        "erm": [
+          0.3666127459999995,
+          0.35129928399999955,
+          0.3307588609999996,
+          0.294416463000001,
+          0.29139383799999763
+        ],
+        "evaluation_class": [
+          0.30092074899999943,
+          0.28251618200000017,
+          0.2994461520000016,
+          0.27659719499999724,
+          0.2655343119999998
+        ],
+        "posterior_risk": [
+          0.18776576099999964,
+          0.18114181700000032,
+          0.1896240070000026,
+          0.17937156099999996,
+          0.16719218900000143
+        ],
+        "variance_penalized": [
+          0.13912737199999903,
+          0.18853274900000017,
+          0.19259591399999998,
+          0.15807098099999806,
+          0.18229960400000067
+        ]
+      },
+      "fit_cpu_seconds": {
+        "erm": [
+          0.021410404000000938,
+          0.01882038199999947,
+          0.013765445000000653,
+          0.018296194000001265,
+          0.016678756000001016
+        ],
+        "posterior_risk": [
+          0.9340459770000002,
+          1.0486803630000008,
+          0.8388054010000001,
+          0.9065981050000005,
+          1.0023836569999993
+        ],
+        "variance_penalized": [
+          0.02555379899999899,
+          0.02660465599999995,
+          0.024579389999999535,
+          0.021954840999999448,
+          0.023346664999998268
+        ]
+      },
+      "payload": {
+        "candidate_object_loss_values_test": 30048256,
+        "candidate_object_loss_values_training": 4292608,
+        "coefficient_metadata_excluded": true,
+        "dtype": "binary64 probabilities",
+        "full_covariance_bytes": 137288,
+        "full_covariance_products": 984080384,
+        "joint_fitting_posterior_bytes": 480,
+        "not_equal_flops": "Counts distinguish operations; Gaussian likelihood terms, lookups and products are not equated.",
+        "per_history_min_numeric_payload": "six increments plus clock/mask/current context; no new compression claim",
+        "raw_numeric_test_bytes": 2752512,
+        "raw_numeric_training_bytes": 393216,
+        "selected_cross_moments_bytes_upper": 3144,
+        "selected_cross_products_upper": 22536192,
+        "shared_candidate_table_bytes": 217984,
+        "shared_original_posterior_bytes": 480,
+        "shared_predictive_table_shape": [
+          2,
+          104,
+          131
+        ],
+        "world_id_python_overhead_excluded": true,
+        "world_loss_matrix_bytes_per_horizon": 30048256
+      }
+    }
+  ]
+}

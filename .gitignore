@@ -33,3 +33,6 @@ Thumbs.db
 *.out
 *.toc
 *.synctex.gz
+
+# Four author-owned numerical figure assets; not manuscript PDFs.
+!reference/paper_assets/figures/*.pdf

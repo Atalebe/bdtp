@@ -1,0 +1,39 @@
+{
+  "schema": "bdtp.derived-paper-tables.v1",
+  "files": [
+    {
+      "path": "reference/paper_tables/table1_designs.csv",
+      "sha256": "b5cdbcbb184f9f311a447221e47e1b7dfc15c5f1b22b751ad7f12339d24c085a",
+      "origin": "Deterministic extraction from stored campaign results; no new simulation"
+    },
+    {
+      "path": "reference/paper_tables/table2_risk_gaps.csv",
+      "sha256": "e83e9ee688fa0fbb4daca4f2343a04bae28c49125283f93159aed023fe35792a",
+      "origin": "Deterministic extraction from stored campaign results; no new simulation"
+    },
+    {
+      "path": "reference/paper_tables/table3_dependence.csv",
+      "sha256": "d680c6f7c1106abbc02d289b3b1ea90ed89e331733597c9419569243fac44291",
+      "origin": "Deterministic extraction from stored campaign results; no new simulation"
+    },
+    {
+      "path": "reference/paper_tables/table4_truncated_allocation.csv",
+      "sha256": "e71bb8db3a8c3f023e3fe16a6cd5a136ac1497344dd295051e8eab4fcb335ba7",
+      "origin": "Deterministic extraction from stored campaign results; no new simulation"
+    },
+    {
+      "path": "reference/paper_tables/table5_attained_error.csv",
+      "sha256": "76b70e205511b1539373c011b879617a0b6782c5d123249b28cf34408d10d40a",
+      "origin": "Deterministic extraction from stored campaign results; no new simulation"
+    },
+    {
+      "path": "reference/paper_tables/table6_other_allocations.csv",
+      "sha256": "9efd80409bd46b8f6d6dcbc41a2ac8fa47af2d1dd800c15c145ec89b976fed5f",
+      "origin": "Deterministic extraction from stored campaign results; no new simulation"
+    }
+  ],
+  "builder": "scripts/paper_outputs.py",
+  "builder_sha256": "8664b30e81b24b7c00f4800f39f17487ac8072537c736252a084acaa040213a1",
+  "numeric_tables_unchanged": true,
+  "figure_bytes_unchanged": true
+}

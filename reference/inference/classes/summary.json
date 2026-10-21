@@ -1,0 +1,681 @@
+{
+  "all_checks_pass": true,
+  "cells": [
+    {
+      "design": {
+        "groups": 16384,
+        "parent_id": "history_moderate",
+        "replicates": 100
+      },
+      "methods": {
+        "historical_fixed": {
+          "certified_counts": {
+            "1": 0,
+            "2": 100,
+            "3": 0,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.13482838079754045,
+              0.13054382594290298
+            ],
+            "2": [
+              0.006925494541864621,
+              0.0028459650651183944
+            ],
+            "3": [
+              0.00278269712189408,
+              0.0025348090389861857
+            ]
+          }
+        },
+        "reviewer_class_min": {
+          "certified_counts": {
+            "1": 0,
+            "2": 100,
+            "3": 0,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.1360224510811899,
+              0.13182422478175565
+            ],
+            "2": [
+              0.007310502414063443,
+              0.003683667865227532
+            ],
+            "3": [
+              0.0024466693363524145,
+              0.0024442505591337686
+            ]
+          }
+        }
+      },
+      "model_class_gaps": {
+        "1": [
+          0.13161622684439594,
+          0.12697088013304442
+        ],
+        "2": [
+          0.004158111739180639,
+          0.0010079485960205053
+        ],
+        "3": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "fresh test worlds conditional on the ORIGINAL exposed training library; development only, not retrospective parent evidence",
+      "source_case": {
+        "design": "excited",
+        "id": "history_moderate",
+        "observation": "complete",
+        "truth": [
+          0.3,
+          8.0,
+          1.8
+        ]
+      }
+    },
+    {
+      "design": {
+        "groups": 32768,
+        "parent_id": "history_moderate",
+        "replicates": 100
+      },
+      "methods": {
+        "historical_fixed": {
+          "certified_counts": {
+            "1": 0,
+            "2": 100,
+            "3": 0,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.13363728151039464,
+              0.1291973600534778
+            ],
+            "2": [
+              0.006185251799948489,
+              0.00222537531348224
+            ],
+            "3": [
+              0.0021460101816534504,
+              0.001912732228881619
+            ]
+          }
+        },
+        "reviewer_class_min": {
+          "certified_counts": {
+            "1": 0,
+            "2": 100,
+            "3": 0,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.1343523845721768,
+              0.12997295848046958
+            ],
+            "2": [
+              0.005908715152581968,
+              0.00243507972737204
+            ],
+            "3": [
+              0.0012249168987008867,
+              0.0012220544241522276
+            ]
+          }
+        }
+      },
+      "model_class_gaps": {
+        "1": [
+          0.13161622684439594,
+          0.12697088013304442
+        ],
+        "2": [
+          0.004158111739180639,
+          0.0010079485960205053
+        ],
+        "3": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "fresh test worlds conditional on the ORIGINAL exposed training library; development only, not retrospective parent evidence",
+      "source_case": {
+        "design": "excited",
+        "id": "history_moderate",
+        "observation": "complete",
+        "truth": [
+          0.3,
+          8.0,
+          1.8
+        ]
+      }
+    },
+    {
+      "design": {
+        "groups": 16384,
+        "parent_id": "history_strong",
+        "replicates": 100
+      },
+      "methods": {
+        "historical_fixed": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.16412675073080496,
+              0.13487453957689127
+            ],
+            "2": [
+              0.014526064217341221,
+              0.010185117855398138
+            ],
+            "3": [
+              0.0010507703751541793,
+              0.0037420042163774357
+            ]
+          }
+        },
+        "reviewer_class_min": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.16526576065481285,
+              0.13606916883300613
+            ],
+            "2": [
+              0.0162067091328644,
+              0.007337090656027385
+            ],
+            "3": [
+              0.002439461151076598,
+              0.0024394611555039725
+            ]
+          }
+        }
+      },
+      "model_class_gaps": {
+        "1": [
+          0.1612197234881182,
+          0.13161622684439597
+        ],
+        "2": [
+          0.012521379946280456,
+          0.004158111739180653
+        ],
+        "3": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "fresh test worlds conditional on the ORIGINAL exposed training library; development only, not retrospective parent evidence",
+      "source_case": {
+        "design": "excited",
+        "id": "history_strong",
+        "observation": "complete",
+        "truth": [
+          0.3,
+          16.0,
+          1.8
+        ]
+      }
+    },
+    {
+      "design": {
+        "groups": 32768,
+        "parent_id": "history_strong",
+        "replicates": 100
+      },
+      "methods": {
+        "historical_fixed": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.1632474055645605,
+              0.1337153150033184
+            ],
+            "2": [
+              0.013789602272977087,
+              0.009407291605290998
+            ],
+            "3": [
+              0.0005253691590532143,
+              0.0030839029529616253
+            ]
+          }
+        },
+        "reviewer_class_min": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.16392228162151848,
+              0.13443015772364109
+            ],
+            "2": [
+              0.014726933807694447,
+              0.005947755569591915
+            ],
+            "3": [
+              0.0012196933594715124,
+              0.0012196933636866648
+            ]
+          }
+        }
+      },
+      "model_class_gaps": {
+        "1": [
+          0.1612197234881182,
+          0.13161622684439597
+        ],
+        "2": [
+          0.012521379946280456,
+          0.004158111739180653
+        ],
+        "3": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "fresh test worlds conditional on the ORIGINAL exposed training library; development only, not retrospective parent evidence",
+      "source_case": {
+        "design": "excited",
+        "id": "history_strong",
+        "observation": "complete",
+        "truth": [
+          0.3,
+          16.0,
+          1.8
+        ]
+      }
+    },
+    {
+      "design": {
+        "groups": 16384,
+        "parent_id": "truncated_strong",
+        "replicates": 100
+      },
+      "methods": {
+        "historical_fixed": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.15657314147196247,
+              0.13188171984067915
+            ],
+            "2": [
+              0.012427270679492891,
+              0.004892881391165389
+            ],
+            "3": [
+              0.0010507726030974753,
+              0.001050771561296844
+            ]
+          }
+        },
+        "reviewer_class_min": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.15772113907688529,
+              0.13307845581456282
+            ],
+            "2": [
+              0.01094601037065024,
+              0.005321971068492682
+            ],
+            "3": [
+              0.0024394638899994632,
+              0.0024394627374917733
+            ]
+          }
+        }
+      },
+      "model_class_gaps": {
+        "1": [
+          0.1534889644448839,
+          0.12871968862080024
+        ],
+        "2": [
+          0.007527657631110796,
+          0.002428809787095615
+        ],
+        "3": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "fresh test worlds conditional on the ORIGINAL exposed training library; development only, not retrospective parent evidence",
+      "source_case": {
+        "design": "excited",
+        "id": "truncated_strong",
+        "observation": "mass_truncated",
+        "truth": [
+          0.3,
+          16.0,
+          1.8
+        ]
+      }
+    },
+    {
+      "design": {
+        "groups": 32768,
+        "parent_id": "truncated_strong",
+        "replicates": 100
+      },
+      "methods": {
+        "historical_fixed": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.15539896094638894,
+              0.1308035130034424
+            ],
+            "2": [
+              0.011615347408767816,
+              0.004242153669729069
+            ],
+            "3": [
+              0.0005253707218482831,
+              0.0005253700123447022
+            ]
+          }
+        },
+        "reviewer_class_min": {
+          "certified_counts": {
+            "1": 0,
+            "2": 99,
+            "3": 1,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.15608099252067176,
+              0.13151980725193568
+            ],
+            "2": [
+              0.009483523811283246,
+              0.004028529456194686
+            ],
+            "3": [
+              0.001219695286060127,
+              0.001219694469143737
+            ]
+          }
+        }
+      },
+      "model_class_gaps": {
+        "1": [
+          0.1534889644448839,
+          0.12871968862080024
+        ],
+        "2": [
+          0.007527657631110796,
+          0.002428809787095615
+        ],
+        "3": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "fresh test worlds conditional on the ORIGINAL exposed training library; development only, not retrospective parent evidence",
+      "source_case": {
+        "design": "excited",
+        "id": "truncated_strong",
+        "observation": "mass_truncated",
+        "truth": [
+          0.3,
+          16.0,
+          1.8
+        ]
+      }
+    },
+    {
+      "design": {
+        "groups": 65536,
+        "parent_id": "truncated_strong",
+        "replicates": 100
+      },
+      "methods": {
+        "historical_fixed": {
+          "certified_counts": {
+            "1": 0,
+            "2": 0,
+            "3": 100,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.1547736638202502,
+              0.1300370514723351
+            ],
+            "2": [
+              0.011172102274796529,
+              0.0038870107683908013
+            ],
+            "3": [
+              0.0002626816667023888,
+              0.0002626811988449122
+            ]
+          }
+        },
+        "reviewer_class_min": {
+          "certified_counts": {
+            "1": 0,
+            "2": 100,
+            "3": 0,
+            "None": 0
+          },
+          "error_upper_pointwise_95": 0.029513049607039925,
+          "errors": 0,
+          "mean_bounds": {
+            "1": [
+              0.15519103378562696,
+              0.13047872414154052
+            ],
+            "2": [
+              0.008693351203947512,
+              0.003338732466958776
+            ],
+            "3": [
+              0.0006098387857510545,
+              0.0006098381674425299
+            ]
+          }
+        }
+      },
+      "model_class_gaps": {
+        "1": [
+          0.1534889644448839,
+          0.12871968862080024
+        ],
+        "2": [
+          0.007527657631110796,
+          0.002428809787095615
+        ],
+        "3": [
+          0.0,
+          0.0
+        ]
+      },
+      "scope": "fresh test worlds conditional on the ORIGINAL exposed training library; development only, not retrospective parent evidence",
+      "source_case": {
+        "design": "excited",
+        "id": "truncated_strong",
+        "observation": "mass_truncated",
+        "truth": [
+          0.3,
+          16.0,
+          1.8
+        ]
+      }
+    }
+  ],
+  "checks": [
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_moderate:G16384",
+      "method": "historical_fixed",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_moderate:G16384",
+      "method": "reviewer_class_min",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_moderate:G32768",
+      "method": "historical_fixed",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_moderate:G32768",
+      "method": "reviewer_class_min",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_strong:G16384",
+      "method": "historical_fixed",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_strong:G16384",
+      "method": "reviewer_class_min",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_strong:G32768",
+      "method": "historical_fixed",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "history_strong:G32768",
+      "method": "reviewer_class_min",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "truncated_strong:G16384",
+      "method": "historical_fixed",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "truncated_strong:G16384",
+      "method": "reviewer_class_min",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "truncated_strong:G32768",
+      "method": "historical_fixed",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "truncated_strong:G32768",
+      "method": "reviewer_class_min",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "truncated_strong:G65536",
+      "method": "historical_fixed",
+      "pass": true
+    },
+    {
+      "alarm_pvalue": 1.0,
+      "alarm_threshold": 0.0007142857142857143,
+      "cell": "truncated_strong:G65536",
+      "method": "reviewer_class_min",
+      "pass": true
+    }
+  ],
+  "frozen_parent_libraries": 3,
+  "test_batches": 700
+}

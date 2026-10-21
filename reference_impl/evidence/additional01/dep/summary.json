@@ -1,0 +1,598 @@
+{
+  "balanced_sample_G1024_upper": 0.018229159246231585,
+  "balanced_sample_rejects": true,
+  "case_replicate_evaluations": 24000,
+  "cases": [
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 256,
+        "rows_per_group": 1,
+        "theta": "0.0"
+      },
+      "generic_empty_region_by_self_floor": true,
+      "null_for_level1": false,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_group": {
+          "certified_1": 1850,
+          "ci95": [
+            0.9125721525598474,
+            0.9361637777754377
+          ],
+          "n": 2000,
+          "rate": 0.925
+        },
+        "range_row": {
+          "certified_1": 1850,
+          "ci95": [
+            0.9125721525598474,
+            0.9361637777754377
+          ],
+          "n": 2000,
+          "rate": 0.925
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 256,
+        "rows_per_group": 16,
+        "theta": "0.0"
+      },
+      "generic_empty_region_by_self_floor": true,
+      "null_for_level1": false,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_group": {
+          "certified_1": 1850,
+          "ci95": [
+            0.9125721525598474,
+            0.9361637777754377
+          ],
+          "n": 2000,
+          "rate": 0.925
+        },
+        "range_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 256,
+        "rows_per_group": 256,
+        "theta": "0.0"
+      },
+      "generic_empty_region_by_self_floor": true,
+      "null_for_level1": false,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_group": {
+          "certified_1": 1850,
+          "ci95": [
+            0.9125721525598474,
+            0.9361637777754377
+          ],
+          "n": 2000,
+          "rate": 0.925
+        },
+        "range_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 1024,
+        "rows_per_group": 1,
+        "theta": "0.0"
+      },
+      "generic_empty_region_by_self_floor": false,
+      "null_for_level1": false,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "generic_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_group": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 1024,
+        "rows_per_group": 16,
+        "theta": "0.0"
+      },
+      "generic_empty_region_by_self_floor": false,
+      "null_for_level1": false,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "generic_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_group": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 1024,
+        "rows_per_group": 256,
+        "theta": "0.0"
+      },
+      "generic_empty_region_by_self_floor": false,
+      "null_for_level1": false,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "generic_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_group": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        },
+        "range_row": {
+          "certified_1": 2000,
+          "ci95": [
+            0.998157260206594,
+            1.0
+          ],
+          "n": 2000,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 256,
+        "rows_per_group": 1,
+        "theta": "0.5"
+      },
+      "generic_empty_region_by_self_floor": true,
+      "null_for_level1": true,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_row": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 256,
+        "rows_per_group": 16,
+        "theta": "0.5"
+      },
+      "generic_empty_region_by_self_floor": true,
+      "null_for_level1": true,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 259,
+          "ci95": [
+            0.11508647133728121,
+            0.14500902121122114
+          ],
+          "n": 2000,
+          "rate": 0.1295
+        },
+        "range_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_row": {
+          "certified_1": 385,
+          "ci95": [
+            0.17543151123225373,
+            0.21047478411521386
+          ],
+          "n": 2000,
+          "rate": 0.1925
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 256,
+        "rows_per_group": 256,
+        "theta": "0.5"
+      },
+      "generic_empty_region_by_self_floor": true,
+      "null_for_level1": true,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 763,
+          "ci95": [
+            0.3601480943843471,
+            0.4031999408423257
+          ],
+          "n": 2000,
+          "rate": 0.3815
+        },
+        "range_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_row": {
+          "certified_1": 764,
+          "ci95": [
+            0.3606420325116837,
+            0.4037045328982381
+          ],
+          "n": 2000,
+          "rate": 0.382
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 1024,
+        "rows_per_group": 1,
+        "theta": "0.5"
+      },
+      "generic_empty_region_by_self_floor": false,
+      "null_for_level1": true,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_row": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 1024,
+        "rows_per_group": 16,
+        "theta": "0.5"
+      },
+      "generic_empty_region_by_self_floor": false,
+      "null_for_level1": true,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 391,
+          "ci95": [
+            0.17832544403236733,
+            0.21357191213990082
+          ],
+          "n": 2000,
+          "rate": 0.1955
+        },
+        "range_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_row": {
+          "certified_1": 438,
+          "ci95": [
+            0.20104724165561752,
+            0.23778023413677438
+          ],
+          "n": 2000,
+          "rate": 0.219
+        }
+      }
+    },
+    {
+      "case": {
+        "copy_probability": "1",
+        "groups_per_split": 1024,
+        "rows_per_group": 256,
+        "theta": "0.5"
+      },
+      "generic_empty_region_by_self_floor": false,
+      "null_for_level1": true,
+      "range_from_complete_domain": true,
+      "summary": {
+        "generic_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "generic_row": {
+          "certified_1": 835,
+          "ci95": [
+            0.3957716504417961,
+            0.43947059759472873
+          ],
+          "n": 2000,
+          "rate": 0.4175
+        },
+        "range_group": {
+          "certified_1": 0,
+          "ci95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "n": 2000,
+          "rate": 0.0
+        },
+        "range_row": {
+          "certified_1": 836,
+          "ci95": [
+            0.3962672661818319,
+            0.43997351307771515
+          ],
+          "n": 2000,
+          "rate": 0.418
+        }
+      }
+    }
+  ],
+  "copies_paired": true,
+  "interpretation": "Balanced counts have positive null probability. Empirical minimum over simulations is not a proof of an empty rejection region.",
+  "new_independent_stream_pairs": 8000
+}

@@ -4,10 +4,14 @@
   "local_checkout": "/home/satal/bdtp_repo",
   "repository": "Atalebe/bdtp",
   "title": "Finite-Dictionary Tests of Predictive Adequacy for State\u2013History Models",
-  "numerical_scope": "Original core and deterministic tests only",
+  "numerical_scope": "Original main-paper campaigns, stored references, table/figure regeneration and deterministic checks",
   "new_monte_carlo_campaigns_authorized": false,
   "public_release_authorized": false,
   "licence": null,
   "doi": null,
-  "manuscript": "Maintained separately; funding and competing interests confirmed by author; standalone AI-use disclosure deferred in working copy, historical records preserved."
+  "manuscript": "Maintained separately; funding and competing interests confirmed by author; standalone AI-use disclosure deferred in working copy, historical records preserved.",
+  "historical_replay_authorized": true,
+  "remote_visibility_observed": "public",
+  "remote_visibility_check_date": "2026-10-21",
+  "push_status": "HOLD_PUBLIC_VISIBILITY_REQUIRES_CONFIRMATION"
 }

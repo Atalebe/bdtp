@@ -1,0 +1,886 @@
+{
+  "schema": "bdtp.campaign-assets-import.v1",
+  "date": "2026-10-21",
+  "source_chain": [
+    {
+      "archive": "Finite_Dictionary_Predictive_Adequacy_v0_05_Reviewed_Bundle.zip",
+      "sha256": "49fb52caf751ff14b2a8095486b36da4456c490ef8dee2f538a175cc1a308174",
+      "manifest_entries": 142
+    },
+    {
+      "archive": "Finite_Dictionary_Predictive_Adequacy_v0_04_Reviewed_Bundle.zip",
+      "sha256": "e099c4677f6a25add38c4c3242315e66fb9fa06bd287f69052ce6fd8e47fd25e",
+      "manifest_entries": 202
+    },
+    {
+      "archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "sha256": "c2b9318e73db4d3a584836abcc0397ceed7809c10b47da678741c8be86cd214b",
+      "manifest_entries": 385
+    },
+    {
+      "archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "sha256": "c6b24a88d5bf680ee19a0fccde5aa7b057a14c6197858c5293471a432c5a388f",
+      "manifest_entries": 485
+    },
+    {
+      "archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "sha256": "95b7f040e764c3c47826b8a885145a103570842743e58bab2741cebe1d544f34",
+      "manifest_entries": 208
+    },
+    {
+      "archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "sha256": "ede617b3e2b44418846bbf9db7ecae02bdf01a71c457f46c2771bfc6df40e620",
+      "manifest_entries": 12
+    }
+  ],
+  "files": [
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/analysis_src/run_matched.py",
+      "destination": "reference_impl/analysis_src/run_matched.py",
+      "sha256": "09afff46ec37d67a5fef34d135655092270fb3a7d7893e85337ba513932dfe82",
+      "bytes": 5674,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/analysis_src/additional_checks.py",
+      "destination": "reference_impl/analysis_src/additional_checks.py",
+      "sha256": "13e7ec29f09aa55e3d14b143c6cf54f9a7bf32c0b0c418a2b822bd55a6c22da8",
+      "bytes": 5371,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/analysis_src/planning_check.py",
+      "destination": "reference_impl/analysis_src/planning_check.py",
+      "sha256": "f8acace830d096b9f7414f8c0456facefaa69fa73ff2e537dbec486155177f8e",
+      "bytes": 2811,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/contracts/range_sensitivity_plan.json",
+      "destination": "reference_impl/contracts/range_sensitivity_plan.json",
+      "sha256": "c479e47afdf3a8c15a7eb93b0133f4cdf0d95533c74e2b6f4386d18f9847ab7f",
+      "bytes": 1635,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/scripts/run_experiment.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/scripts/run_experiment.py",
+      "sha256": "2c87d14d9bfa0852a6ab6e74aee99aae7d76d5b6249e50386dedbafa5f45d84c",
+      "bytes": 10166,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/scripts/run_experiments.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/scripts/run_experiments.py",
+      "sha256": "10bd30ee9cbdf54300da510f5a6b50f77bb2fdb8e159702516917b2994a9d3c3",
+      "bytes": 14123,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/contracts/development_plan.json",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/contracts/development_plan.json",
+      "sha256": "12a2c58956116ff6a92a2417fa0f7ea2fa8c083c9b711845eab288ce20ff2178",
+      "bytes": 5699,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/evidence/run_002/campaign/summary.json",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/evidence/run_002/campaign/summary.json",
+      "sha256": "b00e95a98a95701da06c3ebce9d7109990d284bdb05d763bd2c652b2afb6f23a",
+      "bytes": 93911,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/evidence/run_002/resources/resource_timings.json",
+      "destination": "reference/resources/generic_timing.json",
+      "sha256": "6b587451797fd0e9a40ae6ead7e78f94198a7403d2f9c87dddc9444286112806",
+      "bytes": 8693,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/constant_gamma_G256.json",
+      "destination": "reference/inference/predictive/constant_gamma_G256.json",
+      "sha256": "e612fb2dc1282bf53e3580c38af6afa12922d8b7f8b9da6ac040efaca98e7662",
+      "bytes": 229415,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/constant_gamma_G4096.json",
+      "destination": "reference/inference/predictive/constant_gamma_G4096.json",
+      "sha256": "6696c013e4be15874bced668d272eb722a6ccebbf4deed27584dd749e6cc853a",
+      "bytes": 232095,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/constant_gamma_G8192.json",
+      "destination": "reference/inference/predictive/constant_gamma_G8192.json",
+      "sha256": "6fd3c1243eabf0ff11d4058246e9f6f226a64ac368b5f2720ba1006de21c6378",
+      "bytes": 232106,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/constant_gamma_fit.json",
+      "destination": "reference/inference/predictive/constant_gamma_fit.json",
+      "sha256": "61a7294fd670a06bad98a7547dca78541cd7b00311379c0019295758d64b77e1",
+      "bytes": 9365,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_moderate_G256.json",
+      "destination": "reference/inference/predictive/history_moderate_G256.json",
+      "sha256": "c362d9249806093a4ffea83aeb19280f7ccd6d3af064253c80b5f4a5dd4b8b29",
+      "bytes": 238378,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_moderate_G4096.json",
+      "destination": "reference/inference/predictive/history_moderate_G4096.json",
+      "sha256": "0bb63795f4a135a4cb81fa3851cb84e7d16bec5e6fddb2b55d7d90273aed9a31",
+      "bytes": 239119,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_moderate_G8192.json",
+      "destination": "reference/inference/predictive/history_moderate_G8192.json",
+      "sha256": "072439f9a8bd9bcfbbb7cbc3b1488fd8790cf17a309f6381deaf9cbed4b441e1",
+      "bytes": 239273,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_moderate_fit.json",
+      "destination": "reference/inference/predictive/history_moderate_fit.json",
+      "sha256": "47d48957dc12d21f8398399adaa2f9e158ef16cab4a78a573f4f815195b23704",
+      "bytes": 11284,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_strong_G256.json",
+      "destination": "reference/inference/predictive/history_strong_G256.json",
+      "sha256": "61584c70f4f8cc57f398664fc2156e7ac595de3f77780950fe8da6fac78fe373",
+      "bytes": 237403,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_strong_G4096.json",
+      "destination": "reference/inference/predictive/history_strong_G4096.json",
+      "sha256": "169a15f039f01aad7d2ede4955377888f6da140c615ff8d73375fb539744bf3c",
+      "bytes": 238036,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_strong_G8192.json",
+      "destination": "reference/inference/predictive/history_strong_G8192.json",
+      "sha256": "4b66872c4ae1b7896eef6d79da647bc2c3fb38da06886c4d6f862826755c1706",
+      "bytes": 238144,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/history_strong_fit.json",
+      "destination": "reference/inference/predictive/history_strong_fit.json",
+      "sha256": "e9f0c53408db9d39c3f66e434b1e0e781cdf0c71473da42173c911289e6f42a4",
+      "bytes": 11037,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/summary.json",
+      "destination": "reference/inference/predictive/summary.json",
+      "sha256": "c8085e8b7eaef16bd79f38e40df344cab1778b45215327f9e4cd055c58a94020",
+      "bytes": 86426,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/summary_only_G256.json",
+      "destination": "reference/inference/predictive/summary_only_G256.json",
+      "sha256": "a7ab2353d58f0c29860a0229f7cd8c6b713418a7b12c53ee28b3b67a70be1340",
+      "bytes": 224462,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/summary_only_G4096.json",
+      "destination": "reference/inference/predictive/summary_only_G4096.json",
+      "sha256": "410a48b3f73239ce26cfcf1b3680f801d400a6ffaaea37262cb47607e250f315",
+      "bytes": 226701,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/summary_only_G8192.json",
+      "destination": "reference/inference/predictive/summary_only_G8192.json",
+      "sha256": "6b876d572f5529b09867d09e6ceaf15c79537b830a830ea6db01980a2b3d54be",
+      "bytes": 226691,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/summary_only_fit.json",
+      "destination": "reference/inference/predictive/summary_only_fit.json",
+      "sha256": "131c115576a9ce20728e9eddf290171c1a6426e0547d1c049db431d652ecd9e4",
+      "bytes": 11269,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/truncated_strong_G256.json",
+      "destination": "reference/inference/predictive/truncated_strong_G256.json",
+      "sha256": "37245793548685a56641f035ba38558bf88743443b2f012c2b48a8991e07cf91",
+      "bytes": 237202,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/truncated_strong_G4096.json",
+      "destination": "reference/inference/predictive/truncated_strong_G4096.json",
+      "sha256": "2f670336084cee2760a93df5693d3988affa79c5276a35b0326fdd15bacfd27c",
+      "bytes": 237839,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/truncated_strong_G8192.json",
+      "destination": "reference/inference/predictive/truncated_strong_G8192.json",
+      "sha256": "cdb86733665253e516c2da705ed7946ad2f0ef7c4f59db34fdd2614938875d76",
+      "bytes": 238086,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/predictive/truncated_strong_fit.json",
+      "destination": "reference/inference/predictive/truncated_strong_fit.json",
+      "sha256": "c1b1d3903b36d95cc78402412c022e50d4810132b1a3310977bce2a39a426136",
+      "bytes": 11021,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/inverse/sbc_constant_G16_M4.json",
+      "destination": "reference/inference/inverse/sbc_constant_G16_M4.json",
+      "sha256": "cc1376df2b001541fcaa69579f3d500b95a9d665c7e333ab28fd2f8192078030",
+      "bytes": 775683,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/inverse/sbc_excited_G32_M4.json",
+      "destination": "reference/inference/inverse/sbc_excited_G32_M4.json",
+      "sha256": "0f0f9456aa981f562a082a4171dcbd262dd1a9ba07ce996a91ca3956acc96fd6",
+      "bytes": 778861,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/inverse/sbc_excited_G8_M4.json",
+      "destination": "reference/inference/inverse/sbc_excited_G8_M4.json",
+      "sha256": "77718ce0dbe5798e1d285c0202600bcec1953150ace8d8f6868e3eeac61a747c",
+      "bytes": 784146,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/inverse/sbc_shared_G8_M16.json",
+      "destination": "reference/inference/inverse/sbc_shared_G8_M16.json",
+      "sha256": "d85ef0601d6dd4b15d0b72f29cb1974c0626cca44a9f65d09b113b1fa19c4cf0",
+      "bytes": 778852,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/inverse/sbc_summary_G16_M4.json",
+      "destination": "reference/inference/inverse/sbc_summary_G16_M4.json",
+      "sha256": "ef62c4bdd8508003dd4bb32b2709749227dd145940d6d4d516642046103f1b6a",
+      "bytes": 773973,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/inverse/sbc_truncated_G16_M4.json",
+      "destination": "reference/inference/inverse/sbc_truncated_G16_M4.json",
+      "sha256": "693c4664a0f16a4dd9a857a6ba0f65db6436f1e79a572f6c728a97b1fa0ff3ed",
+      "bytes": 1049163,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/inverse/summary.json",
+      "destination": "reference/inference/inverse/summary.json",
+      "sha256": "3df06db41e00882a03749bd2f61cccbb55c0ffa9eb1bb84fc563d876f1f0add5",
+      "bytes": 35266,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/evidence/development_final/numerical/high_precision_checks.json",
+      "destination": "reference/inference/numerical/high_precision_checks.json",
+      "sha256": "212d240263a6c3b8ccf7abf83d4a3ba90b53dec51fbefb8c3ea903949dda420a",
+      "bytes": 5453,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/src/dependence_core.py",
+      "destination": "reference_impl/work/dep_parent/NMCD_PC_DEP_001_v0_1/src/dependence_core.py",
+      "sha256": "19a970763a39d04434f09d108c0a9c1909a7a02d55097967d3532166239516e2",
+      "bytes": 9730,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/scripts/calibrate_dependence.py",
+      "destination": "reference_impl/work/dep_parent/NMCD_PC_DEP_001_v0_1/scripts/calibrate_dependence.py",
+      "sha256": "17deb49f2c113fd33c68b468aa256fd7207566f8d6384240e9a3c2809cd549e3",
+      "bytes": 9389,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/scripts/exact_duplicate_audit.py",
+      "destination": "reference_impl/work/dep_parent/NMCD_PC_DEP_001_v0_1/scripts/exact_duplicate_audit.py",
+      "sha256": "5a82f511b0b49786f4429c5ea227ca8b1c5f20109894cfe75b6ba5e03d1aab6d",
+      "bytes": 3024,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/contracts/development_plan.json",
+      "destination": "reference_impl/work/dep_parent/NMCD_PC_DEP_001_v0_1/contracts/development_plan.json",
+      "sha256": "c8d2bb22b9422a6a440792de48eb7d295f45c6ca7c10d5715d452805494ce9b0",
+      "bytes": 14972,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/evidence/development_run/calibration/all_cases.json",
+      "destination": "reference/dependence_original/all_cases.json",
+      "sha256": "29f4744e304bd77fa43733b3c01c721a7136a9b79f13bccf2b19985fac8cd526",
+      "bytes": 351172,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/evidence/development_run/calibration/summary.json",
+      "destination": "reference/dependence_original/summary.json",
+      "sha256": "0d866c56be4f7e9714eac50c6860c7bb3469d789a2e07684113e03caa77adf67",
+      "bytes": 31631,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/constant_gamma_N16384_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/constant_gamma_N16384_T64.json",
+      "sha256": "904dc701f4d27027972079f5e60a13765d4818fe2162500c873cec050c03c688",
+      "bytes": 664457,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_moderate_N16384_T4096.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_moderate_N16384_T4096.json",
+      "sha256": "587339e8acc5522d76062b34d2e6a5462fb3a20891ffe7504ebd09df2d2670a4",
+      "bytes": 1368963,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_moderate_N16384_T512.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_moderate_N16384_T512.json",
+      "sha256": "3813c4dddc7a6614371a35808b4ab52ce78945b751917fa4c6f3fd0009a8bac3",
+      "bytes": 1389632,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_moderate_N16384_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_moderate_N16384_T64.json",
+      "sha256": "870a23dec440e1c7cee4cdc3d869dd686800439ee23306cfe21c8336802e3b99",
+      "bytes": 1427714,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_moderate_N32768_T4096.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_moderate_N32768_T4096.json",
+      "sha256": "3694945f525090c6caa8b61d9ac4233f4c81173892154031e89268d90857b1c9",
+      "bytes": 1365900,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_moderate_N32768_T512.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_moderate_N32768_T512.json",
+      "sha256": "07574328dde6675688dfe74e248b5a79292d346f971a09c2e58375a5fd8af4d1",
+      "bytes": 1389143,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_moderate_N32768_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_moderate_N32768_T64.json",
+      "sha256": "cc138bd132eb44fe07e66419c2c318912c030499dbcda88296b4264f29f563c5",
+      "bytes": 1426019,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_strong_N16384_T4096.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_strong_N16384_T4096.json",
+      "sha256": "a58eeac76fe17f17c48186b3f7e06a069436a5ff1c98707c02d3cf9e85456748",
+      "bytes": 1362479,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_strong_N16384_T512.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_strong_N16384_T512.json",
+      "sha256": "8723c3e0a2277bf7efedfa607970071e0206b1017c1604992ca00d282e36709e",
+      "bytes": 1362140,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_strong_N16384_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_strong_N16384_T64.json",
+      "sha256": "9e985ec1bd5dcf0bdb636c49b4333ba3cfb8a51a2ee56f9a3499400c6a83a875",
+      "bytes": 1414064,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_strong_N32768_T4096.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_strong_N32768_T4096.json",
+      "sha256": "8660e2501674c5bdd6aa92b888b9c39ee5f5580cea5f75cb48713936eb5515ea",
+      "bytes": 1362408,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_strong_N32768_T512.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_strong_N32768_T512.json",
+      "sha256": "fd663473dd807aab1dca98c9d65f86a60d0a4a3842f98c1950873463f35ffe50",
+      "bytes": 1363323,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/history_strong_N32768_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/history_strong_N32768_T64.json",
+      "sha256": "e99ba360a48475e5a5ff3b7884314595a96600ed941f1eba97c76d4d00d2a3aa",
+      "bytes": 1413636,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/summary_only_N16384_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/summary_only_N16384_T64.json",
+      "sha256": "bf92100208cd4d24f27cbfa60eabfe7e0e1199d2ed3be96c57e62f3e56028ebe",
+      "bytes": 685941,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/truncated_strong_N16384_T4096.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/truncated_strong_N16384_T4096.json",
+      "sha256": "7defb24d5a038ce74c1a17d2229dbc947010a5b5aa1747c61f3cd855dde92606",
+      "bytes": 1363515,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/truncated_strong_N16384_T512.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/truncated_strong_N16384_T512.json",
+      "sha256": "d090cec9e0d6163ca1f03374804586a7ecab2329cdac10a2714b8f765660aa75",
+      "bytes": 1365375,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/truncated_strong_N16384_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/truncated_strong_N16384_T64.json",
+      "sha256": "f2957da2ab983a745c60341cb905312c1ba1e594661465f3e1aefda348b9c2a3",
+      "bytes": 1422346,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/truncated_strong_N32768_T4096.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/truncated_strong_N32768_T4096.json",
+      "sha256": "c2d2f3396e9e4b7feefc97a59201720a3559e9b10c3677b42dae415ce6b4f34e",
+      "bytes": 1363028,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/truncated_strong_N32768_T512.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/truncated_strong_N32768_T512.json",
+      "sha256": "c2e725acd69cee352b74d2b67d23704edc23f1046ee5c3379ffc7ad3ecd8c426",
+      "bytes": 1366332,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/cells/truncated_strong_N32768_T64.json",
+      "destination": "reference_impl/evidence/matched_run01/cells/truncated_strong_N32768_T64.json",
+      "sha256": "09b7d796db5c16ba22b5a3fbcc414b347e847d11a3d6197bc07770b58f618b84",
+      "bytes": 1422070,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/summary.json",
+      "destination": "reference_impl/evidence/matched_run01/summary.json",
+      "sha256": "399178bc5753e7fc7b638f0e2543c967978780edcc8a072af0a4e42f30a20d55",
+      "bytes": 96236,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/matched_run01/fits.json",
+      "destination": "reference_impl/evidence/matched_run01/fits.json",
+      "sha256": "69c321eac0e279317e7cc0ae668eb274ad2db4e017327f0f98d3c49b9ea0c8bc",
+      "bytes": 2862159,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/summary.json",
+      "destination": "reference_impl/evidence/additional01/dep/summary.json",
+      "sha256": "8ad9029b6bbf5e0aa85abca81b77be9ab040b4423d1b35379449bc5f9789f09d",
+      "bytes": 13418,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.0_G1024_m1.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.0_G1024_m1.json",
+      "sha256": "040ef7b652d7398c2661389a4a20ea7015c111262b7584c46392b9b8ef22a6cc",
+      "bytes": 2661673,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.0_G1024_m16.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.0_G1024_m16.json",
+      "sha256": "f43cbf3bd8b0c78905a60e5155a269e26d091c67aea24d605a7dc4ce2bbe9ab7",
+      "bytes": 2591026,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.0_G1024_m256.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.0_G1024_m256.json",
+      "sha256": "b6f9123b121c5df67a405283d0bf8ee8d6ded70903552e2766f6708a8a74e41b",
+      "bytes": 2560487,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.0_G256_m1.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.0_G256_m1.json",
+      "sha256": "6153e685a06b92c5bf647420699bb489d42c18b2e78b8612cd80a29cb7876b17",
+      "bytes": 2650141,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.0_G256_m16.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.0_G256_m16.json",
+      "sha256": "cde30f4648e4250e4f151f34848b9cb241d6338a236173761c6898392f822070",
+      "bytes": 2653898,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.0_G256_m256.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.0_G256_m256.json",
+      "sha256": "e09edecf6b907e6859b7be7819a6a09a5eb0d6c3947220af247aefc1e7280ef9",
+      "bytes": 2634480,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.5_G1024_m1.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.5_G1024_m1.json",
+      "sha256": "ce41620def71d1a23f04df7c84e2e95746d83a9e7480ff5ee3e09a8f3661b569",
+      "bytes": 2647815,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.5_G1024_m16.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.5_G1024_m16.json",
+      "sha256": "37a8c4e079a114c2647c9c8517b2a761fc4faeccb139d270605dc7b2720b34e6",
+      "bytes": 2607433,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.5_G1024_m256.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.5_G1024_m256.json",
+      "sha256": "7f91c6e2bb759e94a7fb50b4f905fbb44108c662f1d489dc485ef158771fd455",
+      "bytes": 2596278,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.5_G256_m1.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.5_G256_m1.json",
+      "sha256": "66895ac1e784185bf40043bde4b3756bd4777b8930130f7104584509ba7043e6",
+      "bytes": 2644439,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.5_G256_m16.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.5_G256_m16.json",
+      "sha256": "4b03db737ce70fc9c44b6ffbe1ad8f30c87d652aad5dbc4b95a89330313201da",
+      "bytes": 2646142,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/additional01/dep/theta0.5_G256_m256.json",
+      "destination": "reference_impl/evidence/additional01/dep/theta0.5_G256_m256.json",
+      "sha256": "e9cf8d7655987e19e94071392361d132a12c635cabfa9f64f1b641fe9de90a45",
+      "bytes": 2637275,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/power_final/power.json",
+      "destination": "reference_impl/evidence/power_final/power.json",
+      "sha256": "04f685be380f89d9e1592c14a11fb6c7de0d372366f605426e1fc13aa42138c2",
+      "bytes": 37662,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/manuscript/data/reference_risks.json",
+      "destination": "reference/reference_risks.json",
+      "sha256": "c383d8b4c34def34bde54ee8284de7b6c2b58609c14c3e12c8c0ce974282c5e4",
+      "bytes": 2328,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_04_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_04/evidence/planning_audit.json",
+      "destination": "reference/planning_audit.json",
+      "sha256": "9c7721d74bc6f2aa3ba8b48b4ffc40e6a7804777bb91aefbff1f2f6f1047eb90",
+      "bytes": 36760,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_04_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_04/scripts/audit_math.py",
+      "destination": "experiments/original/planning_audit.py",
+      "sha256": "7b61aa24880d75e1408bce76e8c94c9aa98091fdfabc0577ca28115a82443c68",
+      "bytes": 4523,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/scripts/complete_results.py",
+      "destination": "experiments/original/complete_results.py",
+      "sha256": "851d06cde1101a11a29992f5e13309f8275facd27e5e198ae17eaf55b43ba04f",
+      "bytes": 6806,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/figures/binomial_power.pdf",
+      "destination": "reference/paper_assets/figures/binomial_power.pdf",
+      "sha256": "679421ef6259e74726ae00ff94c50558ab96038bb7f7db16c77b8d08a9272b61",
+      "bytes": 16687,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/figures/class_and_fit.pdf",
+      "destination": "reference/paper_assets/figures/class_and_fit.pdf",
+      "sha256": "b9f734f4db25d41ee3b648b8445f9dcf6af8148b2a3a6cf1a34804c38579b86f",
+      "bytes": 16021,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/figures/range_allocation.pdf",
+      "destination": "reference/paper_assets/figures/range_allocation.pdf",
+      "sha256": "88dd80eaf0c0af84579ab6ded15009b132305d365c6599a00625e39d9b252107",
+      "bytes": 17736,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/figures/variance_inclusive_planning.pdf",
+      "destination": "reference/paper_assets/figures/variance_inclusive_planning.pdf",
+      "sha256": "e15df897764ce7e78acf6bc1eb34604d3b7b3b3336fbc323a3120c5a3ff7f288",
+      "bytes": 18689,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/generated/all_remaining_table.tex",
+      "destination": "reference/paper_assets/generated/all_remaining_table.tex",
+      "sha256": "47a0681142cf7b721de34b6b84a4b35552262f8111e5f41e6267861010a0d362",
+      "bytes": 1685,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/generated/allocation_table.tex",
+      "destination": "reference/paper_assets/generated/allocation_table.tex",
+      "sha256": "2713205cf79eeabf52c9d7297016e61de3a93ea136f399bfa3d6b34d1cb1621d",
+      "bytes": 975,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/generated/attained_error_table.tex",
+      "destination": "reference/paper_assets/generated/attained_error_table.tex",
+      "sha256": "3893d5d62bc9bd6d204c22a554d54180379e944091561d2d8d299d3161c9d21f",
+      "bytes": 784,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_Author_Copy_Source.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy/generated/dependence_table.tex",
+      "destination": "reference/paper_assets/generated/dependence_table.tex",
+      "sha256": "6b283c002f3f34e3b95a1e3c1fb59211f2fc4999b2f485fb069eac0300398f92",
+      "bytes": 1099,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/vendor/v03/src/nmcd_pc.py",
+      "destination": "reference_impl/work/dep_parent/NMCD_PC_DEP_001_v0_1/vendor/v03/src/nmcd_pc.py",
+      "sha256": "77cdf1426cb74bc62be2016cc7b411e24064c63154f081965be49fe1b7b25c18",
+      "bytes": 14042,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/vendor/v03/src/nmcd_review_extensions.py",
+      "destination": "reference_impl/work/dep_parent/NMCD_PC_DEP_001_v0_1/vendor/v03/src/nmcd_review_extensions.py",
+      "sha256": "1c8d2249b3839a3a035b44a7135ad8570c1ed49ab4e91732c653a1e6bab50555",
+      "bytes": 3384,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/scripts/run_extensions.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/scripts/run_extensions.py",
+      "sha256": "0d81fa786c184cfa82bd8329fb801a96723a63e900510b919be1287f56055f76",
+      "bytes": 7604,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/contracts/review_plan.json",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/contracts/review_plan.json",
+      "sha256": "0473c9f32509883aa9da384a6ba855dd5f28367847fdfca4f922e688fad498d7",
+      "bytes": 3153,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/history_moderate_G16384.json",
+      "destination": "reference/inference/classes/history_moderate_G16384.json",
+      "sha256": "4bd2e55dfc9bce46ea15d50d7a7b5fbb82b79b00e0069accab764a939c47c580",
+      "bytes": 107970,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/history_moderate_G32768.json",
+      "destination": "reference/inference/classes/history_moderate_G32768.json",
+      "sha256": "fa7396227e1482b3a062da0525dd5cfc41a49a3aa690caf17fb5d362f6437111",
+      "bytes": 108036,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/history_strong_G16384.json",
+      "destination": "reference/inference/classes/history_strong_G16384.json",
+      "sha256": "1740d04dda7a6f7d3c4bdf8a706fdde4e90090eab0dd866a026b187f64cf63b3",
+      "bytes": 107868,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/history_strong_G32768.json",
+      "destination": "reference/inference/classes/history_strong_G32768.json",
+      "sha256": "da17c9e2a7d4ecca8670b56b274ddf3d9be3120e0e709ad664f6e6cbd606e486",
+      "bytes": 107902,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/summary.json",
+      "destination": "reference/inference/classes/summary.json",
+      "sha256": "db305d34c274c0a6013c8c11e3d70e91a46d4c3558cac8330ad78b0d94362dba",
+      "bytes": 16583,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/truncated_strong_G16384.json",
+      "destination": "reference/inference/classes/truncated_strong_G16384.json",
+      "sha256": "2fb4c430fa7fa824c4e6b80445e357570013fdcee611588c4b1f7a62c531d94a",
+      "bytes": 107869,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/truncated_strong_G32768.json",
+      "destination": "reference/inference/classes/truncated_strong_G32768.json",
+      "sha256": "3ea116e550c21f059e9e5d8ad2686773eb3c4be6500a143453255128de46c408",
+      "bytes": 107964,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/evidence/extensions/classes/truncated_strong_G65536.json",
+      "destination": "reference/inference/classes/truncated_strong_G65536.json",
+      "sha256": "590d1b479439876c630411fbc4ccf4f507d5560f65506135e447759eb20f9176",
+      "bytes": 108153,
+      "source_bytes_changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/contracts/PLAN_SHA256.txt",
+      "destination": "reference_impl/work/dep_parent/NMCD_PC_DEP_001_v0_1/contracts/PLAN_SHA256.txt",
+      "sha256": "f01f36d659d1f35134445234c406169bd3eed39b3df326bf9d1c1af3b807a516",
+      "bytes": 88,
+      "source_bytes_changed": false
+    }
+  ],
+  "source_bytes_changed": false,
+  "scope": "Original main-paper campaigns and stored results; manuscript and external reconstructions excluded",
+  "performance_replay_in_this_import": false,
+  "licence": null,
+  "doi": null,
+  "packaging_note": "Two original vendored modules required by the standalone original-dependence driver were added before final qualification. Main paper drivers already resolved these modules through the fitting core. No numerical source changed.",
+  "coverage_note": "Also includes the original 700-batch class-selection extension cited in the main text, distinct from external reviewer reconstruction.",
+  "packaging_repair": "The first original-dependence launch stopped before simulation because its original PLAN_SHA256.txt was missing from import/staging. The unchanged archived checksum file was restored and .txt staging enabled. Failure preserved; no source, seeds or thresholds changed."
+}

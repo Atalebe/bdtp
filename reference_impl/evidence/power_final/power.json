@@ -1,0 +1,1629 @@
+{
+  "no_Monte_Carlo": true,
+  "predictors": "p=.5; q=.5+.25U; no training, no finite-class selector",
+  "probabilities": "finite binomial sums; rejection masks at 80-digit arithmetic, all probability weights summed with exact integer arithmetic; not interval-certified",
+  "rational_crosschecks": [
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "0"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 1.9173551635276453e-13,
+      "rational_float": 0.9999928067136424,
+      "rule": "range",
+      "theta": "0"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "1/5"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 1.6997514507011147e-13,
+      "rational_float": 0.8721938120143187,
+      "rule": "range",
+      "theta": "1/5"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "1/4"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 1.2112533198660458e-13,
+      "rational_float": 0.624688272709598,
+      "rule": "range",
+      "theta": "1/4"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "3/10"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 5.706546346573305e-14,
+      "rational_float": 0.3030105657191253,
+      "rule": "range",
+      "theta": "3/10"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "7/20"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 1.5931700403370996e-14,
+      "rational_float": 0.08562718962146568,
+      "rule": "range",
+      "theta": "7/20"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "2/5"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 2.5240226575462543e-15,
+      "rational_float": 0.01240270283042562,
+      "rule": "range",
+      "theta": "2/5"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "9/20"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 1.7444812955291766e-16,
+      "rational_float": 0.0008152296839204062,
+      "rule": "range",
+      "theta": "9/20"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "47/100"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 4.4967285103836296e-17,
+      "rational_float": 0.00021358789577854655,
+      "rule": "range",
+      "theta": "47/100"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "49/100"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 1.0144066576317501e-17,
+      "rational_float": 4.781037839621728e-05,
+      "rule": "range",
+      "theta": "49/100"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "1/2"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 4.6485168145316e-18,
+      "rational_float": 2.1253017800246196e-05,
+      "rule": "range",
+      "theta": "1/2"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "51/100"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 1.8550021544869177e-18,
+      "rational_float": 9.045597685543252e-06,
+      "rule": "range",
+      "theta": "51/100"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "11/20"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 3.8619408438875756e-20,
+      "rational_float": 1.8607012387035771e-07,
+      "rule": "range",
+      "theta": "11/20"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "3/5"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 8.97490964620035e-23,
+      "rational_float": 4.3873918792822404e-10,
+      "rule": "range",
+      "theta": "3/5"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "3/4"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 9.245263069217291e-36,
+      "rational_float": 4.3912940522087777e-23,
+      "rule": "range",
+      "theta": "3/4"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "1"
+    },
+    {
+      "G": 256,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "range",
+      "theta": "1"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 5.226929999935237e-13,
+      "rational_float": 1.0,
+      "rule": "generic",
+      "theta": "0"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 5.226929999935237e-13,
+      "rational_float": 1.0,
+      "rule": "range",
+      "theta": "0"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.092282068768327e-13,
+      "rational_float": 0.9999997725491688,
+      "rule": "generic",
+      "theta": "1/5"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.0889513996944515e-13,
+      "rational_float": 0.9999999999956933,
+      "rule": "range",
+      "theta": "1/5"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.743982984223294e-13,
+      "rational_float": 0.9996878631874849,
+      "rule": "generic",
+      "theta": "1/4"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.740652315149418e-13,
+      "rational_float": 0.9999999076251127,
+      "rule": "range",
+      "theta": "1/4"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.1444625509257094e-13,
+      "rational_float": 0.9616175439337548,
+      "rule": "generic",
+      "theta": "3/10"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.3243186809149847e-13,
+      "rational_float": 0.9998240487288863,
+      "rule": "range",
+      "theta": "3/10"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.98507876802978e-13,
+      "rational_float": 0.5330197942847978,
+      "rule": "generic",
+      "theta": "7/20"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.0456527017340704e-13,
+      "rational_float": 0.9712051722460733,
+      "rule": "range",
+      "theta": "7/20"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.8186840922140846e-14,
+      "rational_float": 0.049514971548141266,
+      "rule": "generic",
+      "theta": "2/5"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 2.5224267119483557e-13,
+      "rational_float": 0.5713094141103544,
+      "rule": "range",
+      "theta": "2/5"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.0625181290357943e-16,
+      "rational_float": 0.00029183806160195866,
+      "rule": "generic",
+      "theta": "9/20"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 2.536165721878092e-14,
+      "rational_float": 0.05536894107327174,
+      "rule": "range",
+      "theta": "9/20"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 5.0330697725850526e-18,
+      "rational_float": 1.4969071653557687e-05,
+      "rule": "generic",
+      "theta": "47/100"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.381911500317415e-15,
+      "rational_float": 0.010082500702115386,
+      "rule": "range",
+      "theta": "47/100"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.5648933700523199e-19,
+      "rational_float": 4.3008965061835487e-07,
+      "rule": "generic",
+      "theta": "49/100"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 4.505944228849756e-16,
+      "rational_float": 0.0010929651531097668,
+      "rule": "range",
+      "theta": "49/100"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 2.028246861980024e-20,
+      "rational_float": 5.795392347826914e-08,
+      "rule": "generic",
+      "theta": "1/2"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.1720225484568303e-16,
+      "rational_float": 0.0002920898527299752,
+      "rule": "range",
+      "theta": "1/2"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 2.149015231412766e-21,
+      "rational_float": 6.655574956172708e-09,
+      "rule": "generic",
+      "theta": "51/100"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 2.5438093471941148e-17,
+      "rational_float": 6.742316819850349e-05,
+      "rule": "range",
+      "theta": "51/100"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 6.558274021645404e-26,
+      "rational_float": 2.0886955513556698e-13,
+      "rule": "generic",
+      "theta": "11/20"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.3062836233437413e-20,
+      "rational_float": 3.9431652829847575e-08,
+      "rule": "range",
+      "theta": "11/20"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.4354196616761117e-33,
+      "rational_float": 6.27437619006109e-21,
+      "rule": "generic",
+      "theta": "3/5"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.57645963299367e-26,
+      "rational_float": 6.301867889047854e-14,
+      "rule": "range",
+      "theta": "3/5"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 1.3671054822714506e-74,
+      "rational_float": 6.273735713787641e-62,
+      "rule": "generic",
+      "theta": "3/4"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 2.5159456299165163e-61,
+      "rational_float": 2.0964946126679513e-48,
+      "rule": "range",
+      "theta": "3/4"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "1"
+    },
+    {
+      "G": 1024,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "range",
+      "theta": "1"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 2.4575896873102465e-12,
+      "rational_float": 1.0,
+      "rule": "generic",
+      "theta": "0"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 2.4575896873102465e-12,
+      "rational_float": 1.0,
+      "rule": "range",
+      "theta": "0"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 4.248157381425699e-12,
+      "rational_float": 1.0,
+      "rule": "generic",
+      "theta": "1/5"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 4.247269203005999e-12,
+      "rational_float": 1.0,
+      "rule": "range",
+      "theta": "1/5"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 4.543920795185841e-12,
+      "rational_float": 1.0,
+      "rule": "generic",
+      "theta": "1/4"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 4.543920795185841e-12,
+      "rational_float": 1.0,
+      "rule": "range",
+      "theta": "1/4"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 4.201083925181592e-12,
+      "rational_float": 1.0,
+      "rule": "generic",
+      "theta": "3/10"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 4.201083925181592e-12,
+      "rational_float": 1.0,
+      "rule": "range",
+      "theta": "3/10"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 3.718025887167187e-12,
+      "rational_float": 0.9999999999770964,
+      "rule": "generic",
+      "theta": "7/20"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 3.718358954074574e-12,
+      "rational_float": 0.9999999999999711,
+      "rule": "range",
+      "theta": "7/20"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 3.963496197911809e-12,
+      "rational_float": 0.9992334541133475,
+      "rule": "generic",
+      "theta": "2/5"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 3.966826866985684e-12,
+      "rational_float": 0.9999798105074954,
+      "rule": "range",
+      "theta": "2/5"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 1.3724577030416185e-12,
+      "rational_float": 0.36102467618601264,
+      "rule": "generic",
+      "theta": "9/20"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 2.90878432451791e-12,
+      "rational_float": 0.7222944215838722,
+      "rule": "range",
+      "theta": "9/20"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 1.3376105778561964e-13,
+      "rational_float": 0.03580245543284707,
+      "rule": "generic",
+      "theta": "47/100"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 7.726874695634933e-13,
+      "rational_float": 0.19694495748789786,
+      "rule": "range",
+      "theta": "47/100"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 2.047298962304378e-15,
+      "rational_float": 0.0005354667712372638,
+      "rule": "generic",
+      "theta": "49/100"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 3.7837788458006116e-14,
+      "rational_float": 0.010215353198042107,
+      "rule": "range",
+      "theta": "49/100"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 1.154641432379172e-16,
+      "rational_float": 2.9653413856560067e-05,
+      "rule": "generic",
+      "theta": "1/2"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 4.049495114233359e-15,
+      "rational_float": 0.0011040221642034994,
+      "rule": "range",
+      "theta": "1/2"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 3.613654311223659e-18,
+      "rational_float": 9.36421982425462e-07,
+      "rule": "generic",
+      "theta": "51/100"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 2.4271220883803624e-16,
+      "rational_float": 6.953190475127983e-05,
+      "rule": "range",
+      "theta": "51/100"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 8.488143340178087e-27,
+      "rational_float": 2.154936684312864e-15,
+      "rule": "generic",
+      "theta": "11/20"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 9.350210537403609e-24,
+      "rational_float": 2.9904721529224706e-12,
+      "rule": "range",
+      "theta": "11/20"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 2.5978759811271804e-44,
+      "rational_float": 6.620981882774456e-33,
+      "rule": "generic",
+      "theta": "3/5"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 1.1863280695096755e-39,
+      "rational_float": 4.992836683401665e-28,
+      "rule": "range",
+      "theta": "3/5"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 1.898950120135042e-161,
+      "rational_float": 4.388755383038523e-150,
+      "rule": "generic",
+      "theta": "3/4"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 7.676124280551253e-151,
+      "rational_float": 1.1557784643549499e-138,
+      "rule": "range",
+      "theta": "3/4"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "generic",
+      "theta": "1"
+    },
+    {
+      "G": 4096,
+      "numeric_difference": 0.0,
+      "rational_float": 0.0,
+      "rule": "range",
+      "theta": "1"
+    }
+  ],
+  "records": [
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "0",
+      "theta_float": 0.0,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.9999928067136424,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "0",
+      "theta_float": 0.0,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "1/5",
+      "theta_float": 0.2,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.8721938120143187,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "1/5",
+      "theta_float": 0.2,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "1/4",
+      "theta_float": 0.25,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.624688272709598,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "1/4",
+      "theta_float": 0.25,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.2,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "3/10",
+      "theta_float": 0.3,
+      "true_gap": 0.0125,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.2,
+      "probability": 0.3030105657191253,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "3/10",
+      "theta_float": 0.3,
+      "true_gap": 0.0125,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.4,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "7/20",
+      "theta_float": 0.35,
+      "true_gap": 0.025,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.4,
+      "probability": 0.08562718962146568,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "7/20",
+      "theta_float": 0.35,
+      "true_gap": 0.025,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.6,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "2/5",
+      "theta_float": 0.4,
+      "true_gap": 0.0375,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.6,
+      "probability": 0.01240270283042562,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "2/5",
+      "theta_float": 0.4,
+      "true_gap": 0.0375,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.8,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "9/20",
+      "theta_float": 0.45,
+      "true_gap": 0.05,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.8,
+      "probability": 0.0008152296839204062,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "9/20",
+      "theta_float": 0.45,
+      "true_gap": 0.05,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.88,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "47/100",
+      "theta_float": 0.47,
+      "true_gap": 0.055,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.88,
+      "probability": 0.00021358789577854655,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "47/100",
+      "theta_float": 0.47,
+      "true_gap": 0.055,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.96,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "49/100",
+      "theta_float": 0.49,
+      "true_gap": 0.06,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 0.96,
+      "probability": 4.781037839621728e-05,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "49/100",
+      "theta_float": 0.49,
+      "true_gap": 0.06,
+      "true_null": false
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.0,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "1/2",
+      "theta_float": 0.5,
+      "true_gap": 0.0625,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.0,
+      "probability": 2.1253017800246196e-05,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "1/2",
+      "theta_float": 0.5,
+      "true_gap": 0.0625,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.04,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "51/100",
+      "theta_float": 0.51,
+      "true_gap": 0.065,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.04,
+      "probability": 9.045597685543252e-06,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "51/100",
+      "theta_float": 0.51,
+      "true_gap": 0.065,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.2,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "11/20",
+      "theta_float": 0.55,
+      "true_gap": 0.075,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.2,
+      "probability": 1.8607012387035771e-07,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "11/20",
+      "theta_float": 0.55,
+      "true_gap": 0.075,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.4,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "3/5",
+      "theta_float": 0.6,
+      "true_gap": 0.0875,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 1.4,
+      "probability": 4.3873918792822404e-10,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "3/5",
+      "theta_float": 0.6,
+      "true_gap": 0.0875,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 2.0,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "3/4",
+      "theta_float": 0.75,
+      "true_gap": 0.125,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 2.0,
+      "probability": 4.3912940522087777e-23,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "3/4",
+      "theta_float": 0.75,
+      "true_gap": 0.125,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 3.0,
+      "probability": 0.0,
+      "rejection_counts": 0,
+      "rule": "generic",
+      "theta": "1",
+      "theta_float": 1.0,
+      "true_gap": 0.1875,
+      "true_null": true
+    },
+    {
+      "G": 256,
+      "gap_over_epsilon": 3.0,
+      "probability": 0.0,
+      "rejection_counts": 163,
+      "rule": "range",
+      "theta": "1",
+      "theta_float": 1.0,
+      "true_gap": 0.1875,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "0",
+      "theta_float": 0.0,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "0",
+      "theta_float": 0.0,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.9999997725491688,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "1/5",
+      "theta_float": 0.2,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.9999999999956933,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "1/5",
+      "theta_float": 0.2,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.9996878631874849,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "1/4",
+      "theta_float": 0.25,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.0,
+      "probability": 0.9999999076251127,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "1/4",
+      "theta_float": 0.25,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.2,
+      "probability": 0.9616175439337548,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "3/10",
+      "theta_float": 0.3,
+      "true_gap": 0.0125,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.2,
+      "probability": 0.9998240487288863,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "3/10",
+      "theta_float": 0.3,
+      "true_gap": 0.0125,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.4,
+      "probability": 0.5330197942847978,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "7/20",
+      "theta_float": 0.35,
+      "true_gap": 0.025,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.4,
+      "probability": 0.9712051722460733,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "7/20",
+      "theta_float": 0.35,
+      "true_gap": 0.025,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.6,
+      "probability": 0.049514971548141266,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "2/5",
+      "theta_float": 0.4,
+      "true_gap": 0.0375,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.6,
+      "probability": 0.5713094141103544,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "2/5",
+      "theta_float": 0.4,
+      "true_gap": 0.0375,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.8,
+      "probability": 0.00029183806160195866,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "9/20",
+      "theta_float": 0.45,
+      "true_gap": 0.05,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.8,
+      "probability": 0.05536894107327174,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "9/20",
+      "theta_float": 0.45,
+      "true_gap": 0.05,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.88,
+      "probability": 1.4969071653557687e-05,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "47/100",
+      "theta_float": 0.47,
+      "true_gap": 0.055,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.88,
+      "probability": 0.010082500702115386,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "47/100",
+      "theta_float": 0.47,
+      "true_gap": 0.055,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.96,
+      "probability": 4.3008965061835487e-07,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "49/100",
+      "theta_float": 0.49,
+      "true_gap": 0.06,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 0.96,
+      "probability": 0.0010929651531097668,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "49/100",
+      "theta_float": 0.49,
+      "true_gap": 0.06,
+      "true_null": false
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.0,
+      "probability": 5.795392347826914e-08,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "1/2",
+      "theta_float": 0.5,
+      "true_gap": 0.0625,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.0,
+      "probability": 0.0002920898527299752,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "1/2",
+      "theta_float": 0.5,
+      "true_gap": 0.0625,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.04,
+      "probability": 6.655574956172708e-09,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "51/100",
+      "theta_float": 0.51,
+      "true_gap": 0.065,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.04,
+      "probability": 6.742316819850349e-05,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "51/100",
+      "theta_float": 0.51,
+      "true_gap": 0.065,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.2,
+      "probability": 2.0886955513556698e-13,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "11/20",
+      "theta_float": 0.55,
+      "true_gap": 0.075,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.2,
+      "probability": 3.9431652829847575e-08,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "11/20",
+      "theta_float": 0.55,
+      "true_gap": 0.075,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.4,
+      "probability": 6.27437619006109e-21,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "3/5",
+      "theta_float": 0.6,
+      "true_gap": 0.0875,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 1.4,
+      "probability": 6.301867889047854e-14,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "3/5",
+      "theta_float": 0.6,
+      "true_gap": 0.0875,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 2.0,
+      "probability": 6.273735713787641e-62,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "3/4",
+      "theta_float": 0.75,
+      "true_gap": 0.125,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 2.0,
+      "probability": 2.0964946126679513e-48,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "3/4",
+      "theta_float": 0.75,
+      "true_gap": 0.125,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 3.0,
+      "probability": 0.0,
+      "rejection_counts": 693,
+      "rule": "generic",
+      "theta": "1",
+      "theta_float": 1.0,
+      "true_gap": 0.1875,
+      "true_null": true
+    },
+    {
+      "G": 1024,
+      "gap_over_epsilon": 3.0,
+      "probability": 0.0,
+      "rejection_counts": 720,
+      "rule": "range",
+      "theta": "1",
+      "theta_float": 1.0,
+      "true_gap": 0.1875,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "0",
+      "theta_float": 0.0,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "0",
+      "theta_float": 0.0,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "1/5",
+      "theta_float": 0.2,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "1/5",
+      "theta_float": 0.2,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "1/4",
+      "theta_float": 0.25,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.0,
+      "probability": 1.0,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "1/4",
+      "theta_float": 0.25,
+      "true_gap": 0.0,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.2,
+      "probability": 1.0,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "3/10",
+      "theta_float": 0.3,
+      "true_gap": 0.0125,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.2,
+      "probability": 1.0,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "3/10",
+      "theta_float": 0.3,
+      "true_gap": 0.0125,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.4,
+      "probability": 0.9999999999770964,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "7/20",
+      "theta_float": 0.35,
+      "true_gap": 0.025,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.4,
+      "probability": 0.9999999999999711,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "7/20",
+      "theta_float": 0.35,
+      "true_gap": 0.025,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.6,
+      "probability": 0.9992334541133475,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "2/5",
+      "theta_float": 0.4,
+      "true_gap": 0.0375,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.6,
+      "probability": 0.9999798105074954,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "2/5",
+      "theta_float": 0.4,
+      "true_gap": 0.0375,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.8,
+      "probability": 0.36102467618601264,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "9/20",
+      "theta_float": 0.45,
+      "true_gap": 0.05,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.8,
+      "probability": 0.7222944215838722,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "9/20",
+      "theta_float": 0.45,
+      "true_gap": 0.05,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.88,
+      "probability": 0.03580245543284707,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "47/100",
+      "theta_float": 0.47,
+      "true_gap": 0.055,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.88,
+      "probability": 0.19694495748789786,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "47/100",
+      "theta_float": 0.47,
+      "true_gap": 0.055,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.96,
+      "probability": 0.0005354667712372638,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "49/100",
+      "theta_float": 0.49,
+      "true_gap": 0.06,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 0.96,
+      "probability": 0.010215353198042107,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "49/100",
+      "theta_float": 0.49,
+      "true_gap": 0.06,
+      "true_null": false
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.0,
+      "probability": 2.9653413856560067e-05,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "1/2",
+      "theta_float": 0.5,
+      "true_gap": 0.0625,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.0,
+      "probability": 0.0011040221642034994,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "1/2",
+      "theta_float": 0.5,
+      "true_gap": 0.0625,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.04,
+      "probability": 9.36421982425462e-07,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "51/100",
+      "theta_float": 0.51,
+      "true_gap": 0.065,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.04,
+      "probability": 6.953190475127983e-05,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "51/100",
+      "theta_float": 0.51,
+      "true_gap": 0.065,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.2,
+      "probability": 2.154936684312864e-15,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "11/20",
+      "theta_float": 0.55,
+      "true_gap": 0.075,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.2,
+      "probability": 2.9904721529224706e-12,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "11/20",
+      "theta_float": 0.55,
+      "true_gap": 0.075,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.4,
+      "probability": 6.620981882774456e-33,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "3/5",
+      "theta_float": 0.6,
+      "true_gap": 0.0875,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 1.4,
+      "probability": 4.992836683401665e-28,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "3/5",
+      "theta_float": 0.6,
+      "true_gap": 0.0875,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 2.0,
+      "probability": 4.388755383038523e-150,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "3/4",
+      "theta_float": 0.75,
+      "true_gap": 0.125,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 2.0,
+      "probability": 1.1557784643549499e-138,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "3/4",
+      "theta_float": 0.75,
+      "true_gap": 0.125,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 3.0,
+      "probability": 0.0,
+      "rejection_counts": 2960,
+      "rule": "generic",
+      "theta": "1",
+      "theta_float": 1.0,
+      "true_gap": 0.1875,
+      "true_null": true
+    },
+    {
+      "G": 4096,
+      "gap_over_epsilon": 3.0,
+      "probability": 0.0,
+      "rejection_counts": 2987,
+      "rule": "range",
+      "theta": "1",
+      "theta_float": 1.0,
+      "true_gap": 0.1875,
+      "true_null": true
+    }
+  ]
+}

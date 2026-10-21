@@ -1,0 +1,138 @@
+{
+  "schema": "bdtp.paper-results-map.v1",
+  "title": "Finite-Dictionary Tests of Predictive Adequacy for State–History Models",
+  "main_items": [
+    {
+      "item": "Table 1",
+      "description": "Synthetic reference designs",
+      "campaign": "inference-predictive",
+      "reference_inputs": [
+        "reference/inference/predictive/summary.json"
+      ],
+      "generated_output": "table1_designs.csv",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign inference-predictive --output .local_runs/inference-predictive_NEW"
+    },
+    {
+      "item": "Table 2",
+      "description": "Population class and fitted-predictor gaps",
+      "campaign": "inference-predictive",
+      "reference_inputs": [
+        "reference/reference_risks.json",
+        "reference/inference/predictive/summary.json"
+      ],
+      "generated_output": "table2_risk_gaps.csv",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign inference-predictive --output .local_runs/inference-predictive_NEW"
+    },
+    {
+      "item": "Table 3",
+      "description": "Dependence power/null/duplication controls",
+      "campaign": "dependence-paper",
+      "reference_inputs": [
+        "reference_impl/evidence/additional01/dep/summary.json"
+      ],
+      "generated_output": "table3_dependence.csv",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign dependence-paper --output .local_runs/dependence-paper_NEW"
+    },
+    {
+      "item": "Table 4",
+      "description": "Truncated fitting allocations",
+      "campaign": "fit-pair",
+      "reference_inputs": [
+        "reference_impl/evidence/matched_run01/summary.json"
+      ],
+      "generated_output": "table4_truncated_allocation.csv",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign fit-pair --output .local_runs/fit-pair_NEW"
+    },
+    {
+      "item": "Table 5",
+      "description": "Attained binomial boundary error",
+      "campaign": "power",
+      "reference_inputs": [
+        "reference_impl/evidence/power_final/power.json"
+      ],
+      "generated_output": "table5_attained_error.csv",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign power --output .local_runs/power_NEW"
+    },
+    {
+      "item": "Table 6",
+      "description": "Remaining fitting allocations and controls",
+      "campaign": "fit-pair",
+      "reference_inputs": [
+        "reference_impl/evidence/matched_run01/summary.json"
+      ],
+      "generated_output": "table6_other_allocations.csv",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign fit-pair --output .local_runs/fit-pair_NEW"
+    },
+    {
+      "item": "Figure 1",
+      "description": "Class gap versus fitting error",
+      "campaign": "inference-predictive",
+      "reference_inputs": [
+        "reference/reference_risks.json"
+      ],
+      "generated_output": "figures/class_and_fit.pdf",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign inference-predictive --output .local_runs/inference-predictive_NEW"
+    },
+    {
+      "item": "Figure 2",
+      "description": "Generic/pair allocation comparison",
+      "campaign": "fit-pair",
+      "reference_inputs": [
+        "reference_impl/evidence/matched_run01/summary.json"
+      ],
+      "generated_output": "figures/range_allocation.pdf",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign fit-pair --output .local_runs/fit-pair_NEW"
+    },
+    {
+      "item": "Figure 3",
+      "description": "Finite-binomial power",
+      "campaign": "power",
+      "reference_inputs": [
+        "reference_impl/evidence/power_final/power.json"
+      ],
+      "generated_output": "figures/binomial_power.pdf",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign power --output .local_runs/power_NEW"
+    },
+    {
+      "item": "Figure 4",
+      "description": "Variance-inclusive population planning",
+      "campaign": "planning",
+      "reference_inputs": [
+        "reference/planning_audit.json"
+      ],
+      "generated_output": "figures/variance_inclusive_planning.pdf",
+      "command": "bash scripts/run_paper_campaign_no_exit.sh --campaign planning --output .local_runs/planning_NEW"
+    }
+  ],
+  "asset_command": ".venv/bin/python scripts/paper_outputs.py --output .local_runs/paper_NEW --figures",
+  "additional_original_results": [
+    {
+      "item": "Appendix balanced-count bound",
+      "campaign": "dependence-paper",
+      "reference": "reference_impl/evidence/additional01/dep/summary.json",
+      "key": "balanced_sample_G1024_upper"
+    },
+    {
+      "item": "Generic implementation CPU timings",
+      "reference": "reference/resources/generic_timing.json",
+      "note": "Original resource driver is imported; timing record retained. Hardware-dependent timings are not a deterministic replay target and were not rerun in this import.",
+      "command": ".venv/bin/python reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/scripts/run_experiment.py --stage resources --output .local_runs/resources_NEW"
+    },
+    {
+      "item": "Section 5.1 fixed-library class-selection counts",
+      "campaign": "class-selection",
+      "reference": "reference/inference/classes/summary.json",
+      "scope": "700 evaluation batches conditional on three original training libraries; generic certificate"
+    }
+  ],
+  "not_imported": [
+    {
+      "item": "Appendix single-pair operating frequencies and paired reconstruction",
+      "reason": "External AI-assisted reimplementation and raw records excluded from original-code import pending separate rights/source decision."
+    },
+    {
+      "item": "Full manuscript",
+      "reason": "Maintained separately; no manuscript revision authorized by this packaging request."
+    }
+  ]
+}

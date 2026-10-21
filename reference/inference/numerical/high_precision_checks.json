@@ -1,0 +1,368 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "design": "excited",
+      "observation": "complete",
+      "pass": true,
+      "posterior_max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "design": "excited",
+      "observation": "mass_truncated",
+      "pass": true,
+      "posterior_max_abs_error": 8.326672684688674e-17
+    },
+    {
+      "design": "constant_gamma",
+      "observation": "complete",
+      "pass": true,
+      "posterior_max_abs_error": 1.734723475976807e-18
+    },
+    {
+      "check": "25 finite-mixture event probabilities",
+      "max_abs_error": 1.1102230246251565e-16,
+      "pass": true
+    }
+  ],
+  "identity_diagnostics": [
+    {
+      "design": "excited",
+      "distinct_horizon1_mean_functions_rounded_12": 50,
+      "equivalence_classes": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          18
+        ],
+        [
+          19
+        ],
+        [
+          20
+        ],
+        [
+          21
+        ],
+        [
+          22
+        ],
+        [
+          23
+        ],
+        [
+          24
+        ],
+        [
+          25
+        ],
+        [
+          26
+        ],
+        [
+          27
+        ],
+        [
+          28
+        ],
+        [
+          29
+        ],
+        [
+          30
+        ],
+        [
+          31
+        ],
+        [
+          32
+        ],
+        [
+          33
+        ],
+        [
+          34
+        ],
+        [
+          35
+        ],
+        [
+          36
+        ],
+        [
+          37
+        ],
+        [
+          38
+        ],
+        [
+          39
+        ],
+        [
+          40
+        ],
+        [
+          41
+        ],
+        [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        [
+          48
+        ],
+        [
+          49
+        ],
+        [
+          50
+        ],
+        [
+          51
+        ],
+        [
+          52
+        ],
+        [
+          53
+        ],
+        [
+          54
+        ],
+        [
+          55
+        ],
+        [
+          56
+        ],
+        [
+          57
+        ],
+        [
+          58
+        ],
+        [
+          59
+        ]
+      ],
+      "joint_parameter_labels": 60,
+      "note": "function equality reference on finite support; rounding tolerance tested separately, not latent-dimension theorem"
+    },
+    {
+      "design": "summary_only",
+      "distinct_horizon1_mean_functions_rounded_12": 6,
+      "equivalence_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      ],
+      "joint_parameter_labels": 60,
+      "note": "function equality reference on finite support; rounding tolerance tested separately, not latent-dimension theorem"
+    },
+    {
+      "design": "constant_gamma",
+      "distinct_horizon1_mean_functions_rounded_12": 10,
+      "equivalence_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      ],
+      "joint_parameter_labels": 60,
+      "note": "function equality reference on finite support; rounding tolerance tested separately, not latent-dimension theorem"
+    }
+  ],
+  "not_interval_arithmetic": true,
+  "precision_digits": 65
+}

@@ -1,0 +1,6 @@
+case,B,A,gamma,design,observation
+summary_only,0.3,0.0,1.8,summary_only,complete
+history_moderate,0.3,8.0,1.8,excited,complete
+history_strong,0.3,16.0,1.8,excited,complete
+constant_gamma,0.3,8.0,1.8,constant_gamma,complete
+truncated_strong,0.3,16.0,1.8,excited,mass_truncated

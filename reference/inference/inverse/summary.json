@@ -1,0 +1,1502 @@
+{
+  "all_checks_pass": true,
+  "brief": [
+    {
+      "case": {
+        "design": "excited",
+        "id": "sbc_excited_G8_M4",
+        "objects": 4,
+        "observation": "complete",
+        "worlds": 8
+      },
+      "methods": {
+        "iid_wrong": {
+          "joint_HPD_actual_mean_mass": 0.9664863938485136,
+          "joint_HPD_coverage": 0.964,
+          "mean_TV_to_exact": 0.17527174799239226,
+          "mean_gamma_entropy_fraction": 0.5907164720989686,
+          "mean_probability_MSE_h1": 0.0014184985670065515,
+          "median_TV_to_exact": 0.14027913648642543,
+          "pit_KS": {
+            "amplitude": 0.02316911952532147,
+            "curvature": 0.039239501931707554,
+            "gamma": 0.026837901079864168,
+            "joint_loglik": 0.13802182527217194
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              81,
+              105,
+              122,
+              106,
+              99,
+              92,
+              109,
+              90,
+              100,
+              96
+            ],
+            "curvature": [
+              95,
+              107,
+              104,
+              119,
+              104,
+              107,
+              86,
+              97,
+              90,
+              91
+            ],
+            "gamma": [
+              105,
+              111,
+              95,
+              81,
+              100,
+              93,
+              105,
+              100,
+              105,
+              105
+            ],
+            "joint_loglik": [
+              58,
+              70,
+              88,
+              78,
+              95,
+              75,
+              130,
+              127,
+              126,
+              153
+            ]
+          }
+        },
+        "prior_return": {
+          "joint_HPD_actual_mean_mass": 0.9000000000000002,
+          "joint_HPD_coverage": 0.897,
+          "mean_TV_to_exact": 0.9407189724250962,
+          "mean_gamma_entropy_fraction": 0.9999999999999999,
+          "mean_probability_MSE_h1": 0.1062157090321113,
+          "median_TV_to_exact": 0.9484494002361978,
+          "pit_KS": {
+            "amplitude": 0.020894204381787795,
+            "curvature": 0.027664765447243167,
+            "gamma": 0.032742178634381586,
+            "joint_loglik": 0.8995008037597895
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              113,
+              99,
+              101,
+              99,
+              106,
+              93,
+              103,
+              94,
+              92,
+              100
+            ],
+            "curvature": [
+              99,
+              110,
+              105,
+              86,
+              77,
+              103,
+              113,
+              106,
+              97,
+              104
+            ],
+            "gamma": [
+              93,
+              81,
+              105,
+              95,
+              102,
+              110,
+              116,
+              89,
+              113,
+              96
+            ],
+            "joint_loglik": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              999
+            ]
+          }
+        },
+        "shared": {
+          "joint_HPD_actual_mean_mass": 0.9759273846613015,
+          "joint_HPD_coverage": 0.978,
+          "mean_TV_to_exact": 0.0,
+          "mean_gamma_entropy_fraction": 0.49628366772960913,
+          "mean_probability_MSE_h1": 0.0007081017091028304,
+          "median_TV_to_exact": 0.0,
+          "pit_KS": {
+            "amplitude": 0.024172138210530353,
+            "curvature": 0.03943609181725538,
+            "gamma": 0.022496097469484555,
+            "joint_loglik": 0.019933898097016844
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              80,
+              112,
+              118,
+              106,
+              98,
+              95,
+              105,
+              92,
+              98,
+              96
+            ],
+            "curvature": [
+              95,
+              107,
+              104,
+              119,
+              104,
+              107,
+              86,
+              97,
+              90,
+              91
+            ],
+            "gamma": [
+              106,
+              108,
+              88,
+              85,
+              111,
+              85,
+              106,
+              105,
+              108,
+              98
+            ],
+            "joint_loglik": [
+              115,
+              101,
+              89,
+              111,
+              90,
+              81,
+              114,
+              97,
+              95,
+              107
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "design": "excited",
+        "id": "sbc_excited_G32_M4",
+        "objects": 4,
+        "observation": "complete",
+        "worlds": 32
+      },
+      "methods": {
+        "iid_wrong": {
+          "joint_HPD_actual_mean_mass": 0.9844890540252752,
+          "joint_HPD_coverage": 0.988,
+          "mean_TV_to_exact": 0.10766656028914946,
+          "mean_gamma_entropy_fraction": 0.39734400790664237,
+          "mean_probability_MSE_h1": 0.00022113805083505254,
+          "median_TV_to_exact": 0.01736531509302893,
+          "pit_KS": {
+            "amplitude": 0.05444787766996412,
+            "curvature": 0.024572749460085364,
+            "gamma": 0.019036402900599214,
+            "joint_loglik": 0.061948738348631016
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              89,
+              82,
+              86,
+              98,
+              118,
+              109,
+              120,
+              99,
+              95,
+              104
+            ],
+            "curvature": [
+              89,
+              100,
+              94,
+              104,
+              103,
+              92,
+              106,
+              133,
+              90,
+              89
+            ],
+            "gamma": [
+              94,
+              105,
+              93,
+              95,
+              107,
+              99,
+              107,
+              90,
+              107,
+              103
+            ],
+            "joint_loglik": [
+              62,
+              92,
+              93,
+              101,
+              109,
+              86,
+              106,
+              123,
+              109,
+              119
+            ]
+          }
+        },
+        "prior_return": {
+          "joint_HPD_actual_mean_mass": 0.9000000000000002,
+          "joint_HPD_coverage": 0.897,
+          "mean_TV_to_exact": 0.955541333270685,
+          "mean_gamma_entropy_fraction": 0.9999999999999999,
+          "mean_probability_MSE_h1": 0.10243629457871055,
+          "median_TV_to_exact": 0.9666029038580926,
+          "pit_KS": {
+            "amplitude": 0.03418159649540592,
+            "curvature": 0.01753779391877608,
+            "gamma": 0.0362909934280663,
+            "joint_loglik": 0.9011063919029842
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              92,
+              87,
+              99,
+              107,
+              95,
+              126,
+              84,
+              111,
+              103,
+              96
+            ],
+            "curvature": [
+              84,
+              109,
+              95,
+              125,
+              88,
+              105,
+              89,
+              100,
+              114,
+              91
+            ],
+            "gamma": [
+              96,
+              104,
+              112,
+              108,
+              110,
+              95,
+              97,
+              82,
+              103,
+              93
+            ],
+            "joint_loglik": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1000
+            ]
+          }
+        },
+        "shared": {
+          "joint_HPD_actual_mean_mass": 0.9907197455006412,
+          "joint_HPD_coverage": 0.992,
+          "mean_TV_to_exact": 0.0,
+          "mean_gamma_entropy_fraction": 0.32780190645045115,
+          "mean_probability_MSE_h1": 9.409784670982876e-05,
+          "median_TV_to_exact": 0.0,
+          "pit_KS": {
+            "amplitude": 0.05444787766981779,
+            "curvature": 0.024572749460085475,
+            "gamma": 0.022582145233710327,
+            "joint_loglik": 0.03124239178756011
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              89,
+              82,
+              86,
+              98,
+              118,
+              109,
+              120,
+              99,
+              95,
+              104
+            ],
+            "curvature": [
+              89,
+              100,
+              94,
+              104,
+              103,
+              92,
+              106,
+              133,
+              90,
+              89
+            ],
+            "gamma": [
+              98,
+              100,
+              91,
+              95,
+              104,
+              102,
+              105,
+              96,
+              105,
+              104
+            ],
+            "joint_loglik": [
+              88,
+              120,
+              111,
+              98,
+              105,
+              90,
+              106,
+              90,
+              91,
+              101
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "design": "excited",
+        "id": "sbc_shared_G8_M16",
+        "objects": 16,
+        "observation": "complete",
+        "worlds": 8
+      },
+      "methods": {
+        "iid_wrong": {
+          "joint_HPD_actual_mean_mass": 0.9843302728265874,
+          "joint_HPD_coverage": 0.987,
+          "mean_TV_to_exact": 0.12415604166139854,
+          "mean_gamma_entropy_fraction": 0.373917731500344,
+          "mean_probability_MSE_h1": 0.0002511606359410362,
+          "median_TV_to_exact": 0.026183138019395865,
+          "pit_KS": {
+            "amplitude": 0.029273603539037962,
+            "curvature": 0.022852321661259778,
+            "gamma": 0.01854165184420631,
+            "joint_loglik": 0.08697803223962908
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              86,
+              102,
+              89,
+              108,
+              107,
+              97,
+              106,
+              101,
+              91,
+              113
+            ],
+            "curvature": [
+              98,
+              109,
+              112,
+              89,
+              95,
+              85,
+              101,
+              90,
+              113,
+              108
+            ],
+            "gamma": [
+              100,
+              99,
+              98,
+              98,
+              106,
+              97,
+              95,
+              92,
+              114,
+              101
+            ],
+            "joint_loglik": [
+              57,
+              79,
+              92,
+              92,
+              109,
+              92,
+              128,
+              121,
+              107,
+              123
+            ]
+          }
+        },
+        "prior_return": {
+          "joint_HPD_actual_mean_mass": 0.9000000000000002,
+          "joint_HPD_coverage": 0.894,
+          "mean_TV_to_exact": 0.9584844467344987,
+          "mean_gamma_entropy_fraction": 0.9999999999999999,
+          "mean_probability_MSE_h1": 0.10829339504200211,
+          "median_TV_to_exact": 0.966666666550424,
+          "pit_KS": {
+            "amplitude": 0.034850895489997646,
+            "curvature": 0.03113985310213696,
+            "gamma": 0.020430736210436506,
+            "joint_loglik": 0.9005183402586263
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              94,
+              112,
+              98,
+              78,
+              93,
+              103,
+              92,
+              116,
+              115,
+              99
+            ],
+            "curvature": [
+              108,
+              112,
+              92,
+              92,
+              124,
+              99,
+              89,
+              88,
+              99,
+              97
+            ],
+            "gamma": [
+              93,
+              116,
+              102,
+              102,
+              94,
+              99,
+              96,
+              97,
+              103,
+              98
+            ],
+            "joint_loglik": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1000
+            ]
+          }
+        },
+        "shared": {
+          "joint_HPD_actual_mean_mass": 0.9898070780331958,
+          "joint_HPD_coverage": 0.986,
+          "mean_TV_to_exact": 0.0,
+          "mean_gamma_entropy_fraction": 0.2891368744852118,
+          "mean_probability_MSE_h1": 8.401416812033658e-05,
+          "median_TV_to_exact": 0.0,
+          "pit_KS": {
+            "amplitude": 0.029273603539037962,
+            "curvature": 0.022852321661259833,
+            "gamma": 0.016294335994597287,
+            "joint_loglik": 0.03818247337525371
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              86,
+              102,
+              89,
+              108,
+              107,
+              97,
+              106,
+              101,
+              91,
+              113
+            ],
+            "curvature": [
+              98,
+              109,
+              112,
+              89,
+              95,
+              85,
+              101,
+              90,
+              113,
+              108
+            ],
+            "gamma": [
+              103,
+              92,
+              94,
+              107,
+              100,
+              102,
+              96,
+              99,
+              107,
+              100
+            ],
+            "joint_loglik": [
+              95,
+              94,
+              100,
+              107,
+              119,
+              99,
+              104,
+              110,
+              79,
+              93
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "design": "excited",
+        "id": "sbc_truncated_G16_M4",
+        "objects": 4,
+        "observation": "mass_truncated",
+        "worlds": 16
+      },
+      "methods": {
+        "drop_missing_wrong": {
+          "joint_HPD_actual_mean_mass": 0.9767108069688291,
+          "joint_HPD_coverage": 0.915,
+          "mean_TV_to_exact": 0.17175293294169208,
+          "mean_gamma_entropy_fraction": 0.4506896556002051,
+          "mean_probability_MSE_h1": 0.0013898578300350426,
+          "median_TV_to_exact": 0.0796928084228559,
+          "pit_KS": {
+            "amplitude": 0.020921880886453303,
+            "curvature": 0.025870192138771064,
+            "gamma": 0.08300296685485753,
+            "joint_loglik": 0.08514341051360019
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              109,
+              101,
+              98,
+              83,
+              118,
+              97,
+              93,
+              91,
+              98,
+              112
+            ],
+            "curvature": [
+              100,
+              110,
+              87,
+              108,
+              88,
+              114,
+              116,
+              85,
+              102,
+              90
+            ],
+            "gamma": [
+              102,
+              76,
+              100,
+              73,
+              84,
+              95,
+              93,
+              106,
+              130,
+              141
+            ],
+            "joint_loglik": [
+              81,
+              68,
+              92,
+              104,
+              100,
+              95,
+              92,
+              87,
+              100,
+              181
+            ]
+          }
+        },
+        "iid_wrong": {
+          "joint_HPD_actual_mean_mass": 0.9762295092487019,
+          "joint_HPD_coverage": 0.979,
+          "mean_TV_to_exact": 0.14380631411714034,
+          "mean_gamma_entropy_fraction": 0.5052060888029841,
+          "mean_probability_MSE_h1": 0.0006736378731141234,
+          "median_TV_to_exact": 0.10563325738828175,
+          "pit_KS": {
+            "amplitude": 0.027398932535708187,
+            "curvature": 0.02587019213877184,
+            "gamma": 0.025714851863724075,
+            "joint_loglik": 0.10962336039660453
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              96,
+              106,
+              103,
+              93,
+              121,
+              100,
+              94,
+              93,
+              101,
+              93
+            ],
+            "curvature": [
+              100,
+              110,
+              87,
+              108,
+              88,
+              114,
+              116,
+              85,
+              102,
+              90
+            ],
+            "gamma": [
+              115,
+              94,
+              108,
+              80,
+              108,
+              93,
+              109,
+              92,
+              102,
+              99
+            ],
+            "joint_loglik": [
+              52,
+              63,
+              95,
+              83,
+              117,
+              120,
+              94,
+              122,
+              121,
+              133
+            ]
+          }
+        },
+        "prior_return": {
+          "joint_HPD_actual_mean_mass": 0.9000000000000002,
+          "joint_HPD_coverage": 0.897,
+          "mean_TV_to_exact": 0.9473938867170448,
+          "mean_gamma_entropy_fraction": 0.9999999999999999,
+          "mean_probability_MSE_h1": 0.10215462491895792,
+          "median_TV_to_exact": 0.951139906332804,
+          "pit_KS": {
+            "amplitude": 0.03404337837730753,
+            "curvature": 0.030413762693398516,
+            "gamma": 0.023850582490723804,
+            "joint_loglik": 0.9017956986323512
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              108,
+              74,
+              110,
+              98,
+              103,
+              89,
+              86,
+              118,
+              111,
+              103
+            ],
+            "curvature": [
+              105,
+              114,
+              100,
+              100,
+              88,
+              105,
+              81,
+              102,
+              101,
+              104
+            ],
+            "gamma": [
+              107,
+              92,
+              97,
+              105,
+              114,
+              108,
+              89,
+              99,
+              93,
+              96
+            ],
+            "joint_loglik": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1000
+            ]
+          }
+        },
+        "shared": {
+          "joint_HPD_actual_mean_mass": 0.9791339042504026,
+          "joint_HPD_coverage": 0.98,
+          "mean_TV_to_exact": 0.0,
+          "mean_gamma_entropy_fraction": 0.42669574782571246,
+          "mean_probability_MSE_h1": 0.0003843445452493534,
+          "median_TV_to_exact": 0.0,
+          "pit_KS": {
+            "amplitude": 0.027398994282924582,
+            "curvature": 0.025870192138771064,
+            "gamma": 0.01611590917292227,
+            "joint_loglik": 0.02602612245793695
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              96,
+              109,
+              102,
+              92,
+              120,
+              100,
+              94,
+              94,
+              101,
+              92
+            ],
+            "curvature": [
+              100,
+              110,
+              87,
+              108,
+              88,
+              114,
+              116,
+              85,
+              102,
+              90
+            ],
+            "gamma": [
+              108,
+              86,
+              110,
+              104,
+              86,
+              100,
+              92,
+              112,
+              98,
+              104
+            ],
+            "joint_loglik": [
+              87,
+              94,
+              105,
+              118,
+              111,
+              87,
+              101,
+              92,
+              98,
+              107
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "design": "constant_gamma",
+        "id": "sbc_constant_G16_M4",
+        "objects": 4,
+        "observation": "complete",
+        "worlds": 16
+      },
+      "methods": {
+        "iid_wrong": {
+          "joint_HPD_actual_mean_mass": 0.99999999995509,
+          "joint_HPD_coverage": 1.0,
+          "mean_TV_to_exact": 4.4909870005584884e-11,
+          "mean_gamma_entropy_fraction": 1.0,
+          "mean_probability_MSE_h1": 4.4962839984380396e-20,
+          "median_TV_to_exact": 9.047158556692759e-23,
+          "pit_KS": {
+            "amplitude": 0.02075816186324142,
+            "curvature": 0.028932308854110467,
+            "gamma": 0.017270852563410988,
+            "joint_loglik": 0.0203311655734571
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              101,
+              94,
+              92,
+              102,
+              105,
+              116,
+              103,
+              89,
+              117,
+              81
+            ],
+            "curvature": [
+              96,
+              97,
+              102,
+              107,
+              92,
+              95,
+              89,
+              115,
+              109,
+              98
+            ],
+            "gamma": [
+              106,
+              101,
+              103,
+              105,
+              91,
+              101,
+              105,
+              95,
+              100,
+              93
+            ],
+            "joint_loglik": [
+              97,
+              97,
+              105,
+              88,
+              102,
+              97,
+              121,
+              101,
+              100,
+              92
+            ]
+          }
+        },
+        "prior_return": {
+          "joint_HPD_actual_mean_mass": 0.9000000000000002,
+          "joint_HPD_coverage": 0.896,
+          "mean_TV_to_exact": 0.9,
+          "mean_gamma_entropy_fraction": 0.9999999999999999,
+          "mean_probability_MSE_h1": 0.1897214263759083,
+          "median_TV_to_exact": 0.8999999999999998,
+          "pit_KS": {
+            "amplitude": 0.022400825756447085,
+            "curvature": 0.01637068175094253,
+            "gamma": 0.017270852563410988,
+            "joint_loglik": 0.9001170634886241
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              99,
+              102,
+              97,
+              88,
+              111,
+              91,
+              91,
+              109,
+              96,
+              116
+            ],
+            "curvature": [
+              104,
+              106,
+              99,
+              99,
+              104,
+              89,
+              103,
+              88,
+              105,
+              103
+            ],
+            "gamma": [
+              106,
+              101,
+              103,
+              105,
+              91,
+              101,
+              105,
+              95,
+              100,
+              93
+            ],
+            "joint_loglik": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1000
+            ]
+          }
+        },
+        "shared": {
+          "joint_HPD_actual_mean_mass": 0.9999999999999998,
+          "joint_HPD_coverage": 1.0,
+          "mean_TV_to_exact": 0.0,
+          "mean_gamma_entropy_fraction": 0.9999999999999999,
+          "mean_probability_MSE_h1": 2.4653996934671672e-33,
+          "median_TV_to_exact": 0.0,
+          "pit_KS": {
+            "amplitude": 0.02075816186324142,
+            "curvature": 0.0289323088541108,
+            "gamma": 0.017270852563410988,
+            "joint_loglik": 0.0203311655734571
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              101,
+              94,
+              92,
+              102,
+              105,
+              116,
+              103,
+              89,
+              117,
+              81
+            ],
+            "curvature": [
+              96,
+              97,
+              102,
+              107,
+              92,
+              95,
+              89,
+              115,
+              109,
+              98
+            ],
+            "gamma": [
+              106,
+              101,
+              103,
+              105,
+              91,
+              101,
+              105,
+              95,
+              100,
+              93
+            ],
+            "joint_loglik": [
+              97,
+              97,
+              105,
+              88,
+              102,
+              97,
+              121,
+              101,
+              100,
+              92
+            ]
+          }
+        }
+      }
+    },
+    {
+      "case": {
+        "design": "summary_only",
+        "id": "sbc_summary_G16_M4",
+        "objects": 4,
+        "observation": "complete",
+        "worlds": 16
+      },
+      "methods": {
+        "iid_wrong": {
+          "joint_HPD_actual_mean_mass": 0.9320833326764683,
+          "joint_HPD_coverage": 0.923,
+          "mean_TV_to_exact": 7.136094784453908e-10,
+          "mean_gamma_entropy_fraction": 1.0,
+          "mean_probability_MSE_h1": 5.894599641188346e-17,
+          "median_TV_to_exact": 1.7902347577741105e-15,
+          "pit_KS": {
+            "amplitude": 0.014052081419696993,
+            "curvature": 0.027592953466043624,
+            "gamma": 0.03240877604944781,
+            "joint_loglik": 0.03706722595380124
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              88,
+              113,
+              99,
+              108,
+              93,
+              103,
+              97,
+              97,
+              99,
+              103
+            ],
+            "curvature": [
+              103,
+              109,
+              113,
+              97,
+              88,
+              108,
+              96,
+              83,
+              94,
+              109
+            ],
+            "gamma": [
+              94,
+              90,
+              88,
+              106,
+              93,
+              110,
+              100,
+              110,
+              100,
+              109
+            ],
+            "joint_loglik": [
+              97,
+              125,
+              112,
+              79,
+              97,
+              93,
+              97,
+              90,
+              106,
+              104
+            ]
+          }
+        },
+        "prior_return": {
+          "joint_HPD_actual_mean_mass": 0.9000000000000002,
+          "joint_HPD_coverage": 0.92,
+          "mean_TV_to_exact": 0.8185,
+          "mean_gamma_entropy_fraction": 0.9999999999999999,
+          "mean_probability_MSE_h1": 0.13513006299794733,
+          "median_TV_to_exact": 0.7999999999999998,
+          "pit_KS": {
+            "amplitude": 0.018706018025931193,
+            "curvature": 0.04991942841618513,
+            "gamma": 0.03240877604944781,
+            "joint_loglik": 0.8004186931053289
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              110,
+              92,
+              105,
+              99,
+              98,
+              102,
+              93,
+              107,
+              104,
+              90
+            ],
+            "curvature": [
+              108,
+              116,
+              123,
+              95,
+              85,
+              96,
+              96,
+              79,
+              92,
+              110
+            ],
+            "gamma": [
+              94,
+              90,
+              88,
+              106,
+              93,
+              110,
+              100,
+              110,
+              100,
+              109
+            ],
+            "joint_loglik": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              428,
+              572
+            ]
+          }
+        },
+        "shared": {
+          "joint_HPD_actual_mean_mass": 0.9320833333333335,
+          "joint_HPD_coverage": 0.926,
+          "mean_TV_to_exact": 0.0,
+          "mean_gamma_entropy_fraction": 1.0,
+          "mean_probability_MSE_h1": 4.793639633538988e-33,
+          "median_TV_to_exact": 0.0,
+          "pit_KS": {
+            "amplitude": 0.014052081419696993,
+            "curvature": 0.027592953466046122,
+            "gamma": 0.03240877604944781,
+            "joint_loglik": 0.03706722595380124
+          },
+          "pit_decile_counts": {
+            "amplitude": [
+              88,
+              113,
+              99,
+              108,
+              93,
+              103,
+              97,
+              97,
+              99,
+              103
+            ],
+            "curvature": [
+              103,
+              109,
+              113,
+              97,
+              88,
+              108,
+              96,
+              83,
+              94,
+              109
+            ],
+            "gamma": [
+              94,
+              90,
+              88,
+              106,
+              93,
+              110,
+              100,
+              110,
+              100,
+              109
+            ],
+            "joint_loglik": [
+              97,
+              125,
+              112,
+              79,
+              97,
+              93,
+              97,
+              90,
+              106,
+              104
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "cases": 6,
+  "checks": [
+    {
+      "D": 0.03943609181725538,
+      "case": "sbc_excited_G8_M4",
+      "pass": true,
+      "quantity": "curvature",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.024172138210530353,
+      "case": "sbc_excited_G8_M4",
+      "pass": true,
+      "quantity": "amplitude",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.022496097469484555,
+      "case": "sbc_excited_G8_M4",
+      "pass": true,
+      "quantity": "gamma",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.019933898097016844,
+      "case": "sbc_excited_G8_M4",
+      "pass": true,
+      "quantity": "joint_loglik",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "bound": 0.11908045041715362,
+      "case": "sbc_excited_G8_M4",
+      "check": "HPD calibration actual mass",
+      "difference": 0.0020726153386985136,
+      "pass": true
+    },
+    {
+      "D": 0.024572749460085475,
+      "case": "sbc_excited_G32_M4",
+      "pass": true,
+      "quantity": "curvature",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.05444787766981779,
+      "case": "sbc_excited_G32_M4",
+      "pass": true,
+      "quantity": "amplitude",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.022582145233710327,
+      "case": "sbc_excited_G32_M4",
+      "pass": true,
+      "quantity": "gamma",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.03124239178756011,
+      "case": "sbc_excited_G32_M4",
+      "pass": true,
+      "quantity": "joint_loglik",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "bound": 0.11908045041715362,
+      "case": "sbc_excited_G32_M4",
+      "check": "HPD calibration actual mass",
+      "difference": 0.0012802544993587572,
+      "pass": true
+    },
+    {
+      "D": 0.022852321661259833,
+      "case": "sbc_shared_G8_M16",
+      "pass": true,
+      "quantity": "curvature",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.029273603539037962,
+      "case": "sbc_shared_G8_M16",
+      "pass": true,
+      "quantity": "amplitude",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.016294335994597287,
+      "case": "sbc_shared_G8_M16",
+      "pass": true,
+      "quantity": "gamma",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.03818247337525371,
+      "case": "sbc_shared_G8_M16",
+      "pass": true,
+      "quantity": "joint_loglik",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "bound": 0.11908045041715362,
+      "case": "sbc_shared_G8_M16",
+      "check": "HPD calibration actual mass",
+      "difference": 0.0038070780331957987,
+      "pass": true
+    },
+    {
+      "D": 0.025870192138771064,
+      "case": "sbc_truncated_G16_M4",
+      "pass": true,
+      "quantity": "curvature",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.027398994282924582,
+      "case": "sbc_truncated_G16_M4",
+      "pass": true,
+      "quantity": "amplitude",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.01611590917292227,
+      "case": "sbc_truncated_G16_M4",
+      "pass": true,
+      "quantity": "gamma",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.02602612245793695,
+      "case": "sbc_truncated_G16_M4",
+      "pass": true,
+      "quantity": "joint_loglik",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "bound": 0.11908045041715362,
+      "case": "sbc_truncated_G16_M4",
+      "check": "HPD calibration actual mass",
+      "difference": 0.0008660957495973953,
+      "pass": true
+    },
+    {
+      "D": 0.0289323088541108,
+      "case": "sbc_constant_G16_M4",
+      "pass": true,
+      "quantity": "curvature",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.02075816186324142,
+      "case": "sbc_constant_G16_M4",
+      "pass": true,
+      "quantity": "amplitude",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.017270852563410988,
+      "case": "sbc_constant_G16_M4",
+      "pass": true,
+      "quantity": "gamma",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.0203311655734571,
+      "case": "sbc_constant_G16_M4",
+      "pass": true,
+      "quantity": "joint_loglik",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "bound": 0.11908045041715362,
+      "case": "sbc_constant_G16_M4",
+      "check": "HPD calibration actual mass",
+      "difference": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "D": 0.027592953466046122,
+      "case": "sbc_summary_G16_M4",
+      "pass": true,
+      "quantity": "curvature",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.014052081419696993,
+      "case": "sbc_summary_G16_M4",
+      "pass": true,
+      "quantity": "amplitude",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.03240877604944781,
+      "case": "sbc_summary_G16_M4",
+      "pass": true,
+      "quantity": "gamma",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "D": 0.03706722595380124,
+      "case": "sbc_summary_G16_M4",
+      "pass": true,
+      "quantity": "joint_loglik",
+      "threshold": 0.06510134866842615
+    },
+    {
+      "bound": 0.11908045041715362,
+      "case": "sbc_summary_G16_M4",
+      "check": "HPD calibration actual mass",
+      "difference": 0.0060833333333334405,
+      "pass": true
+    }
+  ],
+  "datasets": 6000,
+  "rank_family_alarm": 0.01
+}
