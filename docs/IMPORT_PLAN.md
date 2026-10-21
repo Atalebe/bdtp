@@ -1,6 +1,6 @@
 # Selective numerical-code import
 
-Status: planned, not executed. This bootstrap is separate from manuscript revision.
+Status: first original-core import completed; full paper-reproduction packaging remains pending. See NUMERICAL_IMPORT.md. Manuscript revision is separate.
 
 ## Keep the reviewed baseline intact
 
@@ -34,8 +34,7 @@ source names.
 
 `src/` holds original numerical methods; `tests/` their deterministic tests;
 `experiments/` explicit frozen drivers/configurations; `reference/` selected small
-verified results; `provenance/` their import maps and hashes. None of those numerical
-components is claimed present or scientifically qualified by this bootstrap.
+verified results; `provenance/` their import maps and hashes. The first byte-preserving numerical snapshot is now in `reference_impl/`; the full public layout and scientific reproduction release are not yet complete.
 
 Before a milestone commit, preserve failed diagnostics, repair actual integrity
 problems without changing scientific thresholds, pass every applicable gate and

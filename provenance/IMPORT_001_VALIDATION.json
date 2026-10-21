@@ -1,0 +1,30 @@
+{
+  "schema": "bdtp.core-import-validation.v1",
+  "date": "2026-10-21",
+  "status": "LOCAL_IMPORT_GATES_PASS",
+  "source_files_verified": 19,
+  "bootstrap_tests": 8,
+  "numerical_tests": 303,
+  "total_tests": 311,
+  "suite_counts": [
+    8,
+    51,
+    38,
+    65,
+    51,
+    56,
+    22,
+    20
+  ],
+  "python_wsl": "3.12.3",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "historical_python": "3.13.5",
+  "new_performance_campaigns": 0,
+  "numerical_source_edits": 0,
+  "failure_control": "Nonzero return; caller and diagnostics preserved; no completion or logbook",
+  "source_payload_digest": "323b04a90766fcd32fdfdf59e1d80213fd92b17b8f138cef9fbbf6530d384d8d",
+  "full_paper_reproduction_release": false,
+  "remote_sync": "Pending commit and separate remote verification"
+}

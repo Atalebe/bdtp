@@ -1,0 +1,183 @@
+{
+  "experiment_id": "NMCD-PC-FIT-001",
+  "version": "0.1",
+  "date": "2026-10-16",
+  "scope": "LOCAL_SYNTHETIC_DEVELOPMENT",
+  "authorization": "User request to compare training-only state fitting with finite-class evaluation-time selection at matched information and resource budgets",
+  "prior_exposure": "INF-001 v0.1 and v0.2 outcomes were known during design; this is not blinded or external preregistration",
+  "real_data": false,
+  "git_mutation": false,
+  "parent_mutation": false,
+  "mash_mutation": false,
+  "question": "Which training-only selection rules reduce fitting error enough to avoid the multiplicity cost of finite-class evaluation selection, under common information, classes, world budgets and resource ceilings?",
+  "primary_contrast": {
+    "case": "truncated_strong",
+    "total_worlds": 16384,
+    "training_worlds": 512,
+    "comparison": "posterior_risk minus evaluation_class probability of certifying summary level (or smaller)",
+    "test": "exact paired binomial/McNemar on discordant outcomes, two-sided alpha .05; one prespecified contrast; all other rates descriptive"
+  },
+  "methods": [
+    "erm",
+    "variance_penalized",
+    "posterior_risk",
+    "evaluation_class"
+  ],
+  "method_roles": {
+    "erm": "baseline, training Brier ERM",
+    "variance_penalized": "secondary, training group-loss mean plus sqrt(2 V log(2 Q/.05)/T); tuning frozen; not a claimed training generalization certificate",
+    "posterior_risk": "primary training-only candidate: exact joint two-horizon Gaussian likelihood with shared offset and missing path integrated correctly, then posterior expected Brier-risk minimum within each unchanged finite class",
+    "evaluation_class": "primary comparison: class-minimum scalar EB at alpha/Q over frozen state members"
+  },
+  "generator": "Exact inherited FiniteModel and WorldBatch.draw; four objects/world; both future labels supplied in training; same independent worlds and shared nuisance; original paths/priors/censoring/clock unchanged",
+  "matched_information": "Every arm receives the same complete training batch including continuous outcomes at both horizons and the same model specification; ERM and variance penalty intentionally use the event indicators. All get the same pre-test library. Test labels can inform selection only for evaluation_class with its correction. No hidden-support, offset, or truth label can inform fitting.",
+  "library": "Unmodified make_library: 9 / 70 / 131 nested entries. Same train-derived horizon-1 posterior mixtures available to all. New posterior-risk rule selects an existing member; does not add its joint-posterior mixture to the library.",
+  "classes_not_dimension": true,
+  "fitting_targets": "horizon-specific members; all-horizon adequacy, NOT a common recursive state",
+  "model_assumption": "posterior-risk fitting assumes the registered generative family, observation law and noise; certificate validity only needs bounded iid-world losses and frozen predictors, but fitting power is not robust by assumption",
+  "world_budgets": [
+    16384,
+    32768
+  ],
+  "training_budgets": [
+    64,
+    512,
+    4096
+  ],
+  "replicates": 100,
+  "cases": [
+    {
+      "id": "history_moderate",
+      "design": "excited",
+      "observation": "complete",
+      "truth": [
+        0.3,
+        8.0,
+        1.8
+      ]
+    },
+    {
+      "id": "history_strong",
+      "design": "excited",
+      "observation": "complete",
+      "truth": [
+        0.3,
+        16.0,
+        1.8
+      ]
+    },
+    {
+      "id": "truncated_strong",
+      "design": "excited",
+      "observation": "mass_truncated",
+      "truth": [
+        0.3,
+        16.0,
+        1.8
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "id": "summary_only",
+      "design": "summary_only",
+      "observation": "complete",
+      "truth": [
+        0.3,
+        0.0,
+        1.8
+      ],
+      "total_worlds": 16384,
+      "training_worlds": 64,
+      "replicates": 50
+    },
+    {
+      "id": "constant_gamma",
+      "design": "constant_gamma",
+      "observation": "complete",
+      "truth": [
+        0.3,
+        8.0,
+        1.8
+      ],
+      "total_worlds": 16384,
+      "training_worlds": 64,
+      "replicates": 50
+    }
+  ],
+  "test_budget": "G = total_worlds - training_worlds. Every method in a cell uses identical T and G. Allocations are separate predeclared experiments, not selected after results.",
+  "coupling": "For each case and replicate, a single 4096-world training pool and a separate 32704-world test pool supply nested prefixes across budgets. 300 primary independent pool pairs plus 100 control pairs. Comparisons across cells/arms are paired, not independent.",
+  "master_seed": 20261016190217,
+  "alpha": 0.05,
+  "epsilon": 0.01,
+  "loss_range": [
+    0.0,
+    1.0
+  ],
+  "runtime_environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "blas_threads": 1
+  },
+  "resource_ceiling": {
+    "one_core": true,
+    "resident_mib": 1024,
+    "per_stage_seconds": 3600,
+    "standalone_method_cpu_seconds": 30.0,
+    "max_training_worlds": 4096,
+    "max_test_worlds": 32704,
+    "max_predictors": 131
+  },
+  "resource_matching": "Common ceilings and exactly matched data/class budgets; actual costs are measured, NOT padded to equal time or claimed equal FLOPs. Numerical campaign reuses shared moments; isolated method benchmark reports unshared algorithmic costs.",
+  "resource_audit_cases": [
+    {
+      "case": "truncated_strong",
+      "T": 64,
+      "N": 16384
+    },
+    {
+      "case": "truncated_strong",
+      "T": 512,
+      "N": 16384
+    },
+    {
+      "case": "truncated_strong",
+      "T": 4096,
+      "N": 32768
+    }
+  ],
+  "resource_audit_repetitions": 5,
+  "fitting_failure_rule": "Stop on invalid numerics, leakage, source mismatch or resource limit. An unresolved/negative scientific result is a valid outcome. No tuning or switches after evaluation.",
+  "operating_alarm": "No minimum power gate. For each of 20 cells and 4 methods, binomial upper-tail check against .05 at family threshold .01/80. Gross-error check, not nominal size verification.",
+  "required_checks": [
+    "source manifests",
+    "inherited tests",
+    "joint likelihood from primitive sums",
+    "joint-vs-horizon1 limitation",
+    "same frozen library",
+    "selection only from training",
+    "hidden oracle arrays irrelevant",
+    "test perturbation cannot change trained choices",
+    "matched world counts",
+    "minimum over states correction",
+    "fast/slow certificate parity",
+    "finite risks vs chosen gaps",
+    "truth excluded from fit",
+    "failure preserves terminal and evidence",
+    "replay numerical parity"
+  ],
+  "reporting": [
+    "certification fractions with pointwise exact binomial intervals",
+    "paired difference for primary contrast",
+    "exact selected risk gaps and fitting regret by horizon",
+    "bounds and selected IDs",
+    "mis-certifications",
+    "row/world/label counts",
+    "model-based fitting assumptions",
+    "timing and persistent/workspace payload separately",
+    "no universal winner inference"
+  ],
+  "local_logbook": "Entry only after tests, operating gates and clean-source numerical replay pass. Local experiment only, not live programme; no Git commands."
+}

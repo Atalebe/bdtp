@@ -1,0 +1,199 @@
+{
+  "schema": "bdtp.original-core-import.v1",
+  "date": "2026-10-21",
+  "scope": "Original numerical methods and selected deterministic tests only; not complete paper reproduction",
+  "source_chain": [
+    {
+      "archive": "Finite_Dictionary_Predictive_Adequacy_v0_05_Reviewed_Bundle.zip",
+      "sha256": "49fb52caf751ff14b2a8095486b36da4456c490ef8dee2f538a175cc1a308174",
+      "root_manifest_entries_verified": 142
+    },
+    {
+      "archive": "Finite_Dictionary_Predictive_Adequacy_v0_04_Reviewed_Bundle.zip",
+      "sha256": "e099c4677f6a25add38c4c3242315e66fb9fa06bd287f69052ce6fd8e47fd25e",
+      "root_manifest_entries_verified": 202
+    },
+    {
+      "archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "sha256": "c2b9318e73db4d3a584836abcc0397ceed7809c10b47da678741c8be86cd214b",
+      "root_manifest_entries_verified": 385
+    },
+    {
+      "archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "sha256": "c6b24a88d5bf680ee19a0fccde5aa7b057a14c6197858c5293471a432c5a388f",
+      "root_manifest_entries_verified": 485
+    },
+    {
+      "archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "sha256": "95b7f040e764c3c47826b8a885145a103570842743e58bab2741cebe1d544f34",
+      "root_manifest_entries_verified": 208
+    }
+  ],
+  "files": [
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/src/fitting_core.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/src/fitting_core.py",
+      "sha256": "1614c4af9b1e68783ef7aa066f65db2af78a80ee8efc3be6f07baae4c333d342",
+      "bytes": 14018,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/tests/test_fitting.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/tests/test_fitting.py",
+      "sha256": "ab99c72e38bf0449c1a7cf3607a189427245547f923bf04a108ab740b09d1c09",
+      "bytes": 10613,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/contracts/development_plan.json",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/contracts/development_plan.json",
+      "sha256": "c07e3a45588db3b4a535ab797ef800b34752af479c8c44dc817b454b34321f36",
+      "bytes": 7268,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/src/review_extension.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/src/review_extension.py",
+      "sha256": "a9f55804297bfb1bd5fd42a9ef8fb7295e21c5f10094e46505781451687ae5a3",
+      "bytes": 7958,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/tests/test_review_extension.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/tests/test_review_extension.py",
+      "sha256": "09eec01c5d2850100f31f72e959e3f921133e92b4e7f06665627a9d0f4122cde",
+      "bytes": 6524,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/src/inference_core.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/src/inference_core.py",
+      "sha256": "a055e5a1648ace4a01c6bd4c1c1a27507ae4c8c587b6d268bfa115e7392f0be1",
+      "bytes": 21150,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/tests/test_inference.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/tests/test_inference.py",
+      "sha256": "bbb6026421d7bcb8bb73757cac9be97b256febb29f7898b39d3321e4a9ef717e",
+      "bytes": 12733,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/dep001/src/dependence_core.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/dep001/src/dependence_core.py",
+      "sha256": "19a970763a39d04434f09d108c0a9c1909a7a02d55097967d3532166239516e2",
+      "bytes": 9730,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/dep001/tests/test_dependence.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/dep001/tests/test_dependence.py",
+      "sha256": "855a65b5394de0635951b39800115811a647c09b21e628c411a54ad61f941090",
+      "bytes": 9734,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/src/nmcd_pc.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/src/nmcd_pc.py",
+      "sha256": "77cdf1426cb74bc62be2016cc7b411e24064c63154f081965be49fe1b7b25c18",
+      "bytes": 14042,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/src/nmcd_review_extensions.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/src/nmcd_review_extensions.py",
+      "sha256": "1c8d2249b3839a3a035b44a7135ad8570c1ed49ab4e91732c653a1e6bab50555",
+      "bytes": 3384,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/tests/test_core.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/tests/test_core.py",
+      "sha256": "61bf420ba474c7ecd95fcd36078775bffa1003d47ae2fa2873371193b2829247",
+      "bytes": 10693,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/tests/test_v03.py",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/tests/test_v03.py",
+      "sha256": "256c7c517c48a454ad304123560fc16cc148425f70f1888d228256a7c5486364",
+      "bytes": 4426,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/contracts/audit_plan.json",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/contracts/audit_plan.json",
+      "sha256": "c9e7b8c74b17b2bd530fe07d3c493337bce38892bfb80266fd5b62b034294817",
+      "bytes": 16910,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_FIT_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/contracts/qualification_draft.json",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/v03/contracts/qualification_draft.json",
+      "sha256": "1ab34174805a06f5cef591273f54286de662c9ba33de8d668e1964667d15ba22",
+      "bytes": 1964,
+      "changed": false
+    },
+    {
+      "source_archive": "NMCD_PC_DEP_001_v0_1_Implementation_Bundle.zip",
+      "source_member": "NMCD_PC_DEP_001_v0_1/contracts/development_plan.json",
+      "destination": "reference_impl/work/fit_parent/NMCD_PC_FIT_001_v0_1/vendor/inf001_v02/parent/vendor/dep001/contracts/development_plan.json",
+      "sha256": "c8d2bb22b9422a6a440792de48eb7d295f45c6ca7c10d5715d452805494ce9b0",
+      "bytes": 14972,
+      "changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/analysis_src/range_tools.py",
+      "destination": "reference_impl/analysis_src/range_tools.py",
+      "sha256": "338ec915171814f36e070378de4e25b6fd5c056d7ff73294dd9ce77a192e140f",
+      "bytes": 4170,
+      "changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/tests/test_range.py",
+      "destination": "reference_impl/tests/test_range.py",
+      "sha256": "2706c057b39a9a8bf67f98b86b1fd41e28b09328117b09200921750bcd310418",
+      "bytes": 4370,
+      "changed": false
+    },
+    {
+      "source_archive": "Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip",
+      "source_member": "Finite_Dictionary_Predictive_Adequacy_v0_03/parent/Finite_Dictionary_Predictive_Adequacy_v0_02/evidence/planning.json",
+      "destination": "reference/planning.json",
+      "sha256": "eb78a76a9b6ff0638db351dbaff6969d19f9916b618611717dc6b9df8a9e3ad6",
+      "bytes": 2399,
+      "changed": false
+    }
+  ],
+  "payload_manifest_sha256": "323b04a90766fcd32fdfdf59e1d80213fd92b17b8f138cef9fbbf6530d384d8d",
+  "source_bytes_unchanged": true,
+  "excluded": [
+    "reviewer reconstructions",
+    "review reports",
+    "correspondence",
+    "manuscripts",
+    "credentials",
+    "nested archives",
+    "failed source variants",
+    "Monte Carlo campaign runners"
+  ],
+  "packaging_repair": "Initial local preparation omitted two legacy JSON contracts required by tests. They were restored unchanged before import; numerical code and tests unchanged. No failed attempt was committed."
+}

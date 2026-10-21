@@ -1,0 +1,13 @@
+{
+  "schema": "bdtp.current-scope.v1",
+  "date": "2026-10-21",
+  "local_checkout": "/home/satal/bdtp_repo",
+  "repository": "Atalebe/bdtp",
+  "title": "Finite-Dictionary Tests of Predictive Adequacy for State\u2013History Models",
+  "numerical_scope": "Original core and deterministic tests only",
+  "new_monte_carlo_campaigns_authorized": false,
+  "public_release_authorized": false,
+  "licence": null,
+  "doi": null,
+  "manuscript": "Maintained separately; funding and competing interests confirmed by author; standalone AI-use disclosure deferred in working copy, historical records preserved."
+}

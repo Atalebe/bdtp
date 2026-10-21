@@ -1,0 +1,858 @@
+{
+  "plan_id": "NMCD-PC-001-AUDIT-20261014-v02",
+  "created_utc": "2026-10-14T05:57:48.009401+00:00",
+  "execution_scope": "LOCAL_SYNTHETIC_DEVELOPMENT_AUDIT_ONLY",
+  "authority": "User explicitly requested review, reruns, verification and integration; no repository or empirical authority.",
+  "protocol_enacted": false,
+  "seed": 2026101402,
+  "primary_prespecified_candidate": "union_eb",
+  "secondary_candidates": [
+    "two_stage",
+    "union_hoeffding",
+    "max_hoeffding",
+    "max_eb"
+  ],
+  "certificate_selection_after_observation": false,
+  "epsilon": 0.0625,
+  "cases": [
+    {
+      "id": "transition_theta0_kap0_n32768",
+      "family": "transition",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.25_kap0_n32768",
+      "family": "transition",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.3_kap0_n32768",
+      "family": "transition",
+      "theta": 0.3,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.32_kap0_n32768",
+      "family": "transition",
+      "theta": 0.32,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.34_kap0_n32768",
+      "family": "transition",
+      "theta": 0.34,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.36_kap0_n32768",
+      "family": "transition",
+      "theta": 0.36,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.4_kap0_n32768",
+      "family": "transition",
+      "theta": 0.4,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.45_kap0_n32768",
+      "family": "transition",
+      "theta": 0.45,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.47_kap0_n32768",
+      "family": "transition",
+      "theta": 0.47,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.48_kap0_n32768",
+      "family": "transition",
+      "theta": 0.48,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.49_kap0_n32768",
+      "family": "transition",
+      "theta": 0.49,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.5_kap0_n32768",
+      "family": "transition",
+      "theta": 0.5,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta0.75_kap0_n32768",
+      "family": "transition",
+      "theta": 0.75,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "transition_theta1_kap0_n32768",
+      "family": "transition",
+      "theta": 1.0,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n256",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 256,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n256",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 256,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n512",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 512,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n512",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 512,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n1024",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 1024,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n1024",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 1024,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n1534",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 1534,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n1534",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 1534,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n2048",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 2048,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n2048",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 2048,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n4436",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 4436,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n4436",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 4436,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n8192",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 8192,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n8192",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 8192,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n13200",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 13200,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n13200",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 13200,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0_kap0_n32768",
+      "family": "size",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "size_theta0.25_kap0_n32768",
+      "family": "size",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.5_kap0_n256",
+      "family": "boundary",
+      "theta": 0.5,
+      "kappa": 0.0,
+      "n": 256,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.52_kap0_n256",
+      "family": "boundary",
+      "theta": 0.52,
+      "kappa": 0.0,
+      "n": 256,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.55_kap0_n256",
+      "family": "boundary",
+      "theta": 0.55,
+      "kappa": 0.0,
+      "n": 256,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.5_kap0_n512",
+      "family": "boundary",
+      "theta": 0.5,
+      "kappa": 0.0,
+      "n": 512,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.52_kap0_n512",
+      "family": "boundary",
+      "theta": 0.52,
+      "kappa": 0.0,
+      "n": 512,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.55_kap0_n512",
+      "family": "boundary",
+      "theta": 0.55,
+      "kappa": 0.0,
+      "n": 512,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.5_kap0_n1024",
+      "family": "boundary",
+      "theta": 0.5,
+      "kappa": 0.0,
+      "n": 1024,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.52_kap0_n1024",
+      "family": "boundary",
+      "theta": 0.52,
+      "kappa": 0.0,
+      "n": 1024,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.55_kap0_n1024",
+      "family": "boundary",
+      "theta": 0.55,
+      "kappa": 0.0,
+      "n": 1024,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.5_kap0_n2048",
+      "family": "boundary",
+      "theta": 0.5,
+      "kappa": 0.0,
+      "n": 2048,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.52_kap0_n2048",
+      "family": "boundary",
+      "theta": 0.52,
+      "kappa": 0.0,
+      "n": 2048,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.55_kap0_n2048",
+      "family": "boundary",
+      "theta": 0.55,
+      "kappa": 0.0,
+      "n": 2048,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.5_kap0_n4096",
+      "family": "boundary",
+      "theta": 0.5,
+      "kappa": 0.0,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.52_kap0_n4096",
+      "family": "boundary",
+      "theta": 0.52,
+      "kappa": 0.0,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.55_kap0_n4096",
+      "family": "boundary",
+      "theta": 0.55,
+      "kappa": 0.0,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.5_kap0_n32768",
+      "family": "boundary",
+      "theta": 0.5,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.52_kap0_n32768",
+      "family": "boundary",
+      "theta": 0.52,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "boundary_theta0.55_kap0_n32768",
+      "family": "boundary",
+      "theta": 0.55,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0_kap0_n4096",
+      "family": "current_signal",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.25_kap0_n4096",
+      "family": "current_signal",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0_kap0.5_n4096",
+      "family": "current_signal",
+      "theta": 0.0,
+      "kappa": 0.5,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.25_kap0.5_n4096",
+      "family": "current_signal",
+      "theta": 0.25,
+      "kappa": 0.5,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.5_kap0.5_n4096",
+      "family": "current_signal",
+      "theta": 0.5,
+      "kappa": 0.5,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.75_kap0.25_n4096",
+      "family": "current_signal",
+      "theta": 0.75,
+      "kappa": 0.25,
+      "n": 4096,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0_kap0_n32768",
+      "family": "current_signal",
+      "theta": 0.0,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.25_kap0_n32768",
+      "family": "current_signal",
+      "theta": 0.25,
+      "kappa": 0.0,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0_kap0.5_n32768",
+      "family": "current_signal",
+      "theta": 0.0,
+      "kappa": 0.5,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.25_kap0.5_n32768",
+      "family": "current_signal",
+      "theta": 0.25,
+      "kappa": 0.5,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.5_kap0.5_n32768",
+      "family": "current_signal",
+      "theta": 0.5,
+      "kappa": 0.5,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    },
+    {
+      "id": "current_signal_theta0.75_kap0.25_n32768",
+      "family": "current_signal",
+      "theta": 0.75,
+      "kappa": 0.25,
+      "n": 32768,
+      "replicates": 2000,
+      "dimensions": [
+        2,
+        1,
+        0
+      ],
+      "alpha": 0.05
+    }
+  ],
+  "operating_checks": {
+    "max_observed_false_rate": 0.075,
+    "interpretation": "development alarm threshold, not a theorem or final confirmatory tolerance",
+    "zero_signal_large_n_power_min": 0.9,
+    "invalid_plugin_detected_min": 0.2
+  },
+  "originals_preserved": true,
+  "cosmology_access_authorised": false,
+  "formal_logbook_or_git_authorised": false,
+  "code_sha256": {
+    "src/nmcd_pc.py": "77cdf1426cb74bc62be2016cc7b411e24064c63154f081965be49fe1b7b25c18",
+    "scripts/calibrate.py": "943453aeef0018fe972e35e7806e5c6d0803deecbe2f90cec3500acb69699c3b",
+    "tests/test_core.py": "61bf420ba474c7ecd95fcd36078775bffa1003d47ae2fa2873371193b2829247"
+  },
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+  },
+  "resource_cap_seconds": 900,
+  "repair_note": "Initial container call terminated after its 200 s tool timeout before outputs were saved. Added per-case checkpoints; generator, seeds, cells, formulas and acceptance thresholds unchanged. Original log retained. Retry is development reproduction, not fresh confirmation."
+}

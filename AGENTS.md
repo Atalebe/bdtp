@@ -5,7 +5,7 @@ execution authority from a repository-maintenance request.
 
 1. Preserve source identities, original experiment IDs and historical results.
    Do not rename mathematical variables, candidate families or frozen files merely
-   to match repository branding. Manuscript edits are currently on hold.
+   to match repository branding. The title remains Finite. Manuscript edits are separate from numerical-source import; retain historical versions unchanged.
 2. Read `provenance/baseline.json` before any numerical import. Use an explicit
    source-path-to-destination-path map with before/after SHA256 values. Do not
    execute source archives or import them wholesale. Scientific API changes require

@@ -1,0 +1,46 @@
+{
+  "experiment_id": "NMCD-PC-001-QUALIFICATION-v03-DRAFT",
+  "branch_class": "Calibration",
+  "status": "protocol construction",
+  "freeze_verdict": "BLOCKED",
+  "protocol_version": "NMCD-PC-0.3",
+  "owner_approval": null,
+  "confirmatory_execution_authorised": false,
+  "independent_mathematical_review": null,
+  "novelty_state": "N2 incremental reference/replication; not new inequality",
+  "governing_profile": "standalone synthetic only",
+  "primary_certificate_candidate": "max_eb",
+  "loss": "Brier",
+  "L": 1,
+  "epsilon": 0.0625,
+  "dimension_sequence": [
+    2,
+    1
+  ],
+  "horizons": [
+    1,
+    2
+  ],
+  "boundary_index": "C_strict",
+  "source_data_roles": "development/training/final qualification separated",
+  "group_law": "iid independently generated episodes",
+  "source_commit": null,
+  "final_source_hashes": null,
+  "reserved_confirmation_seed_namespace": null,
+  "power_and_MC_acceptance_criteria": null,
+  "resource_budget": null,
+  "legacy_migration": false,
+  "cosmology_adapter_authorised": false,
+  "headlines": {
+    "positive": "Specified finite-dictionary certificate achieves registered operating criteria in the synthetic reference",
+    "negative": "Valid bound has insufficient power at the registered design",
+    "bounded": "Implementation agrees with reference calculations on tested cells",
+    "forbidden": "Cosmological memory detected or universal finite-state complexity determined"
+  },
+  "exposure_note": "v02/v03 methods and reference outcomes are exposed development evidence. No rerun is an untouched qualification.",
+  "prior_primary_preserved": "union_eb in immutable v02 audit",
+  "primary_promotion_status": "PROPOSED_ONLY; independent specialist review and owner approval pending",
+  "dictionary_candidate": "177 exact prediction functions on complete four-state domain",
+  "dictionary_promotion_status": "PROPOSED_ONLY; old 289-entry reference evidence unchanged",
+  "new_confirmation_run_performed": false
+}

@@ -1,50 +1,60 @@
 # bdtp
 
-Private development workspace for predictive-adequacy methods in the NMCD programme.
+Private numerical-code workspace for **Finite-Dictionary Tests of Predictive Adequacy for State–History Models**.
+The manuscript title retains “Finite”; no equations or historical scientific results are renamed.
 
 ## Current state
 
-Repository bootstrap only. The reviewed numerical implementation has **not yet been
-imported**, and this repository is not a paper release or an independently validated
-software distribution. The manuscript remains at v0.03, with its existing title,
-filenames and contents unchanged while the next scientific review is pending.
+The first selective import contains the original numerical core, seven deterministic test suites,
+required test configurations and one population-moment planning record. All 19 imported files
+are byte-identical to their recorded source members. No reviewer implementations, reports,
+correspondence, manuscripts, credentials, nested archives or failed numerical variants are imported.
 
-The intended methods compare restricted state-predictor classes against declared
-finite history-predictor dictionaries under bounded losses. Finite cardinality,
-permitted observations, independent evaluation groups and verified pair envelopes
-remain explicit assumptions. No theorem, model, tolerance or historical result is
-changed by repository preparation.
+This is not yet a complete paper-reproduction release. Full campaign drivers, all selected result
+summaries, figure regeneration and a public release remain a separate integration stage. The
+historical relative import paths are preserved under `reference_impl/` to avoid modifying tested
+science during migration. This layout is an import snapshot, not a promised stable public API.
 
-## Local checks
+## Local WSL setup
 
-Only Python 3.10+ and Bash are required for the bootstrap checks:
-
-```bash
-bash scripts/run_checks_no_exit.sh
-```
-
-The wrapper runs repository checks and unit tests together. It keeps diagnostic logs
-under `.local_runs/`, returns a nonzero status on failure, and never exits a calling
-interactive shell when invoked with `bash` as above. Do not source it. It does not
-install dependencies, access the network, run simulations, or perform Git actions.
-
-The reviewed source archive can be checked without extracting or executing it:
+Working directory: `/home/satal/bdtp_repo`. The isolated `.venv` uses the installed WSL Python
+and pinned NumPy 2.3.5, SciPy 1.17.0 and mpmath 1.3.0. No system packages are changed.
+To reproduce setup on another machine, explicitly run:
 
 ```bash
-python3 scripts/verify_bootstrap.py --archive /absolute/path/to/Finite_Dictionary_Predictive_Adequacy_v0_03_Reviewed_Bundle.zip
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-numeric.txt
 ```
 
-The archive is deliberately not committed: it contains nested development and
-review material that requires selective import, not blanket redistribution.
+Then run the combined offline checks:
 
-## Repository map
+```bash
+bash scripts/run_core_checks_no_exit.sh
+```
 
-- `provenance/baseline.json`: exact source identities; no numerical rebranding.
-- `environment/reference.json`: historical numerical runtime, not an installed environment.
-- `docs/IMPORT_PLAN.md`: separate migration of original code, tests and result summaries.
-- `docs/RELEASE_CHECKLIST.md`: privacy, attribution, licence and archival decisions.
-- `scripts/` and `tests/`: infrastructure verification only.
-- `logbook/`: numbered successful repository milestones; failures stay in diagnostics.
+The runner verifies imported hashes and package versions, runs the eight infrastructure tests
+and all seven selected numerical suites, and preserves diagnostics in `.local_runs/`. It does not
+install dependencies, access the network, launch a Monte Carlo campaign or perform Git actions.
+Invoke with `bash`, not `source`. Failure stops downstream execution without closing the caller.
+No successful milestone is written by the runner itself.
 
-Public release, numerical-code import, new simulations and manuscript edits remain
-separate steps. No redistribution licence or archival DOI is assigned here.
+Historical results used Python 3.13.5. WSL currently uses Python 3.12.3. Passing deterministic
+compatibility tests does not establish byte-identical Monte Carlo streams across those runtimes.
+`environment/reference.json` remains the unchanged historical runtime record.
+
+## Contents
+
+- `reference_impl/`: selected unmodified method code and numerical tests.
+- `reference/planning.json`: original population-moment planning calculation, not a power curve.
+- `provenance/IMPORT_001.json`: source-to-destination hashes and import scope.
+- `scripts/`: explicit source import and combined verification tools.
+- `logbook/`: successful repository milestones; failed attempts remain diagnostic records.
+
+The original `provenance/baseline.json` records bootstrap authority at that historical step; it is
+not rewritten retrospectively. `provenance/current_scope.json` records the current import scope.
+
+## Release status
+
+The repository remains private. No software licence, release tag, archival DOI, public deposit
+or automatic release workflow is assigned. Public redistribution and publication require separate
+author approval. Manuscript working copies and declarations are maintained separately.

@@ -1,0 +1,85 @@
+{
+  "gap": 0.007527657631110796,
+  "generic_self_remainder_G256_epsilon_1_16": 0.06750890504260798,
+  "generic_witness_zero_variance_planning_integer": 14984,
+  "history_index": 126,
+  "integer_self_floors_epsilon_01": {
+    "1": 1723,
+    "131": 3998,
+    "70": 3706
+  },
+  "pair_witness_zero_variance_planning_integer": 6477,
+  "planning": [
+    {
+      "G": 12288,
+      "class_bound_from_population_moments": 0.011885479836527692,
+      "comparator": 130,
+      "rule": "generic",
+      "state": 65,
+      "witness_state_bound": 0.011885479836527692
+    },
+    {
+      "G": 12288,
+      "class_bound_from_population_moments": 0.010173722162361301,
+      "comparator": 130,
+      "rule": "range",
+      "state": 65,
+      "witness_state_bound": 0.010173722162361301
+    },
+    {
+      "G": 15872,
+      "class_bound_from_population_moments": 0.01104337062832475,
+      "comparator": 130,
+      "rule": "generic",
+      "state": 65,
+      "witness_state_bound": 0.01104337062832475
+    },
+    {
+      "G": 15872,
+      "class_bound_from_population_moments": 0.009718163234809379,
+      "comparator": 130,
+      "rule": "range",
+      "state": 65,
+      "witness_state_bound": 0.009718163234809379
+    },
+    {
+      "G": 16384,
+      "class_bound_from_population_moments": 0.01095181964928958,
+      "comparator": 130,
+      "rule": "generic",
+      "state": 65,
+      "witness_state_bound": 0.01095181964928958
+    },
+    {
+      "G": 16384,
+      "class_bound_from_population_moments": 0.00966802751460836,
+      "comparator": 130,
+      "rule": "range",
+      "state": 65,
+      "witness_state_bound": 0.00966802751460836
+    },
+    {
+      "G": 32768,
+      "class_bound_from_population_moments": 0.009480614019718378,
+      "comparator": 130,
+      "rule": "generic",
+      "state": 65,
+      "witness_state_bound": 0.009480614019718378
+    },
+    {
+      "G": 32768,
+      "class_bound_from_population_moments": 0.00883873754208898,
+      "comparator": 130,
+      "rule": "range",
+      "state": 65,
+      "witness_state_bound": 0.00883873754208898
+    }
+  ],
+  "replicate": 0,
+  "scope": "population moment planning, not a sample confidence bound or power curve",
+  "state_index": 65,
+  "trained_library_digest": "117ce84b270b5a4d8ef8d4c5d045f98ee1ccd904f06cf06548e6a12bc1c2877e",
+  "training_count": 512,
+  "witness_group_sd": 0.037369460043522644,
+  "witness_width": 0.8643762301272396
+}

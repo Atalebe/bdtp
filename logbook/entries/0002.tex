@@ -1,0 +1,24 @@
+\section*{Entry 0002: Original numerical-core import through WSL}
+\textbf{Date:} 21 October 2026.\\
+\textbf{Scope:} Private Atalebe/bdtp repository, local checkout
+\texttt{/home/satal/bdtp\_repo}; selected original numerical core only.\\
+\textbf{Tested:} Source identities, numerical import dependencies, all seven
+selected original numerical suites, bootstrap checks, terminal-preserving runner,
+and deliberate failure handling.\\
+\textbf{Methods:} Preserve all 19 imported source/test/configuration/reference files
+byte for byte; verify the source archive chain and selected payload; run 303 numerical
+and 8 bootstrap tests in an isolated WSL Python 3.12.3 environment with NumPy 2.3.5,
+SciPy 1.17.0 and mpmath 1.3.0.\\
+\textbf{Results:} 311 tests passed. Failure-control returned nonzero, preserved the
+caller and diagnostic logs, and wrote no completion or logbook. No performance
+campaign was run. Passing these tests is not a claim of historical Monte Carlo
+byte identity across Python runtimes.\\
+\textbf{Failures and repairs:} Initial preparation omitted two legacy JSON test
+contracts; their unchanged original bytes were restored before the final checks.
+No numerical source, test expectation or statistical threshold changed. No successful
+entry or commit was made for the incomplete attempt.\\
+\textbf{Next steps:} Commit this passing import and verify the remote push. Complete
+campaign/result packaging, rights review and author-selected licensing before any
+public release or permanent deposit. No manuscript or reviewer correspondence is
+included in this import. A failed push must retain the local commit and record
+synchronization HOLD without rerunning scientific work.
