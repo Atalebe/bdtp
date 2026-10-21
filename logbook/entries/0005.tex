@@ -1,0 +1,19 @@
+\section*{Entry 0005: GitHub release and Zenodo archive verified}
+\textbf{Date:} 21 October 2026.\\
+\textbf{Tested:} Published GitHub release, immutable identification of its tagged
+commit, Zenodo record metadata and downloaded archive content.\\
+\textbf{Methods:} Read the published v1.0.0 release and Zenodo API record;
+verify creator, ORCID, software version, repository relation and licensing scope;
+check the archive byte count and MD5 and compare every file with its tagged Git blob.\\
+\textbf{Results:} Release publication succeeded. DOI
+\texttt{10.5281/zenodo.23526795} identifies v1.0.0 at commit
+\texttt{cd6baad1d6d0d217ce5d6bd424e4f697c02433f2}.
+All 184 archived files match. MIT governs original software and CC BY 4.0 the
+original non-code research materials. No scientific run or manuscript edit.\\
+\textbf{Failures and limitations:} Web-tool rendering of the new Zenodo page was
+unavailable; the public API and complete archive were successfully retrieved
+through WSL. No failed deposition, replacement tag or repeated release was needed.\\
+\textbf{Next steps:} Commit and synchronize this post-publication receipt and
+version-specific citation without moving the released tag. The manuscript can
+subsequently cite the verified version DOI. Independent human scientific review
+and manuscript submission remain separate from software publication.
